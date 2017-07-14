@@ -5,19 +5,22 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import com.springdata.entity.party.AddressType;
 import com.springdata.entity.party.OrganizationType;
 import com.springdata.entity.party.PersonType;
 import com.springdata.entity.party.PropertyType;
 import com.springdata.entity.policy.MedicalMalpracticePolicyType;
 
-//@JsonIgnoreProperties(ignoreUnknown = true)
+@Document(collection="policy")
 public class PolicyInquiryResultType
     implements Serializable
 {
 
     private final static long serialVersionUID = 1L;
+    @Id
     protected String MessageId;
     protected String CorrelationId;
     protected List<AddressType> Address;

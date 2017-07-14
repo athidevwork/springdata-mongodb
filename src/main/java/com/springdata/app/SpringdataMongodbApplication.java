@@ -2,20 +2,76 @@ package com.springdata.app;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
-import org.json.JSONObject;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.data.mongodb.MongoDbFactory;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import 	org.springframework.data.mongodb.core.query.Query;
+import static org.springframework.data.mongodb.core.query.Criteria.where;
+import static org.springframework.data.mongodb.core.query.Query.query;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.MongoClient;
+import com.springdata.entity.inquiryservice.MessageStatusType;
 import com.springdata.entity.inquiryservice.PolicyInquiryResultType;
+import com.springdata.entity.policy.MedicalMalpracticePolicyType;
+import com.springdata.entity.policy.PolicyDetailType;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringdataMongodbApplication {
+	static Logger log = LoggerFactory.getLogger("SpringdataMongodbApplication");
 	static Gson gson = new Gson();
+	
 	public static void main(String[] args) {
 		//SpringApplication.run(SpringdataMongodbApplication.class, args);
-
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
+		
+		MongoTemplate template = context.getBean(MongoTemplate.class);
+		PolicyInquiryResultType policyResult = new PolicyInquiryResultType();
+		policyResult.setMessageId("test-policy-message");
+		MessageStatusType messageStatus = new MessageStatusType();
+		messageStatus.setMessageStatusCode("success");
+		policyResult.setMessageStatus(messageStatus);
+		List<MedicalMalpracticePolicyType> policyList = new ArrayList<MedicalMalpracticePolicyType>();
+		MedicalMalpracticePolicyType policy = new MedicalMalpracticePolicyType();
+		policy.setPolicyId("Athi1010");
+		policyList.add(policy);
+		policyResult.setMedicalMalpracticePolicy(policyList);
+		log.debug("Policy Count before insert : " + template.getCollection("policy").count());
+		template.save(policyResult, "policy");
+		log.debug("Policy Count after insert: " + template.getCollection("policy").count());
+		template.remove(policyResult, "policy");
+		log.debug("Policy Count after remove: " + template.getCollection("policy").count());
+		
+		Query query = query(where("PolicyId").is("H004036"));
+		List<PolicyInquiryResultType> plist = template.find(query, PolicyInquiryResultType.class, "policy");
+		log.debug(plist.toString());
+		
+		//MongoDbFactory factory = context.getBean(MongoDbFactory.class);
+		//DB db = factory.getDb();
+		/*MongoClient mongoClient = (MongoClient) context.getBean("mongoClient");
+		DB db = mongoClient.getDB("oasispolicy");
+		DBCollection collection = db.getCollection("policy");
+		
+		collection.insert(new BasicDBObject().append("PolicyId", "TestPolicy"));
+		log.debug(collection.getFullName() + " collection count = " + collection.count());
+		log.debug("Finding Policy : " + collection.findOne("PolicyId"));
+		collection.remove(new BasicDBObject().append("PolicyId", "TestPolicy"));
+		log.debug("Finding Policy Again : " + collection.findOne("PolicyId"));
+		log.debug(collection.getFullName() + " collection count = " + collection.count());*/
+		
+		/*PolicyInquiryResultType policy = mongoClient.findOne(
+                new Query(Criteria.where("MessageId").is(64)), PolicyInquiryResultType.class);
+		System.out.println(userB1);*/
+	
 		String policyJson = null;
 		try {
 			policyJson = new String(Files.readAllBytes(Paths.get("C:\\Users\\502000755\\Downloads\\H004344.json")));
@@ -24,10 +80,14 @@ public class SpringdataMongodbApplication {
 		}
 		//System.out.println(policyJson);
 		
+		//collection.insert(new BasicDBObject().append(policyJson));
+		
 		PolicyInquiryResultType resultType = gson.fromJson(policyJson, PolicyInquiryResultType.class);
+		System.out.println(resultType);
+		
 		/*System.out.println(resultType.getMessageId());
 		System.out.println(resultType.getMessageStatus().getMessageStatusCode());*/
-		System.out.println(resultType);
+
 		
 		/*JSONObject jsonObj = new JSONObject(policyJson);
 		System.out.println(jsonObj);
@@ -39,6 +99,8 @@ public class SpringdataMongodbApplication {
 		}
 		System.out.println(resultType.getMessageId());
 		System.out.println(resultType.getMessageStatus().getMessageStatusCode());*/
+		
+		context.close();
 	}
 
 }
