@@ -8,80 +8,33 @@ public class PolicyHolderType
 {
 
     private final static long serialVersionUID = 1L;
-    protected ReferredPartyType referredParty;
-    protected String personReference;
-    protected String organizationReference;
-
-    /**
-     * Gets the value of the referredParty property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public ReferredPartyType getReferredParty() {
-        return referredParty;
-    }
-
-    /**
-     * Sets the value of the referredParty property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public void setReferredParty(ReferredPartyType value) {
-        this.referredParty = value;
-    }
-
-    /**
-     * Gets the value of the personReference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPersonReference() {
-        return personReference;
-    }
-
-    /**
-     * Sets the value of the personReference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPersonReference(String value) {
-        this.personReference = value;
-    }
-
-    /**
-     * Gets the value of the organizationReference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOrganizationReference() {
-        return organizationReference;
-    }
-
-    /**
-     * Sets the value of the organizationReference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOrganizationReference(String value) {
-        this.organizationReference = value;
-    }
-
+    protected ReferredPartyType ReferredParty;
+    protected String PersonReference;
+    protected String OrganizationReference;
+	public ReferredPartyType getReferredParty() {
+		return ReferredParty;
+	}
+	public void setReferredParty(ReferredPartyType referredParty) {
+		ReferredParty = referredParty;
+	}
+	public String getPersonReference() {
+		return PersonReference;
+	}
+	public void setPersonReference(String personReference) {
+		PersonReference = personReference;
+	}
+	public String getOrganizationReference() {
+		return OrganizationReference;
+	}
+	public void setOrganizationReference(String organizationReference) {
+		OrganizationReference = organizationReference;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[ReferredParty=" + ReferredParty + ", PersonReference=" + PersonReference
+				+ ", OrganizationReference=" + OrganizationReference + "]";
+	}
 }

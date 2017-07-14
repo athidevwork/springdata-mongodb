@@ -10,7 +10,7 @@ public class EndorsementOverviewType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<OverviewFormType> form;
+    protected List<OverviewFormType> Form;
 
     /**
      * Gets the value of the form property.
@@ -35,10 +35,14 @@ public class EndorsementOverviewType
      * 
      */
     public List<OverviewFormType> getForm() {
-        if (form == null) {
-            form = new ArrayList<OverviewFormType>();
+        if (Form == null) {
+            Form = new ArrayList<OverviewFormType>();
         }
-        return this.form;
+        return this.Form;
     }
 
+	@Override
+	public String toString() {
+		return "[Form=" + Form + "]";
+	}
 }

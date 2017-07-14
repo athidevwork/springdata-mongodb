@@ -8,8 +8,8 @@ public class ReferredInsuredType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String value;
-    protected String insuredReference;
+    protected String Value;
+    protected String InsuredReference;
 
     /**
      * Gets the value of the value property.
@@ -20,7 +20,7 @@ public class ReferredInsuredType
      *     
      */
     public String getValue() {
-        return value;
+        return Value;
     }
 
     /**
@@ -32,7 +32,7 @@ public class ReferredInsuredType
      *     
      */
     public void setValue(String value) {
-        this.value = value;
+        this.Value = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class ReferredInsuredType
      *     
      */
     public String getInsuredReference() {
-        return insuredReference;
+        return InsuredReference;
     }
 
     /**
@@ -56,7 +56,12 @@ public class ReferredInsuredType
      *     
      */
     public void setInsuredReference(String value) {
-        this.insuredReference = value;
+        this.InsuredReference = value;
     }
+
+	@Override
+	public String toString() {
+		return "[Value=" + Value + ", InsuredReference=" + InsuredReference + "]";
+	}
 
 }

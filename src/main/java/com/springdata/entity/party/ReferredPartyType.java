@@ -8,80 +8,31 @@ public class ReferredPartyType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String partyNumberId;
-    protected String partyFullName;
-    protected String clientId;
-
-    /**
-     * Gets the value of the partyNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPartyNumberId() {
-        return partyNumberId;
-    }
-
-    /**
-     * Sets the value of the partyNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPartyNumberId(String value) {
-        this.partyNumberId = value;
-    }
-
-    /**
-     * Gets the value of the partyFullName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPartyFullName() {
-        return partyFullName;
-    }
-
-    /**
-     * Sets the value of the partyFullName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPartyFullName(String value) {
-        this.partyFullName = value;
-    }
-
-    /**
-     * Gets the value of the clientId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClientId() {
-        return clientId;
-    }
-
-    /**
-     * Sets the value of the clientId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClientId(String value) {
-        this.clientId = value;
-    }
-
+    protected String PartyNumberId;
+    protected String PartyFullName;
+    protected String ClientId;
+    
+	@Override
+	public String toString() {
+		return "[PartyNumberId=" + PartyNumberId + ", PartyFullName=" + PartyFullName + ", ClientId="
+				+ ClientId + "]";
+	}
+	public String getPartyNumberId() {
+		return PartyNumberId;
+	}
+	public void setPartyNumberId(String partyNumberId) {
+		PartyNumberId = partyNumberId;
+	}
+	public String getPartyFullName() {
+		return PartyFullName;
+	}
+	public void setPartyFullName(String partyFullName) {
+		PartyFullName = partyFullName;
+	}
+	public String getClientId() {
+		return ClientId;
+	}
+	public void setClientId(String clientId) {
+		ClientId = clientId;
+	}
 }

@@ -8,206 +8,70 @@ public class NationalProgramType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String nationalProgramNumberId;
-    protected String programCode;
-    protected String primaryIndicator;
-    protected EffectivePeriodType effectivePeriod;
-    protected String renewalIndicator;
-    protected ReferredInsuredType referredInsured;
-    protected VersionDetailType versionDetail;
-    protected String key;
-
-    /**
-     * Gets the value of the nationalProgramNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNationalProgramNumberId() {
-        return nationalProgramNumberId;
-    }
-
-    /**
-     * Sets the value of the nationalProgramNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNationalProgramNumberId(String value) {
-        this.nationalProgramNumberId = value;
-    }
-
-    /**
-     * Gets the value of the programCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getProgramCode() {
-        return programCode;
-    }
-
-    /**
-     * Sets the value of the programCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setProgramCode(String value) {
-        this.programCode = value;
-    }
-
-    /**
-     * Gets the value of the primaryIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPrimaryIndicator() {
-        return primaryIndicator;
-    }
-
-    /**
-     * Sets the value of the primaryIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPrimaryIndicator(String value) {
-        this.primaryIndicator = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the renewalIndicator property.
-     *
-     * @return
-     *     possible object is
-     *     {@link String }
-     *
-     */
-
-    public String getRenewalIndicator() {
-        return renewalIndicator;
-    }
-
-    /**
-     * Sets the value of the renewalIndicator property.
-     *
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *
-     */
-    public void setRenewalIndicator(String value) {
-        this.renewalIndicator = value;
-    }
-
-    /**
-     * Gets the value of the referredInsured property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredInsuredType }
-     *     
-     */
-    public ReferredInsuredType getReferredInsured() {
-        return referredInsured;
-    }
-
-    /**
-     * Sets the value of the referredInsured property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredInsuredType }
-     *     
-     */
-    public void setReferredInsured(ReferredInsuredType value) {
-        this.referredInsured = value;
-    }
-
-    /**
-     * Gets the value of the versionDetail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link VersionDetailType }
-     *     
-     */
-    public VersionDetailType getVersionDetail() {
-        return versionDetail;
-    }
-
-    /**
-     * Sets the value of the versionDetail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link VersionDetailType }
-     *     
-     */
-    public void setVersionDetail(VersionDetailType value) {
-        this.versionDetail = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String NationalProgramNumberId;
+    protected String ProgramCode;
+    protected String PrimaryIndicator;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String RenewalIndicator;
+    protected ReferredInsuredType ReferredInsured;
+    protected VersionDetailType VersionDetail;
+    protected String Key;
+	public String getNationalProgramNumberId() {
+		return NationalProgramNumberId;
+	}
+	public void setNationalProgramNumberId(String nationalProgramNumberId) {
+		NationalProgramNumberId = nationalProgramNumberId;
+	}
+	public String getProgramCode() {
+		return ProgramCode;
+	}
+	public void setProgramCode(String programCode) {
+		ProgramCode = programCode;
+	}
+	public String getPrimaryIndicator() {
+		return PrimaryIndicator;
+	}
+	public void setPrimaryIndicator(String primaryIndicator) {
+		PrimaryIndicator = primaryIndicator;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getRenewalIndicator() {
+		return RenewalIndicator;
+	}
+	public void setRenewalIndicator(String renewalIndicator) {
+		RenewalIndicator = renewalIndicator;
+	}
+	public ReferredInsuredType getReferredInsured() {
+		return ReferredInsured;
+	}
+	public void setReferredInsured(ReferredInsuredType referredInsured) {
+		ReferredInsured = referredInsured;
+	}
+	public VersionDetailType getVersionDetail() {
+		return VersionDetail;
+	}
+	public void setVersionDetail(VersionDetailType versionDetail) {
+		VersionDetail = versionDetail;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[NationalProgramNumberId=" + NationalProgramNumberId + ", ProgramCode="
+				+ ProgramCode + ", PrimaryIndicator=" + PrimaryIndicator + ", EffectivePeriod=" + EffectivePeriod
+				+ ", RenewalIndicator=" + RenewalIndicator + ", ReferredInsured=" + ReferredInsured + ", VersionDetail="
+				+ VersionDetail + ", Key=" + Key + "]";
+	}
 }

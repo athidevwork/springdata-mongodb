@@ -10,7 +10,7 @@ public class VarTextEndorsementType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<EndorsementListType> endorsementList;
+    protected List<EndorsementListType> EndorsementList;
 
     /**
      * Gets the value of the endorsementList property.
@@ -35,10 +35,15 @@ public class VarTextEndorsementType
      * 
      */
     public List<EndorsementListType> getEndorsementList() {
-        if (endorsementList == null) {
-            endorsementList = new ArrayList<EndorsementListType>();
+        if (EndorsementList == null) {
+            EndorsementList = new ArrayList<EndorsementListType>();
         }
-        return this.endorsementList;
+        return this.EndorsementList;
     }
+
+	@Override
+	public String toString() {
+		return "[EndorsementList=" + EndorsementList + "]";
+	}
 
 }

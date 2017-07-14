@@ -8,8 +8,8 @@ public class PriorPolicyType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String policyId;
-    protected String endDate;
+    protected String PolicyId;
+    protected String EndDate;
 
     /**
      * Gets the value of the policyId property.
@@ -20,7 +20,7 @@ public class PriorPolicyType
      *     
      */
     public String getPolicyId() {
-        return policyId;
+        return PolicyId;
     }
 
     /**
@@ -32,7 +32,7 @@ public class PriorPolicyType
      *     
      */
     public void setPolicyId(String value) {
-        this.policyId = value;
+        this.PolicyId = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class PriorPolicyType
      *     
      */
     public String getEndDate() {
-        return endDate;
+        return EndDate;
     }
 
     /**
@@ -56,7 +56,12 @@ public class PriorPolicyType
      *     
      */
     public void setEndDate(String value) {
-        this.endDate = value;
+        this.EndDate = value;
     }
+
+	@Override
+	public String toString() {
+		return "[PolicyId=" + PolicyId + ", EndDate=" + EndDate + "]";
+	}
 
 }

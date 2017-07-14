@@ -8,12 +8,12 @@ public class BasicAddressType
 {
 
     private final static long serialVersionUID = 1L;
-    protected CodeWithDesc primaryIndicator;
-    protected CodeWithDesc futurePrimaryIndicator;
-    protected CodeWithDesc addressTypeCode;
-    protected EffectivePeriodType addressPeriod;
-    protected String addressReference;
-    protected String key;
+    protected CodeWithDesc PrimaryIndicator;
+    protected CodeWithDesc FuturePrimaryIndicator;
+    protected CodeWithDesc AddressTypeCode;
+    protected EffectivePeriodType AddressPeriod;
+    protected String AddressReference;
+    protected String Key;
 
     /**
      * Gets the value of the primaryIndicator property.
@@ -24,7 +24,7 @@ public class BasicAddressType
      *     
      */
     public CodeWithDesc getPrimaryIndicator() {
-        return primaryIndicator;
+        return PrimaryIndicator;
     }
 
     /**
@@ -36,7 +36,7 @@ public class BasicAddressType
      *     
      */
     public void setPrimaryIndicator(CodeWithDesc value) {
-        this.primaryIndicator = value;
+        this.PrimaryIndicator = value;
     }
 
     /**
@@ -48,7 +48,7 @@ public class BasicAddressType
      *     
      */
     public CodeWithDesc getFuturePrimaryIndicator() {
-        return futurePrimaryIndicator;
+        return FuturePrimaryIndicator;
     }
 
     /**
@@ -60,7 +60,7 @@ public class BasicAddressType
      *     
      */
     public void setFuturePrimaryIndicator(CodeWithDesc value) {
-        this.futurePrimaryIndicator = value;
+        this.FuturePrimaryIndicator = value;
     }
 
     /**
@@ -72,7 +72,7 @@ public class BasicAddressType
      *     
      */
     public CodeWithDesc getAddressTypeCode() {
-        return addressTypeCode;
+        return AddressTypeCode;
     }
 
     /**
@@ -84,7 +84,7 @@ public class BasicAddressType
      *     
      */
     public void setAddressTypeCode(CodeWithDesc value) {
-        this.addressTypeCode = value;
+        this.AddressTypeCode = value;
     }
 
     /**
@@ -96,7 +96,7 @@ public class BasicAddressType
      *     
      */
     public EffectivePeriodType getAddressPeriod() {
-        return addressPeriod;
+        return AddressPeriod;
     }
 
     /**
@@ -108,7 +108,7 @@ public class BasicAddressType
      *     
      */
     public void setAddressPeriod(EffectivePeriodType value) {
-        this.addressPeriod = value;
+        this.AddressPeriod = value;
     }
 
     /**
@@ -120,7 +120,7 @@ public class BasicAddressType
      *     
      */
     public String getAddressReference() {
-        return addressReference;
+        return AddressReference;
     }
 
     /**
@@ -132,7 +132,7 @@ public class BasicAddressType
      *     
      */
     public void setAddressReference(String value) {
-        this.addressReference = value;
+        this.AddressReference = value;
     }
 
     /**
@@ -144,7 +144,7 @@ public class BasicAddressType
      *     
      */
     public String getKey() {
-        return key;
+        return Key;
     }
 
     /**
@@ -156,7 +156,14 @@ public class BasicAddressType
      *     
      */
     public void setKey(String value) {
-        this.key = value;
+        this.Key = value;
     }
+
+	@Override
+	public String toString() {
+		return "[PrimaryIndicator=" + PrimaryIndicator + ", FuturePrimaryIndicator="
+				+ FuturePrimaryIndicator + ", AddressTypeCode=" + AddressTypeCode + ", AddressPeriod=" + AddressPeriod
+				+ ", AddressReference=" + AddressReference + ", Key=" + Key + "]";
+	}
 
 }

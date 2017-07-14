@@ -8,105 +8,38 @@ public class CreditSurchargeDeductibleVersionDetailType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String versionModeCode;
-    protected String parentVersionNumberId;
-    protected String afterImageIndicator;
-    protected String closingTransactionId;
-
-    /**
-     * Gets the value of the versionModeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVersionModeCode() {
-        return versionModeCode;
-    }
-
-    /**
-     * Sets the value of the versionModeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVersionModeCode(String value) {
-        this.versionModeCode = value;
-    }
-
-    /**
-     * Gets the value of the parentVersionNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getParentVersionNumberId() {
-        return parentVersionNumberId;
-    }
-
-    /**
-     * Sets the value of the parentVersionNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setParentVersionNumberId(String value) {
-        this.parentVersionNumberId = value;
-    }
-
-    /**
-     * Gets the value of the afterImageIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAfterImageIndicator() {
-        return afterImageIndicator;
-    }
-
-    /**
-     * Sets the value of the afterImageIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAfterImageIndicator(String value) {
-        this.afterImageIndicator = value;
-    }
-
-    /**
-     * Gets the value of the closingTransactionId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClosingTransactionId() {
-        return closingTransactionId;
-    }
-
-    /**
-     * Sets the value of the closingTransactionId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClosingTransactionId(String value) {
-        this.closingTransactionId = value;
-    }
-
+    protected String VersionModeCode;
+    protected String ParentVersionNumberId;
+    protected String AfterImageIndicator;
+    protected String ClosingTransactionId;
+	public String getVersionModeCode() {
+		return VersionModeCode;
+	}
+	public void setVersionModeCode(String versionModeCode) {
+		VersionModeCode = versionModeCode;
+	}
+	public String getParentVersionNumberId() {
+		return ParentVersionNumberId;
+	}
+	public void setParentVersionNumberId(String parentVersionNumberId) {
+		ParentVersionNumberId = parentVersionNumberId;
+	}
+	public String getAfterImageIndicator() {
+		return AfterImageIndicator;
+	}
+	public void setAfterImageIndicator(String afterImageIndicator) {
+		AfterImageIndicator = afterImageIndicator;
+	}
+	public String getClosingTransactionId() {
+		return ClosingTransactionId;
+	}
+	public void setClosingTransactionId(String closingTransactionId) {
+		ClosingTransactionId = closingTransactionId;
+	}
+	@Override
+	public String toString() {
+		return "[VersionModeCode=" + VersionModeCode
+				+ ", ParentVersionNumberId=" + ParentVersionNumberId + ", AfterImageIndicator=" + AfterImageIndicator
+				+ ", ClosingTransactionId=" + ClosingTransactionId + "]";
+	}
 }

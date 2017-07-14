@@ -8,355 +8,115 @@ public class MalpracticeLiabilityExposureInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String exposureUnit;
-    protected String exposureBasisCode;
-    protected String doctorCount;
-    protected String squareFootage;
-    protected String vapCount;
-    protected String bedCount;
-    protected String extendedBedCount;
-    protected String skillBedCount;
-    protected String censusCount;
-    protected String outpatientVisitCount;
-    protected String deliveryCount;
-    protected String impatientSurgeryCount;
-    protected String outpatientSurgeryCount;
-    protected String emergencyRoomVisitCount;
-
-    /**
-     * Gets the value of the exposureUnit property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getExposureUnit() {
-        return exposureUnit;
-    }
-
-    /**
-     * Sets the value of the exposureUnit property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setExposureUnit(String value) {
-        this.exposureUnit = value;
-    }
-
-    /**
-     * Gets the value of the exposureBasisCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getExposureBasisCode() {
-        return exposureBasisCode;
-    }
-
-    /**
-     * Sets the value of the exposureBasisCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setExposureBasisCode(String value) {
-        this.exposureBasisCode = value;
-    }
-
-    /**
-     * Gets the value of the doctorCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDoctorCount() {
-        return doctorCount;
-    }
-
-    /**
-     * Sets the value of the doctorCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDoctorCount(String value) {
-        this.doctorCount = value;
-    }
-
-    /**
-     * Gets the value of the squareFootage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSquareFootage() {
-        return squareFootage;
-    }
-
-    /**
-     * Sets the value of the squareFootage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSquareFootage(String value) {
-        this.squareFootage = value;
-    }
-
-    /**
-     * Gets the value of the vapCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVapCount() {
-        return vapCount;
-    }
-
-    /**
-     * Sets the value of the vapCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVapCount(String value) {
-        this.vapCount = value;
-    }
-
-    /**
-     * Gets the value of the bedCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBedCount() {
-        return bedCount;
-    }
-
-    /**
-     * Sets the value of the bedCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBedCount(String value) {
-        this.bedCount = value;
-    }
-
-    /**
-     * Gets the value of the extendedBedCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getExtendedBedCount() {
-        return extendedBedCount;
-    }
-
-    /**
-     * Sets the value of the extendedBedCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setExtendedBedCount(String value) {
-        this.extendedBedCount = value;
-    }
-
-    /**
-     * Gets the value of the skillBedCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSkillBedCount() {
-        return skillBedCount;
-    }
-
-    /**
-     * Sets the value of the skillBedCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSkillBedCount(String value) {
-        this.skillBedCount = value;
-    }
-
-    /**
-     * Gets the value of the censusCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCensusCount() {
-        return censusCount;
-    }
-
-    /**
-     * Sets the value of the censusCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCensusCount(String value) {
-        this.censusCount = value;
-    }
-
-    /**
-     * Gets the value of the outpatientVisitCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOutpatientVisitCount() {
-        return outpatientVisitCount;
-    }
-
-    /**
-     * Sets the value of the outpatientVisitCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOutpatientVisitCount(String value) {
-        this.outpatientVisitCount = value;
-    }
-
-    /**
-     * Gets the value of the deliveryCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDeliveryCount() {
-        return deliveryCount;
-    }
-
-    /**
-     * Sets the value of the deliveryCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDeliveryCount(String value) {
-        this.deliveryCount = value;
-    }
-
-    /**
-     * Gets the value of the impatientSurgeryCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getImpatientSurgeryCount() {
-        return impatientSurgeryCount;
-    }
-
-    /**
-     * Sets the value of the impatientSurgeryCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setImpatientSurgeryCount(String value) {
-        this.impatientSurgeryCount = value;
-    }
-
-    /**
-     * Gets the value of the outpatientSurgeryCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOutpatientSurgeryCount() {
-        return outpatientSurgeryCount;
-    }
-
-    /**
-     * Sets the value of the outpatientSurgeryCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOutpatientSurgeryCount(String value) {
-        this.outpatientSurgeryCount = value;
-    }
-
-    /**
-     * Gets the value of the emergencyRoomVisitCount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEmergencyRoomVisitCount() {
-        return emergencyRoomVisitCount;
-    }
-
-    /**
-     * Sets the value of the emergencyRoomVisitCount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEmergencyRoomVisitCount(String value) {
-        this.emergencyRoomVisitCount = value;
-    }
-
+    protected String ExposureUnit;
+    protected String ExposureBasisCode;
+    protected String DoctorCount;
+    protected String SquareFootage;
+    protected String VapCount;
+    protected String BedCount;
+    protected String ExtendedBedCount;
+    protected String SkillBedCount;
+    protected String CensusCount;
+    protected String OutpatientVisitCount;
+    protected String DeliveryCount;
+    protected String ImpatientSurgeryCount;
+    protected String OutpatientSurgeryCount;
+    protected String EmergencyRoomVisitCount;
+	public String getExposureUnit() {
+		return ExposureUnit;
+	}
+	public void setExposureUnit(String exposureUnit) {
+		ExposureUnit = exposureUnit;
+	}
+	public String getExposureBasisCode() {
+		return ExposureBasisCode;
+	}
+	public void setExposureBasisCode(String exposureBasisCode) {
+		ExposureBasisCode = exposureBasisCode;
+	}
+	public String getDoctorCount() {
+		return DoctorCount;
+	}
+	public void setDoctorCount(String doctorCount) {
+		DoctorCount = doctorCount;
+	}
+	public String getSquareFootage() {
+		return SquareFootage;
+	}
+	public void setSquareFootage(String squareFootage) {
+		SquareFootage = squareFootage;
+	}
+	public String getVapCount() {
+		return VapCount;
+	}
+	public void setVapCount(String vapCount) {
+		VapCount = vapCount;
+	}
+	public String getBedCount() {
+		return BedCount;
+	}
+	public void setBedCount(String bedCount) {
+		BedCount = bedCount;
+	}
+	public String getExtendedBedCount() {
+		return ExtendedBedCount;
+	}
+	public void setExtendedBedCount(String extendedBedCount) {
+		ExtendedBedCount = extendedBedCount;
+	}
+	public String getSkillBedCount() {
+		return SkillBedCount;
+	}
+	public void setSkillBedCount(String skillBedCount) {
+		SkillBedCount = skillBedCount;
+	}
+	public String getCensusCount() {
+		return CensusCount;
+	}
+	public void setCensusCount(String censusCount) {
+		CensusCount = censusCount;
+	}
+	public String getOutpatientVisitCount() {
+		return OutpatientVisitCount;
+	}
+	public void setOutpatientVisitCount(String outpatientVisitCount) {
+		OutpatientVisitCount = outpatientVisitCount;
+	}
+	public String getDeliveryCount() {
+		return DeliveryCount;
+	}
+	public void setDeliveryCount(String deliveryCount) {
+		DeliveryCount = deliveryCount;
+	}
+	public String getImpatientSurgeryCount() {
+		return ImpatientSurgeryCount;
+	}
+	public void setImpatientSurgeryCount(String impatientSurgeryCount) {
+		ImpatientSurgeryCount = impatientSurgeryCount;
+	}
+	public String getOutpatientSurgeryCount() {
+		return OutpatientSurgeryCount;
+	}
+	public void setOutpatientSurgeryCount(String outpatientSurgeryCount) {
+		OutpatientSurgeryCount = outpatientSurgeryCount;
+	}
+	public String getEmergencyRoomVisitCount() {
+		return EmergencyRoomVisitCount;
+	}
+	public void setEmergencyRoomVisitCount(String emergencyRoomVisitCount) {
+		EmergencyRoomVisitCount = emergencyRoomVisitCount;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[ExposureUnit=" + ExposureUnit + ", ExposureBasisCode="
+				+ ExposureBasisCode + ", DoctorCount=" + DoctorCount + ", SquareFootage=" + SquareFootage
+				+ ", VapCount=" + VapCount + ", BedCount=" + BedCount + ", ExtendedBedCount=" + ExtendedBedCount
+				+ ", SkillBedCount=" + SkillBedCount + ", CensusCount=" + CensusCount + ", OutpatientVisitCount="
+				+ OutpatientVisitCount + ", DeliveryCount=" + DeliveryCount + ", ImpatientSurgeryCount="
+				+ ImpatientSurgeryCount + ", OutpatientSurgeryCount=" + OutpatientSurgeryCount
+				+ ", EmergencyRoomVisitCount=" + EmergencyRoomVisitCount + "]";
+	}
 }

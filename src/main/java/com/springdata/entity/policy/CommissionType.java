@@ -8,180 +8,60 @@ public class CommissionType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String commissionRatePercent;
-    protected String commissionAmount;
-    protected String limitChargeAmount;
-    protected String commissionBasisCode;
-    protected CodeWithDesc rateScheduleCode;
-    protected String commissionPayCode;
-    protected String commissionTypeCode;
-
-    /**
-     * Gets the value of the commissionRatePercent property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCommissionRatePercent() {
-        return commissionRatePercent;
-    }
-
-    /**
-     * Sets the value of the commissionRatePercent property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCommissionRatePercent(String value) {
-        this.commissionRatePercent = value;
-    }
-
-    /**
-     * Gets the value of the commissionAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCommissionAmount() {
-        return commissionAmount;
-    }
-
-    /**
-     * Sets the value of the commissionAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCommissionAmount(String value) {
-        this.commissionAmount = value;
-    }
-
-    /**
-     * Gets the value of the limitChargeAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLimitChargeAmount() {
-        return limitChargeAmount;
-    }
-
-    /**
-     * Sets the value of the limitChargeAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLimitChargeAmount(String value) {
-        this.limitChargeAmount = value;
-    }
-
-    /**
-     * Gets the value of the commissionBasisCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCommissionBasisCode() {
-        return commissionBasisCode;
-    }
-
-    /**
-     * Sets the value of the commissionBasisCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCommissionBasisCode(String value) {
-        this.commissionBasisCode = value;
-    }
-
-    /**
-     * Gets the value of the rateScheduleCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public CodeWithDesc getRateScheduleCode() {
-        return rateScheduleCode;
-    }
-
-    /**
-     * Sets the value of the rateScheduleCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public void setRateScheduleCode(CodeWithDesc value) {
-        this.rateScheduleCode = value;
-    }
-
-    /**
-     * Gets the value of the commissionPayCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCommissionPayCode() {
-        return commissionPayCode;
-    }
-
-    /**
-     * Sets the value of the commissionPayCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCommissionPayCode(String value) {
-        this.commissionPayCode = value;
-    }
-
-    /**
-     * Gets the value of the commissionTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCommissionTypeCode() {
-        return commissionTypeCode;
-    }
-
-    /**
-     * Sets the value of the commissionTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCommissionTypeCode(String value) {
-        this.commissionTypeCode = value;
-    }
-
+    protected String CommissionRatePercent;
+    protected String CommissionAmount;
+    protected String LimitChargeAmount;
+    protected String CommissionBasisCode;
+    protected CodeWithDesc RateScheduleCode;
+    protected String CommissionPayCode;
+    protected String CommissionTypeCode;
+	public String getCommissionRatePercent() {
+		return CommissionRatePercent;
+	}
+	public void setCommissionRatePercent(String commissionRatePercent) {
+		CommissionRatePercent = commissionRatePercent;
+	}
+	public String getCommissionAmount() {
+		return CommissionAmount;
+	}
+	public void setCommissionAmount(String commissionAmount) {
+		CommissionAmount = commissionAmount;
+	}
+	public String getLimitChargeAmount() {
+		return LimitChargeAmount;
+	}
+	public void setLimitChargeAmount(String limitChargeAmount) {
+		LimitChargeAmount = limitChargeAmount;
+	}
+	public String getCommissionBasisCode() {
+		return CommissionBasisCode;
+	}
+	public void setCommissionBasisCode(String commissionBasisCode) {
+		CommissionBasisCode = commissionBasisCode;
+	}
+	public CodeWithDesc getRateScheduleCode() {
+		return RateScheduleCode;
+	}
+	public void setRateScheduleCode(CodeWithDesc rateScheduleCode) {
+		RateScheduleCode = rateScheduleCode;
+	}
+	public String getCommissionPayCode() {
+		return CommissionPayCode;
+	}
+	public void setCommissionPayCode(String commissionPayCode) {
+		CommissionPayCode = commissionPayCode;
+	}
+	public String getCommissionTypeCode() {
+		return CommissionTypeCode;
+	}
+	public void setCommissionTypeCode(String commissionTypeCode) {
+		CommissionTypeCode = commissionTypeCode;
+	}
+	@Override
+	public String toString() {
+		return "[CommissionRatePercent=" + CommissionRatePercent + ", CommissionAmount="
+				+ CommissionAmount + ", LimitChargeAmount=" + LimitChargeAmount + ", CommissionBasisCode="
+				+ CommissionBasisCode + ", RateScheduleCode=" + RateScheduleCode + ", CommissionPayCode="
+				+ CommissionPayCode + ", CommissionTypeCode=" + CommissionTypeCode + "]";
+	}
 }

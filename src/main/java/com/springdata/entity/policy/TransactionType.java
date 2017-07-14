@@ -10,445 +10,129 @@ public class TransactionType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String transactionLogId;
-    protected String effectiveFromDate;
-    protected String accountingFromDate;
-    protected String comments;
-    protected String termBaseRecordNumberId;
-    protected String policyTermCode;
-    protected String status;
-    protected CodeWithDesc transTypeCode;
-    protected TransactionCodeType transactionCode;
-    protected String cancellationMethodCode;
-    protected String user;
-    protected String initTermIndictaor;
-    protected String prtExist;
-    protected String forceRerateIndicator;
-    protected List<ChangeDetailType> changeDetail;
-    protected List<TransactionFormType> transactionForm;
-
-    /**
-     * Gets the value of the transactionLogId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTransactionLogId() {
-        return transactionLogId;
-    }
-
-    /**
-     * Sets the value of the transactionLogId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTransactionLogId(String value) {
-        this.transactionLogId = value;
-    }
-
-    /**
-     * Gets the value of the effectiveFromDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEffectiveFromDate() {
-        return effectiveFromDate;
-    }
-
-    /**
-     * Sets the value of the effectiveFromDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEffectiveFromDate(String value) {
-        this.effectiveFromDate = value;
-    }
-
-    /**
-     * Gets the value of the accountingFromDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAccountingFromDate() {
-        return accountingFromDate;
-    }
-
-    /**
-     * Sets the value of the accountingFromDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAccountingFromDate(String value) {
-        this.accountingFromDate = value;
-    }
-
-    /**
-     * Gets the value of the comments property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getComments() {
-        return comments;
-    }
-
-    /**
-     * Sets the value of the comments property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setComments(String value) {
-        this.comments = value;
-    }
-
-    /**
-     * Gets the value of the termBaseRecordNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTermBaseRecordNumberId() {
-        return termBaseRecordNumberId;
-    }
-
-    /**
-     * Sets the value of the termBaseRecordNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTermBaseRecordNumberId(String value) {
-        this.termBaseRecordNumberId = value;
-    }
-
-    /**
-     * Gets the value of the policyTermCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPolicyTermCode() {
-        return policyTermCode;
-    }
-
-    /**
-     * Sets the value of the policyTermCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPolicyTermCode(String value) {
-        this.policyTermCode = value;
-    }
-
-    /**
-     * Gets the value of the status property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStatus() {
-        return status;
-    }
-
-    /**
-     * Sets the value of the status property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStatus(String value) {
-        this.status = value;
-    }
-
-    /**
-     * Gets the value of the transTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public CodeWithDesc getTransTypeCode() {
-        return transTypeCode;
-    }
-
-    /**
-     * Sets the value of the transTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public void setTransTypeCode(CodeWithDesc value) {
-        this.transTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the transactionCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link TransactionCodeType }
-     *     
-     */
-    public TransactionCodeType getTransactionCode() {
-        return transactionCode;
-    }
-
-    /**
-     * Sets the value of the transactionCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link TransactionCodeType }
-     *     
-     */
-    public void setTransactionCode(TransactionCodeType value) {
-        this.transactionCode = value;
-    }
-
-    /**
-     * Gets the value of the cancellationMethodCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCancellationMethodCode() {
-        return cancellationMethodCode;
-    }
-
-    /**
-     * Sets the value of the cancellationMethodCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCancellationMethodCode(String value) {
-        this.cancellationMethodCode = value;
-    }
-
-    /**
-     * Gets the value of the user property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUser() {
-        return user;
-    }
-
-    /**
-     * Sets the value of the user property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUser(String value) {
-        this.user = value;
-    }
-
-    /**
-     * Gets the value of the initTermIndictaor property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInitTermIndictaor() {
-        return initTermIndictaor;
-    }
-
-    /**
-     * Sets the value of the initTermIndictaor property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInitTermIndictaor(String value) {
-        this.initTermIndictaor = value;
-    }
-
-    /**
-     * Gets the value of the prtExist property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPrtExist() {
-        return prtExist;
-    }
-
-    /**
-     * Sets the value of the prtExist property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPrtExist(String value) {
-        this.prtExist = value;
-    }
-
-    /**
-     * Gets the value of the forceRerateIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getForceRerateIndicator() {
-        return forceRerateIndicator;
-    }
-
-    /**
-     * Sets the value of the forceRerateIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setForceRerateIndicator(String value) {
-        this.forceRerateIndicator = value;
-    }
-
-    /**
-     * Gets the value of the changeDetail property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the changeDetail property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getChangeDetail().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link ChangeDetailType }
-     * 
-     * 
-     */
-    public List<ChangeDetailType> getChangeDetail() {
-        if (changeDetail == null) {
-            changeDetail = new ArrayList<ChangeDetailType>();
-        }
-        return this.changeDetail;
-    }
-
-    /**
-     * Gets the value of the transactionForm property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the transactionForm property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getTransactionForm().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link TransactionFormType }
-     * 
-     * 
-     */
-    public List<TransactionFormType> getTransactionForm() {
-        if (transactionForm == null) {
-            transactionForm = new ArrayList<TransactionFormType>();
-        }
-        return this.transactionForm;
-    }
-
-    /**
-     * Sets the value of the changeDetail property.
-     *
-     * @param value
-     *     allowed object is
-     *     {@link ChangeDetailType }
-     *
-     */
-    public void setChangeDetail(ChangeDetailType value) {
-        if (changeDetail == null) {
-            changeDetail = new ArrayList<ChangeDetailType>();
-        }
-        changeDetail.add(value);
-    }
-
-    /**
-     * Sets the value of the transactionForm property.
-     *
-     * @param value
-     *     allowed object is
-     *     {@link TransactionFormType }
-     *
-     */
-    public void setTransactionForm(TransactionFormType value) {
-        if (transactionForm == null) {
-            transactionForm = new ArrayList<TransactionFormType>();
-        }
-        transactionForm.add(value);
-    }
-
+    protected String TransactionLogId;
+    protected String EffectiveFromDate;
+    protected String AccountingFromDate;
+    protected String Comments;
+    protected String RermBaseRecordNumberId;
+    protected String PolicyTermCode;
+    protected String Status;
+    protected CodeWithDesc TransTypeCode;
+    protected TransactionCodeType TransactionCode;
+    protected String CancellationMethodCode;
+    protected String User;
+    protected String InitTermIndictaor;
+    protected String PrtExist;
+    protected String ForceRerateIndicator;
+    protected List<ChangeDetailType> ChangeDetail;
+    protected List<TransactionFormType> TransactionForm;
+	public String getTransactionLogId() {
+		return TransactionLogId;
+	}
+	public void setTransactionLogId(String transactionLogId) {
+		TransactionLogId = transactionLogId;
+	}
+	public String getEffectiveFromDate() {
+		return EffectiveFromDate;
+	}
+	public void setEffectiveFromDate(String effectiveFromDate) {
+		EffectiveFromDate = effectiveFromDate;
+	}
+	public String getAccountingFromDate() {
+		return AccountingFromDate;
+	}
+	public void setAccountingFromDate(String accountingFromDate) {
+		AccountingFromDate = accountingFromDate;
+	}
+	public String getComments() {
+		return Comments;
+	}
+	public void setComments(String comments) {
+		Comments = comments;
+	}
+	public String getRermBaseRecordNumberId() {
+		return RermBaseRecordNumberId;
+	}
+	public void setRermBaseRecordNumberId(String rermBaseRecordNumberId) {
+		RermBaseRecordNumberId = rermBaseRecordNumberId;
+	}
+	public String getPolicyTermCode() {
+		return PolicyTermCode;
+	}
+	public void setPolicyTermCode(String policyTermCode) {
+		PolicyTermCode = policyTermCode;
+	}
+	public String getStatus() {
+		return Status;
+	}
+	public void setStatus(String status) {
+		Status = status;
+	}
+	public CodeWithDesc getTransTypeCode() {
+		return TransTypeCode;
+	}
+	public void setTransTypeCode(CodeWithDesc transTypeCode) {
+		TransTypeCode = transTypeCode;
+	}
+	public TransactionCodeType getTransactionCode() {
+		return TransactionCode;
+	}
+	public void setTransactionCode(TransactionCodeType transactionCode) {
+		TransactionCode = transactionCode;
+	}
+	public String getCancellationMethodCode() {
+		return CancellationMethodCode;
+	}
+	public void setCancellationMethodCode(String cancellationMethodCode) {
+		CancellationMethodCode = cancellationMethodCode;
+	}
+	public String getUser() {
+		return User;
+	}
+	public void setUser(String user) {
+		User = user;
+	}
+	public String getInitTermIndictaor() {
+		return InitTermIndictaor;
+	}
+	public void setInitTermIndictaor(String initTermIndictaor) {
+		InitTermIndictaor = initTermIndictaor;
+	}
+	public String getPrtExist() {
+		return PrtExist;
+	}
+	public void setPrtExist(String prtExist) {
+		PrtExist = prtExist;
+	}
+	public String getForceRerateIndicator() {
+		return ForceRerateIndicator;
+	}
+	public void setForceRerateIndicator(String forceRerateIndicator) {
+		ForceRerateIndicator = forceRerateIndicator;
+	}
+	public List<ChangeDetailType> getChangeDetail() {
+		return ChangeDetail;
+	}
+	public void setChangeDetail(List<ChangeDetailType> changeDetail) {
+		ChangeDetail = changeDetail;
+	}
+	public List<TransactionFormType> getTransactionForm() {
+		return TransactionForm;
+	}
+	public void setTransactionForm(List<TransactionFormType> transactionForm) {
+		TransactionForm = transactionForm;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[TransactionLogId=" + TransactionLogId + ", EffectiveFromDate=" + EffectiveFromDate
+				+ ", AccountingFromDate=" + AccountingFromDate + ", Comments=" + Comments + ", RermBaseRecordNumberId="
+				+ RermBaseRecordNumberId + ", PolicyTermCode=" + PolicyTermCode + ", Status=" + Status
+				+ ", TransTypeCode=" + TransTypeCode + ", TransactionCode=" + TransactionCode
+				+ ", CancellationMethodCode=" + CancellationMethodCode + ", User=" + User + ", InitTermIndictaor="
+				+ InitTermIndictaor + ", PrtExist=" + PrtExist + ", ForceRerateIndicator=" + ForceRerateIndicator
+				+ ", ChangeDetail=" + ChangeDetail + ", TransactionForm=" + TransactionForm + "]";
+	}
 }

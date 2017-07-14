@@ -8,430 +8,135 @@ public class BuildingInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String buildingClassCode;
-    protected String buildingValue;
-    protected String buildingTypeCode;
-    protected String buildingUseTypeCode;
-    protected String frameTypeCode;
-    protected String protectionClassCode;
-    protected String sprinklerIndicator;
-    protected String constructionTypeCode;
-    protected String roofTypeCode;
-    protected String floorTypeCode;
-    protected String protectionTypeCode;
-    protected String fireServiceTypeCode;
-    protected String hydrantTypeCode;
-    protected String securityTypeCode;
-    protected String locationCode;
-    protected String locationDescription;
-    protected String addressReference;
-
-    /**
-     * Gets the value of the buildingClassCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBuildingClassCode() {
-        return buildingClassCode;
-    }
-
-    /**
-     * Sets the value of the buildingClassCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBuildingClassCode(String value) {
-        this.buildingClassCode = value;
-    }
-
-    /**
-     * Gets the value of the buildingValue property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBuildingValue() {
-        return buildingValue;
-    }
-
-    /**
-     * Sets the value of the buildingValue property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBuildingValue(String value) {
-        this.buildingValue = value;
-    }
-
-    /**
-     * Gets the value of the buildingTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBuildingTypeCode() {
-        return buildingTypeCode;
-    }
-
-    /**
-     * Sets the value of the buildingTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBuildingTypeCode(String value) {
-        this.buildingTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the buildingUseTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBuildingUseTypeCode() {
-        return buildingUseTypeCode;
-    }
-
-    /**
-     * Sets the value of the buildingUseTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBuildingUseTypeCode(String value) {
-        this.buildingUseTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the frameTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFrameTypeCode() {
-        return frameTypeCode;
-    }
-
-    /**
-     * Sets the value of the frameTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFrameTypeCode(String value) {
-        this.frameTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the protectionClassCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getProtectionClassCode() {
-        return protectionClassCode;
-    }
-
-    /**
-     * Sets the value of the protectionClassCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setProtectionClassCode(String value) {
-        this.protectionClassCode = value;
-    }
-
-    /**
-     * Gets the value of the sprinklerIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSprinklerIndicator() {
-        return sprinklerIndicator;
-    }
-
-    /**
-     * Sets the value of the sprinklerIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSprinklerIndicator(String value) {
-        this.sprinklerIndicator = value;
-    }
-
-    /**
-     * Gets the value of the constructionTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getConstructionTypeCode() {
-        return constructionTypeCode;
-    }
-
-    /**
-     * Sets the value of the constructionTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setConstructionTypeCode(String value) {
-        this.constructionTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the roofTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRoofTypeCode() {
-        return roofTypeCode;
-    }
-
-    /**
-     * Sets the value of the roofTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRoofTypeCode(String value) {
-        this.roofTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the floorTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFloorTypeCode() {
-        return floorTypeCode;
-    }
-
-    /**
-     * Sets the value of the floorTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFloorTypeCode(String value) {
-        this.floorTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the protectionTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getProtectionTypeCode() {
-        return protectionTypeCode;
-    }
-
-    /**
-     * Sets the value of the protectionTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setProtectionTypeCode(String value) {
-        this.protectionTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the fireServiceTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFireServiceTypeCode() {
-        return fireServiceTypeCode;
-    }
-
-    /**
-     * Sets the value of the fireServiceTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFireServiceTypeCode(String value) {
-        this.fireServiceTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the hydrantTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHydrantTypeCode() {
-        return hydrantTypeCode;
-    }
-
-    /**
-     * Sets the value of the hydrantTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHydrantTypeCode(String value) {
-        this.hydrantTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the securityTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSecurityTypeCode() {
-        return securityTypeCode;
-    }
-
-    /**
-     * Sets the value of the securityTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSecurityTypeCode(String value) {
-        this.securityTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the locationCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLocationCode() {
-        return locationCode;
-    }
-
-    /**
-     * Sets the value of the locationCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLocationCode(String value) {
-        this.locationCode = value;
-    }
-
-    /**
-     * Gets the value of the locationDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLocationDescription() {
-        return locationDescription;
-    }
-
-    /**
-     * Sets the value of the locationDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLocationDescription(String value) {
-        this.locationDescription = value;
-    }
-
-    /**
-     * Gets the value of the addressReference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressReference() {
-        return addressReference;
-    }
-
-    /**
-     * Sets the value of the addressReference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressReference(String value) {
-        this.addressReference = value;
-    }
-
+    protected String BuildingClassCode;
+    protected String BuildingValue;
+    protected String BuildingTypeCode;
+    protected String BuildingUseTypeCode;
+    protected String FrameTypeCode;
+    protected String ProtectionClassCode;
+    protected String SprinklerIndicator;
+    protected String ConstructionTypeCode;
+    protected String RoofTypeCode;
+    protected String FloorTypeCode;
+    protected String ProtectionTypeCode;
+    protected String FireServiceTypeCode;
+    protected String HydrantTypeCode;
+    protected String SecurityTypeCode;
+    protected String LocationCode;
+    protected String LocationDescription;
+    protected String AddressReference;
+    
+	public String getBuildingClassCode() {
+		return BuildingClassCode;
+	}
+	public void setBuildingClassCode(String buildingClassCode) {
+		BuildingClassCode = buildingClassCode;
+	}
+	public String getBuildingValue() {
+		return BuildingValue;
+	}
+	public void setBuildingValue(String buildingValue) {
+		BuildingValue = buildingValue;
+	}
+	public String getBuildingTypeCode() {
+		return BuildingTypeCode;
+	}
+	public void setBuildingTypeCode(String buildingTypeCode) {
+		BuildingTypeCode = buildingTypeCode;
+	}
+	public String getBuildingUseTypeCode() {
+		return BuildingUseTypeCode;
+	}
+	public void setBuildingUseTypeCode(String buildingUseTypeCode) {
+		BuildingUseTypeCode = buildingUseTypeCode;
+	}
+	public String getFrameTypeCode() {
+		return FrameTypeCode;
+	}
+	public void setFrameTypeCode(String frameTypeCode) {
+		FrameTypeCode = frameTypeCode;
+	}
+	public String getProtectionClassCode() {
+		return ProtectionClassCode;
+	}
+	public void setProtectionClassCode(String protectionClassCode) {
+		ProtectionClassCode = protectionClassCode;
+	}
+	public String getSprinklerIndicator() {
+		return SprinklerIndicator;
+	}
+	public void setSprinklerIndicator(String sprinklerIndicator) {
+		SprinklerIndicator = sprinklerIndicator;
+	}
+	public String getConstructionTypeCode() {
+		return ConstructionTypeCode;
+	}
+	public void setConstructionTypeCode(String constructionTypeCode) {
+		ConstructionTypeCode = constructionTypeCode;
+	}
+	public String getRoofTypeCode() {
+		return RoofTypeCode;
+	}
+	public void setRoofTypeCode(String roofTypeCode) {
+		RoofTypeCode = roofTypeCode;
+	}
+	public String getFloorTypeCode() {
+		return FloorTypeCode;
+	}
+	public void setFloorTypeCode(String floorTypeCode) {
+		FloorTypeCode = floorTypeCode;
+	}
+	public String getProtectionTypeCode() {
+		return ProtectionTypeCode;
+	}
+	public void setProtectionTypeCode(String protectionTypeCode) {
+		ProtectionTypeCode = protectionTypeCode;
+	}
+	public String getFireServiceTypeCode() {
+		return FireServiceTypeCode;
+	}
+	public void setFireServiceTypeCode(String fireServiceTypeCode) {
+		FireServiceTypeCode = fireServiceTypeCode;
+	}
+	public String getHydrantTypeCode() {
+		return HydrantTypeCode;
+	}
+	public void setHydrantTypeCode(String hydrantTypeCode) {
+		HydrantTypeCode = hydrantTypeCode;
+	}
+	public String getSecurityTypeCode() {
+		return SecurityTypeCode;
+	}
+	public void setSecurityTypeCode(String securityTypeCode) {
+		SecurityTypeCode = securityTypeCode;
+	}
+	public String getLocationCode() {
+		return LocationCode;
+	}
+	public void setLocationCode(String locationCode) {
+		LocationCode = locationCode;
+	}
+	public String getLocationDescription() {
+		return LocationDescription;
+	}
+	public void setLocationDescription(String locationDescription) {
+		LocationDescription = locationDescription;
+	}
+	public String getAddressReference() {
+		return AddressReference;
+	}
+	public void setAddressReference(String addressReference) {
+		AddressReference = addressReference;
+	}
+	@Override
+	public String toString() {
+		return "[BuildingClassCode=" + BuildingClassCode + ", BuildingValue=" + BuildingValue
+				+ ", BuildingTypeCode=" + BuildingTypeCode + ", BuildingUseTypeCode=" + BuildingUseTypeCode
+				+ ", FrameTypeCode=" + FrameTypeCode + ", ProtectionClassCode=" + ProtectionClassCode
+				+ ", SprinklerIndicator=" + SprinklerIndicator + ", ConstructionTypeCode=" + ConstructionTypeCode
+				+ ", RoofTypeCode=" + RoofTypeCode + ", FloorTypeCode=" + FloorTypeCode + ", ProtectionTypeCode="
+				+ ProtectionTypeCode + ", FireServiceTypeCode=" + FireServiceTypeCode + ", HydrantTypeCode="
+				+ HydrantTypeCode + ", SecurityTypeCode=" + SecurityTypeCode + ", LocationCode=" + LocationCode
+				+ ", LocationDescription=" + LocationDescription + ", AddressReference=" + AddressReference + "]";
+	}
 }

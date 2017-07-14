@@ -8,105 +8,41 @@ public class TailVersionDetailType
 {
 
     private final static long serialVersionUID = 1L;
-    protected CodeWithDesc parentVersionRiskNumberId;
-    protected String parentVersionCoverageNumberId;
-    protected String parentTermBaseNumberId;
-    protected String versionModeCode;
-
-    /**
-     * Gets the value of the parentVersionRiskNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public CodeWithDesc getParentVersionRiskNumberId() {
-        return parentVersionRiskNumberId;
-    }
-
-    /**
-     * Sets the value of the parentVersionRiskNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public void setParentVersionRiskNumberId(CodeWithDesc value) {
-        this.parentVersionRiskNumberId = value;
-    }
-
-    /**
-     * Gets the value of the parentVersionCoverageNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getParentVersionCoverageNumberId() {
-        return parentVersionCoverageNumberId;
-    }
-
-    /**
-     * Sets the value of the parentVersionCoverageNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setParentVersionCoverageNumberId(String value) {
-        this.parentVersionCoverageNumberId = value;
-    }
-
-    /**
-     * Gets the value of the parentTermBaseNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getParentTermBaseNumberId() {
-        return parentTermBaseNumberId;
-    }
-
-    /**
-     * Sets the value of the parentTermBaseNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setParentTermBaseNumberId(String value) {
-        this.parentTermBaseNumberId = value;
-    }
-
-    /**
-     * Gets the value of the versionModeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVersionModeCode() {
-        return versionModeCode;
-    }
-
-    /**
-     * Sets the value of the versionModeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVersionModeCode(String value) {
-        this.versionModeCode = value;
-    }
-
+    protected CodeWithDesc ParentVersionRiskNumberId;
+    protected String ParentVersionCoverageNumberId;
+    protected String ParentTermBaseNumberId;
+    protected String VersionModeCode;
+	public CodeWithDesc getParentVersionRiskNumberId() {
+		return ParentVersionRiskNumberId;
+	}
+	public void setParentVersionRiskNumberId(CodeWithDesc parentVersionRiskNumberId) {
+		ParentVersionRiskNumberId = parentVersionRiskNumberId;
+	}
+	public String getParentVersionCoverageNumberId() {
+		return ParentVersionCoverageNumberId;
+	}
+	public void setParentVersionCoverageNumberId(String parentVersionCoverageNumberId) {
+		ParentVersionCoverageNumberId = parentVersionCoverageNumberId;
+	}
+	public String getParentTermBaseNumberId() {
+		return ParentTermBaseNumberId;
+	}
+	public void setParentTermBaseNumberId(String parentTermBaseNumberId) {
+		ParentTermBaseNumberId = parentTermBaseNumberId;
+	}
+	public String getVersionModeCode() {
+		return VersionModeCode;
+	}
+	public void setVersionModeCode(String versionModeCode) {
+		VersionModeCode = versionModeCode;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[ParentVersionRiskNumberId=" + ParentVersionRiskNumberId
+				+ ", ParentVersionCoverageNumberId=" + ParentVersionCoverageNumberId + ", ParentTermBaseNumberId="
+				+ ParentTermBaseNumberId + ", VersionModeCode=" + VersionModeCode + "]";
+	}
 }

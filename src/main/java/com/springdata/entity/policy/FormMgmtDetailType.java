@@ -10,7 +10,7 @@ public class FormMgmtDetailType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<FormDataType> formData;
+    protected List<FormDataType> FormData;
 
     /**
      * Gets the value of the formData property.
@@ -35,10 +35,14 @@ public class FormMgmtDetailType
      * 
      */
     public List<FormDataType> getFormData() {
-        if (formData == null) {
-            formData = new ArrayList<FormDataType>();
+        if (FormData == null) {
+            FormData = new ArrayList<FormDataType>();
         }
-        return this.formData;
+        return this.FormData;
     }
 
+	@Override
+	public String toString() {
+		return "[FormData=" + FormData + "]";
+	}
 }

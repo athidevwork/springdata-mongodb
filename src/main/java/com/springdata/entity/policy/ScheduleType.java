@@ -8,305 +8,99 @@ public class ScheduleType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String scheduleNumberId;
-    protected ReferredPartyType referredParty;
-    protected String locumTenen;
-    protected String degree;
-    protected EffectivePeriodType effectivePeriod;
-    protected ReferredInsuredType referredInsured;
-    protected String renewalIndicator;
-    protected String blockedListIndicator;
-    protected VersionDetailType versionDetail;
-    protected String key;
-    protected String personReference;
-    protected String organizationReference;
-
-    /**
-     * Gets the value of the scheduleNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getScheduleNumberId() {
-        return scheduleNumberId;
-    }
-
-    /**
-     * Sets the value of the scheduleNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setScheduleNumberId(String value) {
-        this.scheduleNumberId = value;
-    }
-
-    /**
-     * Gets the value of the referredParty property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public ReferredPartyType getReferredParty() {
-        return referredParty;
-    }
-
-    /**
-     * Sets the value of the referredParty property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public void setReferredParty(ReferredPartyType value) {
-        this.referredParty = value;
-    }
-
-    /**
-     * Gets the value of the locumTenen property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLocumTenen() {
-        return locumTenen;
-    }
-
-    /**
-     * Sets the value of the locumTenen property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLocumTenen(String value) {
-        this.locumTenen = value;
-    }
-
-    /**
-     * Gets the value of the degree property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDegree() {
-        return degree;
-    }
-
-    /**
-     * Sets the value of the degree property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDegree(String value) {
-        this.degree = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the referredInsured property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredInsuredType }
-     *     
-     */
-    public ReferredInsuredType getReferredInsured() {
-        return referredInsured;
-    }
-
-    /**
-     * Sets the value of the referredInsured property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredInsuredType }
-     *     
-     */
-    public void setReferredInsured(ReferredInsuredType value) {
-        this.referredInsured = value;
-    }
-
-    /**
-     * Gets the value of the renewalIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRenewalIndicator() {
-        return renewalIndicator;
-    }
-
-    /**
-     * Sets the value of the renewalIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRenewalIndicator(String value) {
-        this.renewalIndicator = value;
-    }
-
-    /**
-     * Gets the value of the blockedListIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBlockedListIndicator() {
-        return blockedListIndicator;
-    }
-
-    /**
-     * Sets the value of the blockedListIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBlockedListIndicator(String value) {
-        this.blockedListIndicator = value;
-    }
-
-    /**
-     * Gets the value of the versionDetail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link VersionDetailType }
-     *     
-     */
-    public VersionDetailType getVersionDetail() {
-        return versionDetail;
-    }
-
-    /**
-     * Sets the value of the versionDetail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link VersionDetailType }
-     *     
-     */
-    public void setVersionDetail(VersionDetailType value) {
-        this.versionDetail = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
-    /**
-     * Gets the value of the personReference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPersonReference() {
-        return personReference;
-    }
-
-    /**
-     * Sets the value of the personReference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPersonReference(String value) {
-        this.personReference = value;
-    }
-
-    /**
-     * Gets the value of the organizationReference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOrganizationReference() {
-        return organizationReference;
-    }
-
-    /**
-     * Sets the value of the organizationReference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOrganizationReference(String value) {
-        this.organizationReference = value;
-    }
-
+    protected String ScheduleNumberId;
+    protected ReferredPartyType ReferredParty;
+    protected String LocumTenen;
+    protected String Degree;
+    protected EffectivePeriodType EffectivePeriod;
+    protected ReferredInsuredType ReferredInsured;
+    protected String RenewalIndicator;
+    protected String BlockedListIndicator;
+    protected VersionDetailType VersionDetail;
+    protected String Key;
+    protected String PersonReference;
+    protected String OrganizationReference;
+	public String getScheduleNumberId() {
+		return ScheduleNumberId;
+	}
+	public void setScheduleNumberId(String scheduleNumberId) {
+		ScheduleNumberId = scheduleNumberId;
+	}
+	public ReferredPartyType getReferredParty() {
+		return ReferredParty;
+	}
+	public void setReferredParty(ReferredPartyType referredParty) {
+		ReferredParty = referredParty;
+	}
+	public String getLocumTenen() {
+		return LocumTenen;
+	}
+	public void setLocumTenen(String locumTenen) {
+		LocumTenen = locumTenen;
+	}
+	public String getDegree() {
+		return Degree;
+	}
+	public void setDegree(String degree) {
+		Degree = degree;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public ReferredInsuredType getReferredInsured() {
+		return ReferredInsured;
+	}
+	public void setReferredInsured(ReferredInsuredType referredInsured) {
+		ReferredInsured = referredInsured;
+	}
+	public String getRenewalIndicator() {
+		return RenewalIndicator;
+	}
+	public void setRenewalIndicator(String renewalIndicator) {
+		RenewalIndicator = renewalIndicator;
+	}
+	public String getBlockedListIndicator() {
+		return BlockedListIndicator;
+	}
+	public void setBlockedListIndicator(String blockedListIndicator) {
+		BlockedListIndicator = blockedListIndicator;
+	}
+	public VersionDetailType getVersionDetail() {
+		return VersionDetail;
+	}
+	public void setVersionDetail(VersionDetailType versionDetail) {
+		VersionDetail = versionDetail;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	public String getPersonReference() {
+		return PersonReference;
+	}
+	public void setPersonReference(String personReference) {
+		PersonReference = personReference;
+	}
+	public String getOrganizationReference() {
+		return OrganizationReference;
+	}
+	public void setOrganizationReference(String organizationReference) {
+		OrganizationReference = organizationReference;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[ScheduleNumberId=" + ScheduleNumberId + ", ReferredParty=" + ReferredParty
+				+ ", LocumTenen=" + LocumTenen + ", Degree=" + Degree + ", EffectivePeriod=" + EffectivePeriod
+				+ ", ReferredInsured=" + ReferredInsured + ", RenewalIndicator=" + RenewalIndicator
+				+ ", BlockedListIndicator=" + BlockedListIndicator + ", VersionDetail=" + VersionDetail + ", Key=" + Key
+				+ ", PersonReference=" + PersonReference + ", OrganizationReference=" + OrganizationReference + "]";
+	}
 }

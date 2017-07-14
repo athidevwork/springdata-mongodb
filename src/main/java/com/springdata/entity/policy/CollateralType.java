@@ -8,155 +8,52 @@ public class CollateralType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String policyReinsuranceNumberId;
-    protected String contractNO;
-    protected EffectivePeriodType effectivePeriod;
-    protected String type;
-    protected String amount;
-    protected String note;
-
-    /**
-     * Gets the value of the policyReinsuranceNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPolicyReinsuranceNumberId() {
-        return policyReinsuranceNumberId;
-    }
-
-    /**
-     * Sets the value of the policyReinsuranceNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPolicyReinsuranceNumberId(String value) {
-        this.policyReinsuranceNumberId = value;
-    }
-
-    /**
-     * Gets the value of the contractNO property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getContractNO() {
-        return contractNO;
-    }
-
-    /**
-     * Sets the value of the contractNO property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setContractNO(String value) {
-        this.contractNO = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the type property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getType() {
-        return type;
-    }
-
-    /**
-     * Sets the value of the type property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setType(String value) {
-        this.type = value;
-    }
-
-    /**
-     * Gets the value of the amount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAmount() {
-        return amount;
-    }
-
-    /**
-     * Sets the value of the amount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAmount(String value) {
-        this.amount = value;
-    }
-
-    /**
-     * Gets the value of the note property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNote() {
-        return note;
-    }
-
-    /**
-     * Sets the value of the note property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNote(String value) {
-        this.note = value;
-    }
-
+    protected String PolicyReinsuranceNumberId;
+    protected String ContractNO;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String Type;
+    protected String Amount;
+    protected String Note;
+	public String getPolicyReinsuranceNumberId() {
+		return PolicyReinsuranceNumberId;
+	}
+	public void setPolicyReinsuranceNumberId(String policyReinsuranceNumberId) {
+		PolicyReinsuranceNumberId = policyReinsuranceNumberId;
+	}
+	public String getContractNO() {
+		return ContractNO;
+	}
+	public void setContractNO(String contractNO) {
+		ContractNO = contractNO;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getType() {
+		return Type;
+	}
+	public void setType(String type) {
+		Type = type;
+	}
+	public String getAmount() {
+		return Amount;
+	}
+	public void setAmount(String amount) {
+		Amount = amount;
+	}
+	public String getNote() {
+		return Note;
+	}
+	public void setNote(String note) {
+		Note = note;
+	}
+	@Override
+	public String toString() {
+		return "[PolicyReinsuranceNumberId=" + PolicyReinsuranceNumberId + ", ContractNO=" + ContractNO
+				+ ", EffectivePeriod=" + EffectivePeriod + ", Type=" + Type + ", Amount=" + Amount + ", Note=" + Note
+				+ "]";
+	}
 }

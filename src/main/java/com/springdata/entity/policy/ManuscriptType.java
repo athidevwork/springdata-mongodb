@@ -8,280 +8,93 @@ public class ManuscriptType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String manuscriptNumberId;
-    protected ReferredMedicalMalpracticeCoverageType referredMedicalMalpracticeCoverage;
-    protected String formType;
-    protected String formCode;
-    protected EffectivePeriodType effectivePeriod;
-    protected String renewalIndicator;
-    protected VersionDetailType versionDetail;
-    protected String addlText;
-    protected String premiumForm;
-    protected String detailIndicator;
-    protected String key;
-
-    /**
-     * Gets the value of the manuscriptNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getManuscriptNumberId() {
-        return manuscriptNumberId;
-    }
-
-    /**
-     * Sets the value of the manuscriptNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setManuscriptNumberId(String value) {
-        this.manuscriptNumberId = value;
-    }
-
-    /**
-     * Gets the value of the referredMedicalMalpracticeCoverage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredMedicalMalpracticeCoverageType }
-     *     
-     */
-    public ReferredMedicalMalpracticeCoverageType getReferredMedicalMalpracticeCoverage() {
-        return referredMedicalMalpracticeCoverage;
-    }
-
-    /**
-     * Sets the value of the referredMedicalMalpracticeCoverage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredMedicalMalpracticeCoverageType }
-     *     
-     */
-    public void setReferredMedicalMalpracticeCoverage(ReferredMedicalMalpracticeCoverageType value) {
-        this.referredMedicalMalpracticeCoverage = value;
-    }
-
-    /**
-     * Gets the value of the formType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFormType() {
-        return formType;
-    }
-
-    /**
-     * Sets the value of the formType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFormType(String value) {
-        this.formType = value;
-    }
-
-    /**
-     * Gets the value of the formCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFormCode() {
-        return formCode;
-    }
-
-    /**
-     * Sets the value of the formCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFormCode(String value) {
-        this.formCode = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the renewalIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRenewalIndicator() {
-        return renewalIndicator;
-    }
-
-    /**
-     * Sets the value of the renewalIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRenewalIndicator(String value) {
-        this.renewalIndicator = value;
-    }
-
-    /**
-     * Gets the value of the versionDetail property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link VersionDetailType }
-     *     
-     */
-    public VersionDetailType getVersionDetail() {
-        return versionDetail;
-    }
-
-    /**
-     * Sets the value of the versionDetail property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link VersionDetailType }
-     *     
-     */
-    public void setVersionDetail(VersionDetailType value) {
-        this.versionDetail = value;
-    }
-
-    /**
-     * Gets the value of the addlText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddlText() {
-        return addlText;
-    }
-
-    /**
-     * Sets the value of the addlText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddlText(String value) {
-        this.addlText = value;
-    }
-
-    /**
-     * Gets the value of the premiumForm property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPremiumForm() {
-        return premiumForm;
-    }
-
-    /**
-     * Sets the value of the premiumForm property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPremiumForm(String value) {
-        this.premiumForm = value;
-    }
-
-    /**
-     * Gets the value of the detailIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDetailIndicator() {
-        return detailIndicator;
-    }
-
-    /**
-     * Sets the value of the detailIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDetailIndicator(String value) {
-        this.detailIndicator = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String ManuscriptNumberId;
+    protected ReferredMedicalMalpracticeCoverageType ReferredMedicalMalpracticeCoverage;
+    protected String FormType;
+    protected String FormCode;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String RenewalIndicator;
+    protected VersionDetailType VersionDetail;
+    protected String AddlText;
+    protected String PremiumForm;
+    protected String DetailIndicator;
+    protected String Key;
+	public String getManuscriptNumberId() {
+		return ManuscriptNumberId;
+	}
+	public void setManuscriptNumberId(String manuscriptNumberId) {
+		ManuscriptNumberId = manuscriptNumberId;
+	}
+	public ReferredMedicalMalpracticeCoverageType getReferredMedicalMalpracticeCoverage() {
+		return ReferredMedicalMalpracticeCoverage;
+	}
+	public void setReferredMedicalMalpracticeCoverage(
+			ReferredMedicalMalpracticeCoverageType referredMedicalMalpracticeCoverage) {
+		ReferredMedicalMalpracticeCoverage = referredMedicalMalpracticeCoverage;
+	}
+	public String getFormType() {
+		return FormType;
+	}
+	public void setFormType(String formType) {
+		FormType = formType;
+	}
+	public String getFormCode() {
+		return FormCode;
+	}
+	public void setFormCode(String formCode) {
+		FormCode = formCode;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getRenewalIndicator() {
+		return RenewalIndicator;
+	}
+	public void setRenewalIndicator(String renewalIndicator) {
+		RenewalIndicator = renewalIndicator;
+	}
+	public VersionDetailType getVersionDetail() {
+		return VersionDetail;
+	}
+	public void setVersionDetail(VersionDetailType versionDetail) {
+		VersionDetail = versionDetail;
+	}
+	public String getAddlText() {
+		return AddlText;
+	}
+	public void setAddlText(String addlText) {
+		AddlText = addlText;
+	}
+	public String getPremiumForm() {
+		return PremiumForm;
+	}
+	public void setPremiumForm(String premiumForm) {
+		PremiumForm = premiumForm;
+	}
+	public String getDetailIndicator() {
+		return DetailIndicator;
+	}
+	public void setDetailIndicator(String detailIndicator) {
+		DetailIndicator = detailIndicator;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[ManuscriptNumberId=" + ManuscriptNumberId + ", ReferredMedicalMalpracticeCoverage="
+				+ ReferredMedicalMalpracticeCoverage + ", FormType=" + FormType + ", FormCode=" + FormCode
+				+ ", EffectivePeriod=" + EffectivePeriod + ", RenewalIndicator=" + RenewalIndicator + ", VersionDetail="
+				+ VersionDetail + ", AddlText=" + AddlText + ", PremiumForm=" + PremiumForm + ", DetailIndicator="
+				+ DetailIndicator + ", Key=" + Key + "]";
+	}
 }

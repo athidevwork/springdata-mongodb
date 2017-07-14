@@ -8,180 +8,63 @@ public class VehiclesOperatedInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String fleetIndicator;
-    protected String vehicleManufacturerCode;
-    protected String vehicleManufacturerSubclassCode;
-    protected String vehicleModelCode;
-    protected String vehicleYear;
-    protected String vehicleOriginalCost;
-    protected String vehicleVin;
-
-    /**
-     * Gets the value of the fleetIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFleetIndicator() {
-        return fleetIndicator;
-    }
-
-    /**
-     * Sets the value of the fleetIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFleetIndicator(String value) {
-        this.fleetIndicator = value;
-    }
-
-    /**
-     * Gets the value of the vehicleManufacturerCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVehicleManufacturerCode() {
-        return vehicleManufacturerCode;
-    }
-
-    /**
-     * Sets the value of the vehicleManufacturerCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVehicleManufacturerCode(String value) {
-        this.vehicleManufacturerCode = value;
-    }
-
-    /**
-     * Gets the value of the vehicleManufacturerSubclassCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVehicleManufacturerSubclassCode() {
-        return vehicleManufacturerSubclassCode;
-    }
-
-    /**
-     * Sets the value of the vehicleManufacturerSubclassCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVehicleManufacturerSubclassCode(String value) {
-        this.vehicleManufacturerSubclassCode = value;
-    }
-
-    /**
-     * Gets the value of the vehicleModelCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVehicleModelCode() {
-        return vehicleModelCode;
-    }
-
-    /**
-     * Sets the value of the vehicleModelCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVehicleModelCode(String value) {
-        this.vehicleModelCode = value;
-    }
-
-    /**
-     * Gets the value of the vehicleYear property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVehicleYear() {
-        return vehicleYear;
-    }
-
-    /**
-     * Sets the value of the vehicleYear property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVehicleYear(String value) {
-        this.vehicleYear = value;
-    }
-
-    /**
-     * Gets the value of the vehicleOriginalCost property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVehicleOriginalCost() {
-        return vehicleOriginalCost;
-    }
-
-    /**
-     * Sets the value of the vehicleOriginalCost property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVehicleOriginalCost(String value) {
-        this.vehicleOriginalCost = value;
-    }
-
-    /**
-     * Gets the value of the vehicleVin property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVehicleVin() {
-        return vehicleVin;
-    }
-
-    /**
-     * Sets the value of the vehicleVin property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVehicleVin(String value) {
-        this.vehicleVin = value;
-    }
-
+    protected String FleetIndicator;
+    protected String VehicleManufacturerCode;
+    protected String VehicleManufacturerSubclassCode;
+    protected String VehicleModelCode;
+    protected String VehicleYear;
+    protected String VehicleOriginalCost;
+    protected String VehicleVin;
+	public String getFleetIndicator() {
+		return FleetIndicator;
+	}
+	public void setFleetIndicator(String fleetIndicator) {
+		FleetIndicator = fleetIndicator;
+	}
+	public String getVehicleManufacturerCode() {
+		return VehicleManufacturerCode;
+	}
+	public void setVehicleManufacturerCode(String vehicleManufacturerCode) {
+		VehicleManufacturerCode = vehicleManufacturerCode;
+	}
+	public String getVehicleManufacturerSubclassCode() {
+		return VehicleManufacturerSubclassCode;
+	}
+	public void setVehicleManufacturerSubclassCode(String vehicleManufacturerSubclassCode) {
+		VehicleManufacturerSubclassCode = vehicleManufacturerSubclassCode;
+	}
+	public String getVehicleModelCode() {
+		return VehicleModelCode;
+	}
+	public void setVehicleModelCode(String vehicleModelCode) {
+		VehicleModelCode = vehicleModelCode;
+	}
+	public String getVehicleYear() {
+		return VehicleYear;
+	}
+	public void setVehicleYear(String vehicleYear) {
+		VehicleYear = vehicleYear;
+	}
+	public String getVehicleOriginalCost() {
+		return VehicleOriginalCost;
+	}
+	public void setVehicleOriginalCost(String vehicleOriginalCost) {
+		VehicleOriginalCost = vehicleOriginalCost;
+	}
+	public String getVehicleVin() {
+		return VehicleVin;
+	}
+	public void setVehicleVin(String vehicleVin) {
+		VehicleVin = vehicleVin;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[FleetIndicator=" + FleetIndicator + ", VehicleManufacturerCode="
+				+ VehicleManufacturerCode + ", VehicleManufacturerSubclassCode=" + VehicleManufacturerSubclassCode
+				+ ", VehicleModelCode=" + VehicleModelCode + ", VehicleYear=" + VehicleYear + ", VehicleOriginalCost="
+				+ VehicleOriginalCost + ", VehicleVin=" + VehicleVin + "]";
+	}
 }

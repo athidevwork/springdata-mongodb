@@ -8,8 +8,8 @@ public class MedicalMalpracticeCoverageCodeType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String value;
-    protected String description;
+    protected String Value;
+    protected String Description;
 
     /**
      * Gets the value of the value property.
@@ -20,7 +20,7 @@ public class MedicalMalpracticeCoverageCodeType
      *     
      */
     public String getValue() {
-        return value;
+        return Value;
     }
 
     /**
@@ -32,7 +32,7 @@ public class MedicalMalpracticeCoverageCodeType
      *     
      */
     public void setValue(String value) {
-        this.value = value;
+        this.Value = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class MedicalMalpracticeCoverageCodeType
      *     
      */
     public String getDescription() {
-        return description;
+        return Description;
     }
 
     /**
@@ -56,7 +56,12 @@ public class MedicalMalpracticeCoverageCodeType
      *     
      */
     public void setDescription(String value) {
-        this.description = value;
+        this.Description = value;
     }
+
+	@Override
+	public String toString() {
+		return "[Value=" + Value + ", Description=" + Description + "]";
+	}
 
 }

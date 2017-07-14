@@ -8,8 +8,8 @@ public class BusinessEmailType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String email;
-    protected String key;
+    protected String Email;
+    protected String Key;
 
     /**
      * Gets the value of the email property.
@@ -20,7 +20,7 @@ public class BusinessEmailType
      *     
      */
     public String getEmail() {
-        return email;
+        return Email;
     }
 
     /**
@@ -32,7 +32,7 @@ public class BusinessEmailType
      *     
      */
     public void setEmail(String value) {
-        this.email = value;
+        this.Email = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class BusinessEmailType
      *     
      */
     public String getKey() {
-        return key;
+        return Key;
     }
 
     /**
@@ -56,7 +56,12 @@ public class BusinessEmailType
      *     
      */
     public void setKey(String value) {
-        this.key = value;
+        this.Key = value;
     }
+
+	@Override
+	public String toString() {
+		return "[Email=" + Email + ", Key=" + Key + "]";
+	}
 
 }

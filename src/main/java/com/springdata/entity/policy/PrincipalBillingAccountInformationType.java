@@ -8,80 +8,33 @@ public class PrincipalBillingAccountInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String billingAccountNumber;
-    protected String billingAccountIdentifier;
-    protected String paymentPlanId;
-
-    /**
-     * Gets the value of the billingAccountNumber property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBillingAccountNumber() {
-        return billingAccountNumber;
-    }
-
-    /**
-     * Sets the value of the billingAccountNumber property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBillingAccountNumber(String value) {
-        this.billingAccountNumber = value;
-    }
-
-    /**
-     * Gets the value of the billingAccountIdentifier property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBillingAccountIdentifier() {
-        return billingAccountIdentifier;
-    }
-
-    /**
-     * Sets the value of the billingAccountIdentifier property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBillingAccountIdentifier(String value) {
-        this.billingAccountIdentifier = value;
-    }
-
-    /**
-     * Gets the value of the paymentPlanId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPaymentPlanId() {
-        return paymentPlanId;
-    }
-
-    /**
-     * Sets the value of the paymentPlanId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPaymentPlanId(String value) {
-        this.paymentPlanId = value;
-    }
-
+    protected String BillingAccountNumber;
+    protected String BillingAccountIdentifier;
+    protected String PaymentPlanId;
+	public String getBillingAccountNumber() {
+		return BillingAccountNumber;
+	}
+	public void setBillingAccountNumber(String billingAccountNumber) {
+		BillingAccountNumber = billingAccountNumber;
+	}
+	public String getBillingAccountIdentifier() {
+		return BillingAccountIdentifier;
+	}
+	public void setBillingAccountIdentifier(String billingAccountIdentifier) {
+		BillingAccountIdentifier = billingAccountIdentifier;
+	}
+	public String getPaymentPlanId() {
+		return PaymentPlanId;
+	}
+	public void setPaymentPlanId(String paymentPlanId) {
+		PaymentPlanId = paymentPlanId;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[BillingAccountNumber=" + BillingAccountNumber
+				+ ", BillingAccountIdentifier=" + BillingAccountIdentifier + ", PaymentPlanId=" + PaymentPlanId + "]";
+	}
 }

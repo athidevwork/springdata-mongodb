@@ -2,7 +2,6 @@
 package com.springdata.entity.policy;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 public class AdditionalInformationType
@@ -10,125 +9,38 @@ public class AdditionalInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<AdditionalDateTimeType> additionalDateTime;
-    protected List<AdditionalNumberType> additionalNumber;
-    protected List<AdditionalDataType> additionalData;
-    protected List<AdditionalInfoType> additionalInfo;
-
-    /**
-     * Gets the value of the additionalDateTime property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the additionalDateTime property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getAdditionalDateTime().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link AdditionalDateTimeType }
-     * 
-     * 
-     */
-    public List<AdditionalDateTimeType> getAdditionalDateTime() {
-        if (additionalDateTime == null) {
-            additionalDateTime = new ArrayList<AdditionalDateTimeType>();
-        }
-        return this.additionalDateTime;
-    }
-
-    /**
-     * Gets the value of the additionalNumber property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the additionalNumber property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getAdditionalNumber().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link AdditionalNumberType }
-     * 
-     * 
-     */
-    public List<AdditionalNumberType> getAdditionalNumber() {
-        if (additionalNumber == null) {
-            additionalNumber = new ArrayList<AdditionalNumberType>();
-        }
-        return this.additionalNumber;
-    }
-
-    /**
-     * Gets the value of the additionalData property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the additionalData property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getAdditionalData().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link AdditionalDataType }
-     * 
-     * 
-     */
-    public List<AdditionalDataType> getAdditionalData() {
-        if (additionalData == null) {
-            additionalData = new ArrayList<AdditionalDataType>();
-        }
-        return this.additionalData;
-    }
-
-    /**
-     * Gets the value of the additionalInfo property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the additionalInfo property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getAdditionalInfo().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link AdditionalInfoType }
-     * 
-     * 
-     */
-    public List<AdditionalInfoType> getAdditionalInfo() {
-        if (additionalInfo == null) {
-            additionalInfo = new ArrayList<AdditionalInfoType>();
-        }
-        return this.additionalInfo;
-    }
-
+    protected List<AdditionalDateTimeType> AdditionalDateTime;
+    protected List<AdditionalNumberType> AdditionalNumber;
+    protected List<AdditionalDataType> AdditionalData;
+    protected List<AdditionalInfoType> AdditionalInfo;
+    
+	public List<AdditionalDateTimeType> getAdditionalDateTime() {
+		return AdditionalDateTime;
+	}
+	public void setAdditionalDateTime(List<AdditionalDateTimeType> additionalDateTime) {
+		AdditionalDateTime = additionalDateTime;
+	}
+	public List<AdditionalNumberType> getAdditionalNumber() {
+		return AdditionalNumber;
+	}
+	public void setAdditionalNumber(List<AdditionalNumberType> additionalNumber) {
+		AdditionalNumber = additionalNumber;
+	}
+	public List<AdditionalDataType> getAdditionalData() {
+		return AdditionalData;
+	}
+	public void setAdditionalData(List<AdditionalDataType> additionalData) {
+		AdditionalData = additionalData;
+	}
+	public List<AdditionalInfoType> getAdditionalInfo() {
+		return AdditionalInfo;
+	}
+	public void setAdditionalInfo(List<AdditionalInfoType> additionalInfo) {
+		AdditionalInfo = additionalInfo;
+	}
+	@Override
+	public String toString() {
+		return "[AdditionalDateTime=" + AdditionalDateTime + ", AdditionalNumber="
+				+ AdditionalNumber + ", AdditionalData=" + AdditionalData + ", AdditionalInfo=" + AdditionalInfo + "]";
+	}
 }

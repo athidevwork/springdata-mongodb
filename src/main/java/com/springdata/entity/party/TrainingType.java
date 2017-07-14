@@ -8,280 +8,90 @@ public class TrainingType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String educationProfileNumberId;
-    protected String hospitalName;
-    protected CodeWithDesc trainingTypeCode;
-    protected CodeWithDesc specialtyCode;
-    protected EffectivePeriodType effectivePeriod;
-    protected String applicationNo;
-    protected String entityAttendeeId;
-    protected String sourceRecordId;
-    protected String sourceTable;
-    protected String entityInstitutionId;
-    protected String key;
-
-    /**
-     * Gets the value of the educationProfileNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEducationProfileNumberId() {
-        return educationProfileNumberId;
-    }
-
-    /**
-     * Sets the value of the educationProfileNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEducationProfileNumberId(String value) {
-        this.educationProfileNumberId = value;
-    }
-
-    /**
-     * Gets the value of the hospitalName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHospitalName() {
-        return hospitalName;
-    }
-
-    /**
-     * Sets the value of the hospitalName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHospitalName(String value) {
-        this.hospitalName = value;
-    }
-
-    /**
-     * Gets the value of the trainingTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public CodeWithDesc getTrainingTypeCode() {
-        return trainingTypeCode;
-    }
-
-    /**
-     * Sets the value of the trainingTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public void setTrainingTypeCode(CodeWithDesc value) {
-        this.trainingTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the specialtyCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public CodeWithDesc getSpecialtyCode() {
-        return specialtyCode;
-    }
-
-    /**
-     * Sets the value of the specialtyCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public void setSpecialtyCode(CodeWithDesc value) {
-        this.specialtyCode = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the applicationNo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getApplicationNo() {
-        return applicationNo;
-    }
-
-    /**
-     * Sets the value of the applicationNo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setApplicationNo(String value) {
-        this.applicationNo = value;
-    }
-
-    /**
-     * Gets the value of the entityAttendeeId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityAttendeeId() {
-        return entityAttendeeId;
-    }
-
-    /**
-     * Sets the value of the entityAttendeeId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityAttendeeId(String value) {
-        this.entityAttendeeId = value;
-    }
-
-    /**
-     * Gets the value of the sourceRecordId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSourceRecordId() {
-        return sourceRecordId;
-    }
-
-    /**
-     * Sets the value of the sourceRecordId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSourceRecordId(String value) {
-        this.sourceRecordId = value;
-    }
-
-    /**
-     * Gets the value of the sourceTable property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSourceTable() {
-        return sourceTable;
-    }
-
-    /**
-     * Sets the value of the sourceTable property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSourceTable(String value) {
-        this.sourceTable = value;
-    }
-
-    /**
-     * Gets the value of the entityInstitutionId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityInstitutionId() {
-        return entityInstitutionId;
-    }
-
-    /**
-     * Sets the value of the entityInstitutionId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityInstitutionId(String value) {
-        this.entityInstitutionId = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String EducationProfileNumberId;
+    protected String HospitalName;
+    protected CodeWithDesc TrainingTypeCode;
+    protected CodeWithDesc SpecialtyCode;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String ApplicationNo;
+    protected String EntityAttendeeId;
+    protected String SourceRecordId;
+    protected String SourceTable;
+    protected String EntityInstitutionId;
+    protected String Key;
+    
+	public String getEducationProfileNumberId() {
+		return EducationProfileNumberId;
+	}
+	public void setEducationProfileNumberId(String educationProfileNumberId) {
+		EducationProfileNumberId = educationProfileNumberId;
+	}
+	public String getHospitalName() {
+		return HospitalName;
+	}
+	public void setHospitalName(String hospitalName) {
+		HospitalName = hospitalName;
+	}
+	public CodeWithDesc getTrainingTypeCode() {
+		return TrainingTypeCode;
+	}
+	public void setTrainingTypeCode(CodeWithDesc trainingTypeCode) {
+		TrainingTypeCode = trainingTypeCode;
+	}
+	public CodeWithDesc getSpecialtyCode() {
+		return SpecialtyCode;
+	}
+	public void setSpecialtyCode(CodeWithDesc specialtyCode) {
+		SpecialtyCode = specialtyCode;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getApplicationNo() {
+		return ApplicationNo;
+	}
+	public void setApplicationNo(String applicationNo) {
+		ApplicationNo = applicationNo;
+	}
+	public String getEntityAttendeeId() {
+		return EntityAttendeeId;
+	}
+	public void setEntityAttendeeId(String entityAttendeeId) {
+		EntityAttendeeId = entityAttendeeId;
+	}
+	public String getSourceRecordId() {
+		return SourceRecordId;
+	}
+	public void setSourceRecordId(String sourceRecordId) {
+		SourceRecordId = sourceRecordId;
+	}
+	public String getSourceTable() {
+		return SourceTable;
+	}
+	public void setSourceTable(String sourceTable) {
+		SourceTable = sourceTable;
+	}
+	public String getEntityInstitutionId() {
+		return EntityInstitutionId;
+	}
+	public void setEntityInstitutionId(String entityInstitutionId) {
+		EntityInstitutionId = entityInstitutionId;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[EducationProfileNumberId=" + EducationProfileNumberId + ", HospitalName=" + HospitalName
+				+ ", TrainingTypeCode=" + TrainingTypeCode + ", SpecialtyCode=" + SpecialtyCode + ", EffectivePeriod="
+				+ EffectivePeriod + ", ApplicationNo=" + ApplicationNo + ", EntityAttendeeId=" + EntityAttendeeId
+				+ ", SourceRecordId=" + SourceRecordId + ", SourceTable=" + SourceTable + ", EntityInstitutionId="
+				+ EntityInstitutionId + ", Key=" + Key + "]";
+	}
 }

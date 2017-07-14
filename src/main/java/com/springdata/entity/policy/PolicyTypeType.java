@@ -3,8 +3,8 @@ package com.springdata.entity.policy;
 
 public class PolicyTypeType {
 
-    protected String value;
-    protected String description;
+    protected String Value;
+    protected String Description;
 
     /**
      * Gets the value of the value property.
@@ -15,7 +15,7 @@ public class PolicyTypeType {
      *     
      */
     public String getValue() {
-        return value;
+        return Value;
     }
 
     /**
@@ -27,7 +27,7 @@ public class PolicyTypeType {
      *     
      */
     public void setValue(String value) {
-        this.value = value;
+        this.Value = value;
     }
 
     /**
@@ -39,7 +39,7 @@ public class PolicyTypeType {
      *     
      */
     public String getDescription() {
-        return description;
+        return Description;
     }
 
     /**
@@ -51,7 +51,12 @@ public class PolicyTypeType {
      *     
      */
     public void setDescription(String value) {
-        this.description = value;
+        this.Description = value;
     }
+
+	@Override
+	public String toString() {
+		return "[Value=" + Value + ", Description=" + Description + "]";
+	}
 
 }

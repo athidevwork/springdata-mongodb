@@ -8,155 +8,53 @@ public class PartyNoteType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String partyNoteNumberId;
-    protected String partyNoteType;
-    protected String partyNoteDateTime;
-    protected String partyNoteStatus;
-    protected String note;
-    protected String key;
-
-    /**
-     * Gets the value of the partyNoteNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPartyNoteNumberId() {
-        return partyNoteNumberId;
-    }
-
-    /**
-     * Sets the value of the partyNoteNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPartyNoteNumberId(String value) {
-        this.partyNoteNumberId = value;
-    }
-
-    /**
-     * Gets the value of the partyNoteType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPartyNoteType() {
-        return partyNoteType;
-    }
-
-    /**
-     * Sets the value of the partyNoteType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPartyNoteType(String value) {
-        this.partyNoteType = value;
-    }
-
-    /**
-     * Gets the value of the partyNoteDateTime property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPartyNoteDateTime() {
-        return partyNoteDateTime;
-    }
-
-    /**
-     * Sets the value of the partyNoteDateTime property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPartyNoteDateTime(String value) {
-        this.partyNoteDateTime = value;
-    }
-
-    /**
-     * Gets the value of the partyNoteStatus property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPartyNoteStatus() {
-        return partyNoteStatus;
-    }
-
-    /**
-     * Sets the value of the partyNoteStatus property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPartyNoteStatus(String value) {
-        this.partyNoteStatus = value;
-    }
-
-    /**
-     * Gets the value of the note property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNote() {
-        return note;
-    }
-
-    /**
-     * Sets the value of the note property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNote(String value) {
-        this.note = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String PartyNoteNumberId;
+    protected String PartyNoteType;
+    protected String PartyNoteDateTime;
+    protected String PartyNoteStatus;
+    protected String Note;
+    protected String Key;
+    
+	public String getPartyNoteNumberId() {
+		return PartyNoteNumberId;
+	}
+	public void setPartyNoteNumberId(String partyNoteNumberId) {
+		PartyNoteNumberId = partyNoteNumberId;
+	}
+	public String getPartyNoteType() {
+		return PartyNoteType;
+	}
+	public void setPartyNoteType(String partyNoteType) {
+		PartyNoteType = partyNoteType;
+	}
+	public String getPartyNoteDateTime() {
+		return PartyNoteDateTime;
+	}
+	public void setPartyNoteDateTime(String partyNoteDateTime) {
+		PartyNoteDateTime = partyNoteDateTime;
+	}
+	public String getPartyNoteStatus() {
+		return PartyNoteStatus;
+	}
+	public void setPartyNoteStatus(String partyNoteStatus) {
+		PartyNoteStatus = partyNoteStatus;
+	}
+	public String getNote() {
+		return Note;
+	}
+	public void setNote(String note) {
+		Note = note;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[PartyNoteNumberId=" + PartyNoteNumberId + ", PartyNoteType=" + PartyNoteType
+				+ ", PartyNoteDateTime=" + PartyNoteDateTime + ", PartyNoteStatus=" + PartyNoteStatus + ", Note=" + Note
+				+ ", Key=" + Key + "]";
+	}
 }

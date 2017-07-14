@@ -8,8 +8,8 @@ public class IndicationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String indicationInd;
-    protected String name;
+    protected String IndicationInd;
+    protected String Name;
 
     /**
      * Gets the value of the indicationInd property.
@@ -20,7 +20,7 @@ public class IndicationType
      *     
      */
     public String getIndicationInd() {
-        return indicationInd;
+        return IndicationInd;
     }
 
     /**
@@ -32,7 +32,7 @@ public class IndicationType
      *     
      */
     public void setIndicationInd(String value) {
-        this.indicationInd = value;
+        this.IndicationInd = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class IndicationType
      *     
      */
     public String getName() {
-        return name;
+        return Name;
     }
 
     /**
@@ -56,7 +56,12 @@ public class IndicationType
      *     
      */
     public void setName(String value) {
-        this.name = value;
+        this.Name = value;
     }
+
+	@Override
+	public String toString() {
+		return "[IndicationInd=" + IndicationInd + ", Name=" + Name + "]";
+	}
 
 }

@@ -10,9 +10,9 @@ public class AdditionalInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<AdditionalDataType> additionalData;
-    protected List<AdditionalNumberType> additionalNumber;
-    protected List<AdditionalDateTimeType> additionalDateTime;
+    protected List<AdditionalDataType> AdditionalData;
+    protected List<AdditionalNumberType> AdditionalNumber;
+    protected List<AdditionalDateTimeType> AdditionalDateTime;
 
     /**
      * Gets the value of the additionalData property.
@@ -37,10 +37,10 @@ public class AdditionalInformationType
      * 
      */
     public List<AdditionalDataType> getAdditionalData() {
-        if (additionalData == null) {
-            additionalData = new ArrayList<AdditionalDataType>();
+        if (AdditionalData == null) {
+            AdditionalData = new ArrayList<AdditionalDataType>();
         }
-        return this.additionalData;
+        return this.AdditionalData;
     }
 
     /**
@@ -66,10 +66,10 @@ public class AdditionalInformationType
      * 
      */
     public List<AdditionalNumberType> getAdditionalNumber() {
-        if (additionalNumber == null) {
-            additionalNumber = new ArrayList<AdditionalNumberType>();
+        if (AdditionalNumber == null) {
+            AdditionalNumber = new ArrayList<AdditionalNumberType>();
         }
-        return this.additionalNumber;
+        return this.AdditionalNumber;
     }
 
     /**
@@ -95,10 +95,16 @@ public class AdditionalInformationType
      * 
      */
     public List<AdditionalDateTimeType> getAdditionalDateTime() {
-        if (additionalDateTime == null) {
-            additionalDateTime = new ArrayList<AdditionalDateTimeType>();
+        if (AdditionalDateTime == null) {
+            AdditionalDateTime = new ArrayList<AdditionalDateTimeType>();
         }
-        return this.additionalDateTime;
+        return this.AdditionalDateTime;
     }
+
+	@Override
+	public String toString() {
+		return "[AdditionalData=" + AdditionalData + ", AdditionalNumber=" + AdditionalNumber
+				+ ", AdditionalDateTime=" + AdditionalDateTime + "]";
+	}
 
 }

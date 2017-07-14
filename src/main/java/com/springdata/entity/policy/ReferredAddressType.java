@@ -8,8 +8,8 @@ public class ReferredAddressType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String value;
-    protected String addressReference;
+    protected String Value;
+    protected String AddressReference;
 
     /**
      * Gets the value of the value property.
@@ -20,7 +20,7 @@ public class ReferredAddressType
      *     
      */
     public String getValue() {
-        return value;
+        return Value;
     }
 
     /**
@@ -32,7 +32,7 @@ public class ReferredAddressType
      *     
      */
     public void setValue(String value) {
-        this.value = value;
+        this.Value = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class ReferredAddressType
      *     
      */
     public String getAddressReference() {
-        return addressReference;
+        return AddressReference;
     }
 
     /**
@@ -56,7 +56,12 @@ public class ReferredAddressType
      *     
      */
     public void setAddressReference(String value) {
-        this.addressReference = value;
+        this.AddressReference = value;
     }
+
+	@Override
+	public String toString() {
+		return "[Value=" + Value + ", AddressReference=" + AddressReference + "]";
+	}
 
 }

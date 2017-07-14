@@ -8,80 +8,33 @@ public class PcfType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String practiceCountyCode;
-    protected String practiceStateCode;
-    protected String startDate;
-
-    /**
-     * Gets the value of the practiceCountyCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPracticeCountyCode() {
-        return practiceCountyCode;
-    }
-
-    /**
-     * Sets the value of the practiceCountyCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPracticeCountyCode(String value) {
-        this.practiceCountyCode = value;
-    }
-
-    /**
-     * Gets the value of the practiceStateCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPracticeStateCode() {
-        return practiceStateCode;
-    }
-
-    /**
-     * Sets the value of the practiceStateCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPracticeStateCode(String value) {
-        this.practiceStateCode = value;
-    }
-
-    /**
-     * Gets the value of the startDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStartDate() {
-        return startDate;
-    }
-
-    /**
-     * Sets the value of the startDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStartDate(String value) {
-        this.startDate = value;
-    }
-
+    protected String PracticeCountyCode;
+    protected String PracticeStateCode;
+    protected String StartDate;
+	public String getPracticeCountyCode() {
+		return PracticeCountyCode;
+	}
+	public void setPracticeCountyCode(String practiceCountyCode) {
+		PracticeCountyCode = practiceCountyCode;
+	}
+	public String getPracticeStateCode() {
+		return PracticeStateCode;
+	}
+	public void setPracticeStateCode(String practiceStateCode) {
+		PracticeStateCode = practiceStateCode;
+	}
+	public String getStartDate() {
+		return StartDate;
+	}
+	public void setStartDate(String startDate) {
+		StartDate = startDate;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[PracticeCountyCode=" + PracticeCountyCode + ", PracticeStateCode=" + PracticeStateCode
+				+ ", StartDate=" + StartDate + "]";
+	}
 }

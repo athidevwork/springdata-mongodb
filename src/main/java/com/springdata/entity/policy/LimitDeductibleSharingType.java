@@ -10,8 +10,8 @@ public class LimitDeductibleSharingType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<SharedGroupType> sharedGroup;
-    protected List<SeparateLimitType> separateLimit;
+    protected List<SharedGroupType> SharedGroup;
+    protected List<SeparateLimitType> SeparateLimit;
 
     /**
      * Gets the value of the sharedGroup property.
@@ -36,10 +36,10 @@ public class LimitDeductibleSharingType
      * 
      */
     public List<SharedGroupType> getSharedGroup() {
-        if (sharedGroup == null) {
-            sharedGroup = new ArrayList<SharedGroupType>();
+        if (SharedGroup == null) {
+            SharedGroup = new ArrayList<SharedGroupType>();
         }
-        return this.sharedGroup;
+        return this.SharedGroup;
     }
 
     /**
@@ -47,7 +47,7 @@ public class LimitDeductibleSharingType
      * @param sharedGroup
      */
     public void setSharedGroup(List<SharedGroupType> sharedGroup) {
-        this.sharedGroup = sharedGroup;
+        this.SharedGroup = sharedGroup;
     }
 
     /**
@@ -73,10 +73,10 @@ public class LimitDeductibleSharingType
      * 
      */
     public List<SeparateLimitType> getSeparateLimit() {
-        if (separateLimit == null) {
-            separateLimit = new ArrayList<SeparateLimitType>();
+        if (SeparateLimit == null) {
+            SeparateLimit = new ArrayList<SeparateLimitType>();
         }
-        return this.separateLimit;
+        return this.SeparateLimit;
     }
 
     /**
@@ -84,7 +84,11 @@ public class LimitDeductibleSharingType
      * @param separateLimit
      */
     public void setSeparateLimit(List<SeparateLimitType> separateLimit) {
-        this.separateLimit = separateLimit;
+        this.SeparateLimit = separateLimit;
     }
 
+	@Override
+	public String toString() {
+		return "[SharedGroup=" + SharedGroup + ", SeparateLimit=" + SeparateLimit + "]";
+	}
 }

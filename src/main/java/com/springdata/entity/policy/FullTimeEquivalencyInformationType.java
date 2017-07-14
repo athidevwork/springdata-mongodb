@@ -8,105 +8,40 @@ public class FullTimeEquivalencyInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String fullTimeEquivalency;
-    protected String fullTimeHours;
-    protected String partTimeHours;
-    protected String perDiemHours;
-
-    /**
-     * Gets the value of the fullTimeEquivalency property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFullTimeEquivalency() {
-        return fullTimeEquivalency;
-    }
-
-    /**
-     * Sets the value of the fullTimeEquivalency property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFullTimeEquivalency(String value) {
-        this.fullTimeEquivalency = value;
-    }
-
-    /**
-     * Gets the value of the fullTimeHours property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFullTimeHours() {
-        return fullTimeHours;
-    }
-
-    /**
-     * Sets the value of the fullTimeHours property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFullTimeHours(String value) {
-        this.fullTimeHours = value;
-    }
-
-    /**
-     * Gets the value of the partTimeHours property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPartTimeHours() {
-        return partTimeHours;
-    }
-
-    /**
-     * Sets the value of the partTimeHours property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPartTimeHours(String value) {
-        this.partTimeHours = value;
-    }
-
-    /**
-     * Gets the value of the perDiemHours property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPerDiemHours() {
-        return perDiemHours;
-    }
-
-    /**
-     * Sets the value of the perDiemHours property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPerDiemHours(String value) {
-        this.perDiemHours = value;
-    }
-
+    protected String FullTimeEquivalency;
+    protected String FullTimeHours;
+    protected String PartTimeHours;
+    protected String PerDiemHours;
+	public String getFullTimeEquivalency() {
+		return FullTimeEquivalency;
+	}
+	public void setFullTimeEquivalency(String fullTimeEquivalency) {
+		FullTimeEquivalency = fullTimeEquivalency;
+	}
+	public String getFullTimeHours() {
+		return FullTimeHours;
+	}
+	public void setFullTimeHours(String fullTimeHours) {
+		FullTimeHours = fullTimeHours;
+	}
+	public String getPartTimeHours() {
+		return PartTimeHours;
+	}
+	public void setPartTimeHours(String partTimeHours) {
+		PartTimeHours = partTimeHours;
+	}
+	public String getPerDiemHours() {
+		return PerDiemHours;
+	}
+	public void setPerDiemHours(String perDiemHours) {
+		PerDiemHours = perDiemHours;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[FullTimeEquivalency=" + FullTimeEquivalency + ", FullTimeHours="
+				+ FullTimeHours + ", PartTimeHours=" + PartTimeHours + ", PerDiemHours=" + PerDiemHours + "]";
+	}
 }

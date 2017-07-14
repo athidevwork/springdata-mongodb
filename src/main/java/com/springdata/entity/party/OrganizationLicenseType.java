@@ -8,155 +8,54 @@ public class OrganizationLicenseType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String licenseNumberId;
-    protected String licenseNumber;
-    protected LicensePeriodType licensePeriod;
-    protected StateOrProvinceCodeType stateOrProvinceCode;
-    protected SuspensionReinstatementInformationType suspensionReinstatementInformation;
-    protected String key;
-
-    /**
-     * Gets the value of the licenseNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLicenseNumberId() {
-        return licenseNumberId;
-    }
-
-    /**
-     * Sets the value of the licenseNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLicenseNumberId(String value) {
-        this.licenseNumberId = value;
-    }
-
-    /**
-     * Gets the value of the licenseNumber property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLicenseNumber() {
-        return licenseNumber;
-    }
-
-    /**
-     * Sets the value of the licenseNumber property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLicenseNumber(String value) {
-        this.licenseNumber = value;
-    }
-
-    /**
-     * Gets the value of the licensePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link LicensePeriodType }
-     *     
-     */
-    public LicensePeriodType getLicensePeriod() {
-        return licensePeriod;
-    }
-
-    /**
-     * Sets the value of the licensePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link LicensePeriodType }
-     *     
-     */
-    public void setLicensePeriod(LicensePeriodType value) {
-        this.licensePeriod = value;
-    }
-
-    /**
-     * Gets the value of the stateOrProvinceCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link StateOrProvinceCodeType }
-     *     
-     */
-    public StateOrProvinceCodeType getStateOrProvinceCode() {
-        return stateOrProvinceCode;
-    }
-
-    /**
-     * Sets the value of the stateOrProvinceCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link StateOrProvinceCodeType }
-     *     
-     */
-    public void setStateOrProvinceCode(StateOrProvinceCodeType value) {
-        this.stateOrProvinceCode = value;
-    }
-
-    /**
-     * Gets the value of the suspensionReinstatementInformation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link SuspensionReinstatementInformationType }
-     *     
-     */
-    public SuspensionReinstatementInformationType getSuspensionReinstatementInformation() {
-        return suspensionReinstatementInformation;
-    }
-
-    /**
-     * Sets the value of the suspensionReinstatementInformation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link SuspensionReinstatementInformationType }
-     *     
-     */
-    public void setSuspensionReinstatementInformation(SuspensionReinstatementInformationType value) {
-        this.suspensionReinstatementInformation = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String LicenseNumberId;
+    protected String LicenseNumber;
+    protected LicensePeriodType LicensePeriod;
+    protected StateOrProvinceCodeType StateOrProvinceCode;
+    protected SuspensionReinstatementInformationType SuspensionReinstatementInformation;
+    protected String Key;
+    
+	public String getLicenseNumberId() {
+		return LicenseNumberId;
+	}
+	public void setLicenseNumberId(String licenseNumberId) {
+		LicenseNumberId = licenseNumberId;
+	}
+	public String getLicenseNumber() {
+		return LicenseNumber;
+	}
+	public void setLicenseNumber(String licenseNumber) {
+		LicenseNumber = licenseNumber;
+	}
+	public LicensePeriodType getLicensePeriod() {
+		return LicensePeriod;
+	}
+	public void setLicensePeriod(LicensePeriodType licensePeriod) {
+		LicensePeriod = licensePeriod;
+	}
+	public StateOrProvinceCodeType getStateOrProvinceCode() {
+		return StateOrProvinceCode;
+	}
+	public void setStateOrProvinceCode(StateOrProvinceCodeType stateOrProvinceCode) {
+		StateOrProvinceCode = stateOrProvinceCode;
+	}
+	public SuspensionReinstatementInformationType getSuspensionReinstatementInformation() {
+		return SuspensionReinstatementInformation;
+	}
+	public void setSuspensionReinstatementInformation(
+			SuspensionReinstatementInformationType suspensionReinstatementInformation) {
+		SuspensionReinstatementInformation = suspensionReinstatementInformation;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[LicenseNumberId=" + LicenseNumberId + ", LicenseNumber=" + LicenseNumber
+				+ ", LicensePeriod=" + LicensePeriod + ", StateOrProvinceCode=" + StateOrProvinceCode
+				+ ", SuspensionReinstatementInformation=" + SuspensionReinstatementInformation + ", Key=" + Key + "]";
+	}
 }

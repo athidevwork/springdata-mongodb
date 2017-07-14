@@ -8,205 +8,67 @@ public class SpecialHandlingPartyType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String specialHandlingId;
-    protected String sourceRecordId;
-    protected String sourceTable;
-    protected String userid;
-    protected String category;
-    protected EffectivePeriodType effectivePeriod;
-    protected String notes;
-    protected String key;
-
-    /**
-     * Gets the value of the specialHandlingId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSpecialHandlingId() {
-        return specialHandlingId;
-    }
-
-    /**
-     * Sets the value of the specialHandlingId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSpecialHandlingId(String value) {
-        this.specialHandlingId = value;
-    }
-
-    /**
-     * Gets the value of the sourceRecordId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSourceRecordId() {
-        return sourceRecordId;
-    }
-
-    /**
-     * Sets the value of the sourceRecordId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSourceRecordId(String value) {
-        this.sourceRecordId = value;
-    }
-
-    /**
-     * Gets the value of the sourceTable property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSourceTable() {
-        return sourceTable;
-    }
-
-    /**
-     * Sets the value of the sourceTable property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSourceTable(String value) {
-        this.sourceTable = value;
-    }
-
-    /**
-     * Gets the value of the userid property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUserid() {
-        return userid;
-    }
-
-    /**
-     * Sets the value of the userid property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUserid(String value) {
-        this.userid = value;
-    }
-
-    /**
-     * Gets the value of the category property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCategory() {
-        return category;
-    }
-
-    /**
-     * Sets the value of the category property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCategory(String value) {
-        this.category = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the notes property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNotes() {
-        return notes;
-    }
-
-    /**
-     * Sets the value of the notes property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNotes(String value) {
-        this.notes = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String SpecialHandlingId;
+    protected String SourceRecordId;
+    protected String SourceTable;
+    protected String Userid;
+    protected String Category;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String Notes;
+    protected String Key;
+    
+	public String getSpecialHandlingId() {
+		return SpecialHandlingId;
+	}
+	public void setSpecialHandlingId(String specialHandlingId) {
+		SpecialHandlingId = specialHandlingId;
+	}
+	public String getSourceRecordId() {
+		return SourceRecordId;
+	}
+	public void setSourceRecordId(String sourceRecordId) {
+		SourceRecordId = sourceRecordId;
+	}
+	public String getSourceTable() {
+		return SourceTable;
+	}
+	public void setSourceTable(String sourceTable) {
+		SourceTable = sourceTable;
+	}
+	public String getUserid() {
+		return Userid;
+	}
+	public void setUserid(String userid) {
+		Userid = userid;
+	}
+	public String getCategory() {
+		return Category;
+	}
+	public void setCategory(String category) {
+		Category = category;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getNotes() {
+		return Notes;
+	}
+	public void setNotes(String notes) {
+		Notes = notes;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[SpecialHandlingId=" + SpecialHandlingId + ", SourceRecordId=" + SourceRecordId
+				+ ", SourceTable=" + SourceTable + ", Userid=" + Userid + ", Category=" + Category
+				+ ", EffectivePeriod=" + EffectivePeriod + ", Notes=" + Notes + ", Key=" + Key + "]";
+	}
 }

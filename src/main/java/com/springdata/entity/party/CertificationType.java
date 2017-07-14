@@ -8,25 +8,25 @@ public class CertificationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String certificationNumberId;
-    protected String certificationCode;
-    protected String certifiedIndicator;
-    protected EffectivePeriodType certificationPeriod;
-    protected String certificationBoard;
-    protected String specialty;
-    protected CodeWithDesc controllingStateOrProvinceCode;
-    protected String entityBoardId;
-    protected CodeWithDesc boardStatus;
-    protected String boardExamDate;
-    protected CodeWithDesc rateSpecialty;
-    protected String registrationNo;
-    protected String sourceRecordId;
-    protected String sourceTable;
-    protected String entityId;
-    protected String territory;
-    protected String applicationNo;
-    protected String noOfHours;
-    protected String key;
+    protected String CertificationNumberId;
+    protected String CertificationCode;
+    protected String CertifiedIndicator;
+    protected EffectivePeriodType CertificationPeriod;
+    protected String CertificationBoard;
+    protected String Specialty;
+    protected CodeWithDesc ControllingStateOrProvinceCode;
+    protected String EntityBoardId;
+    protected CodeWithDesc BoardStatus;
+    protected String BoardExamDate;
+    protected CodeWithDesc RateSpecialty;
+    protected String RegistrationNo;
+    protected String SourceRecordId;
+    protected String SourceTable;
+    protected String EntityId;
+    protected String Territory;
+    protected String ApplicationNo;
+    protected String NoOfHours;
+    protected String Key;
 
     /**
      * Gets the value of the certificationNumberId property.
@@ -37,7 +37,7 @@ public class CertificationType
      *     
      */
     public String getCertificationNumberId() {
-        return certificationNumberId;
+        return CertificationNumberId;
     }
 
     /**
@@ -49,7 +49,7 @@ public class CertificationType
      *     
      */
     public void setCertificationNumberId(String value) {
-        this.certificationNumberId = value;
+        this.CertificationNumberId = value;
     }
 
     /**
@@ -61,7 +61,7 @@ public class CertificationType
      *     
      */
     public String getCertificationCode() {
-        return certificationCode;
+        return CertificationCode;
     }
 
     /**
@@ -73,7 +73,7 @@ public class CertificationType
      *     
      */
     public void setCertificationCode(String value) {
-        this.certificationCode = value;
+        this.CertificationCode = value;
     }
 
     /**
@@ -85,7 +85,7 @@ public class CertificationType
      *     
      */
     public String getCertifiedIndicator() {
-        return certifiedIndicator;
+        return CertifiedIndicator;
     }
 
     /**
@@ -97,7 +97,7 @@ public class CertificationType
      *     
      */
     public void setCertifiedIndicator(String value) {
-        this.certifiedIndicator = value;
+        this.CertifiedIndicator = value;
     }
 
     /**
@@ -109,7 +109,7 @@ public class CertificationType
      *     
      */
     public EffectivePeriodType getCertificationPeriod() {
-        return certificationPeriod;
+        return CertificationPeriod;
     }
 
     /**
@@ -121,7 +121,7 @@ public class CertificationType
      *     
      */
     public void setCertificationPeriod(EffectivePeriodType value) {
-        this.certificationPeriod = value;
+        this.CertificationPeriod = value;
     }
 
     /**
@@ -133,7 +133,7 @@ public class CertificationType
      *     
      */
     public String getCertificationBoard() {
-        return certificationBoard;
+        return CertificationBoard;
     }
 
     /**
@@ -145,7 +145,7 @@ public class CertificationType
      *     
      */
     public void setCertificationBoard(String value) {
-        this.certificationBoard = value;
+        this.CertificationBoard = value;
     }
 
     /**
@@ -157,7 +157,7 @@ public class CertificationType
      *     
      */
     public String getSpecialty() {
-        return specialty;
+        return Specialty;
     }
 
     /**
@@ -169,7 +169,7 @@ public class CertificationType
      *     
      */
     public void setSpecialty(String value) {
-        this.specialty = value;
+        this.Specialty = value;
     }
 
     /**
@@ -181,7 +181,7 @@ public class CertificationType
      *     
      */
     public CodeWithDesc getControllingStateOrProvinceCode() {
-        return controllingStateOrProvinceCode;
+        return ControllingStateOrProvinceCode;
     }
 
     /**
@@ -193,7 +193,7 @@ public class CertificationType
      *     
      */
     public void setControllingStateOrProvinceCode(CodeWithDesc value) {
-        this.controllingStateOrProvinceCode = value;
+        this.ControllingStateOrProvinceCode = value;
     }
 
     /**
@@ -205,7 +205,7 @@ public class CertificationType
      *     
      */
     public String getEntityBoardId() {
-        return entityBoardId;
+        return EntityBoardId;
     }
 
     /**
@@ -217,7 +217,7 @@ public class CertificationType
      *     
      */
     public void setEntityBoardId(String value) {
-        this.entityBoardId = value;
+        this.EntityBoardId = value;
     }
 
     /**
@@ -229,7 +229,7 @@ public class CertificationType
      *     
      */
     public CodeWithDesc getBoardStatus() {
-        return boardStatus;
+        return BoardStatus;
     }
 
     /**
@@ -241,7 +241,7 @@ public class CertificationType
      *     
      */
     public void setBoardStatus(CodeWithDesc value) {
-        this.boardStatus = value;
+        this.BoardStatus = value;
     }
 
     /**
@@ -253,7 +253,7 @@ public class CertificationType
      *     
      */
     public String getBoardExamDate() {
-        return boardExamDate;
+        return BoardExamDate;
     }
 
     /**
@@ -265,7 +265,7 @@ public class CertificationType
      *     
      */
     public void setBoardExamDate(String value) {
-        this.boardExamDate = value;
+        this.BoardExamDate = value;
     }
 
     /**
@@ -277,7 +277,7 @@ public class CertificationType
      *     
      */
     public CodeWithDesc getRateSpecialty() {
-        return rateSpecialty;
+        return RateSpecialty;
     }
 
     /**
@@ -289,7 +289,7 @@ public class CertificationType
      *     
      */
     public void setRateSpecialty(CodeWithDesc value) {
-        this.rateSpecialty = value;
+        this.RateSpecialty = value;
     }
 
     /**
@@ -301,7 +301,7 @@ public class CertificationType
      *     
      */
     public String getRegistrationNo() {
-        return registrationNo;
+        return RegistrationNo;
     }
 
     /**
@@ -313,7 +313,7 @@ public class CertificationType
      *     
      */
     public void setRegistrationNo(String value) {
-        this.registrationNo = value;
+        this.RegistrationNo = value;
     }
 
     /**
@@ -325,7 +325,7 @@ public class CertificationType
      *     
      */
     public String getSourceRecordId() {
-        return sourceRecordId;
+        return SourceRecordId;
     }
 
     /**
@@ -337,7 +337,7 @@ public class CertificationType
      *     
      */
     public void setSourceRecordId(String value) {
-        this.sourceRecordId = value;
+        this.SourceRecordId = value;
     }
 
     /**
@@ -349,7 +349,7 @@ public class CertificationType
      *     
      */
     public String getSourceTable() {
-        return sourceTable;
+        return SourceTable;
     }
 
     /**
@@ -361,7 +361,7 @@ public class CertificationType
      *     
      */
     public void setSourceTable(String value) {
-        this.sourceTable = value;
+        this.SourceTable = value;
     }
 
     /**
@@ -373,7 +373,7 @@ public class CertificationType
      *     
      */
     public String getEntityId() {
-        return entityId;
+        return EntityId;
     }
 
     /**
@@ -385,7 +385,7 @@ public class CertificationType
      *     
      */
     public void setEntityId(String value) {
-        this.entityId = value;
+        this.EntityId = value;
     }
 
     /**
@@ -397,7 +397,7 @@ public class CertificationType
      *     
      */
     public String getTerritory() {
-        return territory;
+        return Territory;
     }
 
     /**
@@ -409,7 +409,7 @@ public class CertificationType
      *     
      */
     public void setTerritory(String value) {
-        this.territory = value;
+        this.Territory = value;
     }
 
     /**
@@ -421,7 +421,7 @@ public class CertificationType
      *     
      */
     public String getApplicationNo() {
-        return applicationNo;
+        return ApplicationNo;
     }
 
     /**
@@ -433,7 +433,7 @@ public class CertificationType
      *     
      */
     public void setApplicationNo(String value) {
-        this.applicationNo = value;
+        this.ApplicationNo = value;
     }
 
     /**
@@ -445,7 +445,7 @@ public class CertificationType
      *     
      */
     public String getNoOfHours() {
-        return noOfHours;
+        return NoOfHours;
     }
 
     /**
@@ -457,7 +457,7 @@ public class CertificationType
      *     
      */
     public void setNoOfHours(String value) {
-        this.noOfHours = value;
+        this.NoOfHours = value;
     }
 
     /**
@@ -469,7 +469,7 @@ public class CertificationType
      *     
      */
     public String getKey() {
-        return key;
+        return Key;
     }
 
     /**
@@ -481,7 +481,19 @@ public class CertificationType
      *     
      */
     public void setKey(String value) {
-        this.key = value;
+        this.Key = value;
     }
+
+	@Override
+	public String toString() {
+		return "[CertificationNumberId=" + CertificationNumberId + ", CertificationCode="
+				+ CertificationCode + ", CertifiedIndicator=" + CertifiedIndicator + ", CertificationPeriod="
+				+ CertificationPeriod + ", CertificationBoard=" + CertificationBoard + ", Specialty=" + Specialty
+				+ ", ControllingStateOrProvinceCode=" + ControllingStateOrProvinceCode + ", EntityBoardId="
+				+ EntityBoardId + ", BoardStatus=" + BoardStatus + ", BoardExamDate=" + BoardExamDate
+				+ ", RateSpecialty=" + RateSpecialty + ", RegistrationNo=" + RegistrationNo + ", SourceRecordId="
+				+ SourceRecordId + ", SourceTable=" + SourceTable + ", EntityId=" + EntityId + ", Territory="
+				+ Territory + ", ApplicationNo=" + ApplicationNo + ", NoOfHours=" + NoOfHours + ", Key=" + Key + "]";
+	}
 
 }

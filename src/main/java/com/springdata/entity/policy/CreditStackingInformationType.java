@@ -10,115 +10,41 @@ public class CreditStackingInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected ReferredMedicalMalpracticeCoverageType referredMedicalMalpracticeCoverage;
-    protected List<CreditStackingHeaderInformationType> creditStackingHeaderInformation;
-    protected List<CreditStackingDetailInformationType> creditStackingDetailInformation;
-    protected String key;
-
-    /**
-     * Gets the value of the referredMedicalMalpracticeCoverage property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredMedicalMalpracticeCoverageType }
-     *     
-     */
-    public ReferredMedicalMalpracticeCoverageType getReferredMedicalMalpracticeCoverage() {
-        return referredMedicalMalpracticeCoverage;
-    }
-
-    /**
-     * Sets the value of the referredMedicalMalpracticeCoverage property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredMedicalMalpracticeCoverageType }
-     *     
-     */
-    public void setReferredMedicalMalpracticeCoverage(ReferredMedicalMalpracticeCoverageType value) {
-        this.referredMedicalMalpracticeCoverage = value;
-    }
-
-    /**
-     * Gets the value of the creditStackingHeaderInformation property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the creditStackingHeaderInformation property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getCreditStackingHeaderInformation().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link CreditStackingHeaderInformationType }
-     * 
-     * 
-     */
-    public List<CreditStackingHeaderInformationType> getCreditStackingHeaderInformation() {
-        if (creditStackingHeaderInformation == null) {
-            creditStackingHeaderInformation = new ArrayList<CreditStackingHeaderInformationType>();
-        }
-        return this.creditStackingHeaderInformation;
-    }
-
-    /**
-     * Gets the value of the creditStackingDetailInformation property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the creditStackingDetailInformation property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getCreditStackingDetailInformation().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link CreditStackingDetailInformationType }
-     * 
-     * 
-     */
-    public List<CreditStackingDetailInformationType> getCreditStackingDetailInformation() {
-        if (creditStackingDetailInformation == null) {
-            creditStackingDetailInformation = new ArrayList<CreditStackingDetailInformationType>();
-        }
-        return this.creditStackingDetailInformation;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected ReferredMedicalMalpracticeCoverageType ReferredMedicalMalpracticeCoverage;
+    protected List<CreditStackingHeaderInformationType> CreditStackingHeaderInformation;
+    protected List<CreditStackingDetailInformationType> CreditStackingDetailInformation;
+    protected String Key;
+	public ReferredMedicalMalpracticeCoverageType getReferredMedicalMalpracticeCoverage() {
+		return ReferredMedicalMalpracticeCoverage;
+	}
+	public void setReferredMedicalMalpracticeCoverage(
+			ReferredMedicalMalpracticeCoverageType referredMedicalMalpracticeCoverage) {
+		ReferredMedicalMalpracticeCoverage = referredMedicalMalpracticeCoverage;
+	}
+	public List<CreditStackingHeaderInformationType> getCreditStackingHeaderInformation() {
+		return CreditStackingHeaderInformation;
+	}
+	public void setCreditStackingHeaderInformation(
+			List<CreditStackingHeaderInformationType> creditStackingHeaderInformation) {
+		CreditStackingHeaderInformation = creditStackingHeaderInformation;
+	}
+	public List<CreditStackingDetailInformationType> getCreditStackingDetailInformation() {
+		return CreditStackingDetailInformation;
+	}
+	public void setCreditStackingDetailInformation(
+			List<CreditStackingDetailInformationType> creditStackingDetailInformation) {
+		CreditStackingDetailInformation = creditStackingDetailInformation;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[ReferredMedicalMalpracticeCoverage=" + ReferredMedicalMalpracticeCoverage
+				+ ", CreditStackingHeaderInformation=" + CreditStackingHeaderInformation
+				+ ", CreditStackingDetailInformation=" + CreditStackingDetailInformation + ", Key=" + Key + "]";
+	}
 }

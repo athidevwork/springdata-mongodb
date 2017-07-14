@@ -8,8 +8,8 @@ public class CertificationPeriodType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String startDate;
-    protected String endDate;
+    protected String StartDate;
+    protected String EndDate;
 
     /**
      * Gets the value of the startDate property.
@@ -20,7 +20,7 @@ public class CertificationPeriodType
      *     
      */
     public String getStartDate() {
-        return startDate;
+        return StartDate;
     }
 
     /**
@@ -32,7 +32,7 @@ public class CertificationPeriodType
      *     
      */
     public void setStartDate(String value) {
-        this.startDate = value;
+        this.StartDate = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class CertificationPeriodType
      *     
      */
     public String getEndDate() {
-        return endDate;
+        return EndDate;
     }
 
     /**
@@ -56,7 +56,12 @@ public class CertificationPeriodType
      *     
      */
     public void setEndDate(String value) {
-        this.endDate = value;
+        this.EndDate = value;
     }
+
+	@Override
+	public String toString() {
+		return "[StartDate=" + StartDate + ", EndDate=" + EndDate + "]";
+	}
 
 }

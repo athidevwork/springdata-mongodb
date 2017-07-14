@@ -8,8 +8,8 @@ public class RenewalDetailType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String renewalIndicator;
-    protected String nonRenewalReason;
+    protected String RenewalIndicator;
+    protected String NonRenewalReason;
 
     /**
      * Gets the value of the renewalIndicator property.
@@ -20,7 +20,7 @@ public class RenewalDetailType
      *     
      */
     public String getRenewalIndicator() {
-        return renewalIndicator;
+        return RenewalIndicator;
     }
 
     /**
@@ -32,7 +32,7 @@ public class RenewalDetailType
      *     
      */
     public void setRenewalIndicator(String value) {
-        this.renewalIndicator = value;
+        this.RenewalIndicator = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class RenewalDetailType
      *     
      */
     public String getNonRenewalReason() {
-        return nonRenewalReason;
+        return NonRenewalReason;
     }
 
     /**
@@ -56,7 +56,13 @@ public class RenewalDetailType
      *     
      */
     public void setNonRenewalReason(String value) {
-        this.nonRenewalReason = value;
+        this.NonRenewalReason = value;
     }
+
+	@Override
+	public String toString() {
+		return "[RenewalIndicator=" + RenewalIndicator + ", NonRenewalReason=" + NonRenewalReason
+				+ "]";
+	}
 
 }

@@ -8,355 +8,116 @@ public class RiskParentType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String riskName;
-    protected String typeOfInsured;
-    protected String parentNumberId;
-    protected ReferredPartyType referredParty;
-    protected String practiceState;
-    protected String county;
-    protected String territory;
-    protected String specialty;
-    protected String clazz;
-    protected String insuredType;
-    protected String riskStatus;
-    protected String riskSubClsUsedToRate;
-    protected String ibnrStatus;
-    protected String blockedListIndicator;
+    protected String RiskName;
+    protected String TypeOfInsured;
+    protected String ParentNumberId;
+    protected ReferredPartyType ReferredParty;
+    protected String PracticeState;
+    protected String County;
+    protected String Territory;
+    protected String Specialty;
+    protected String Clazz;
+    protected String InsuredType;
+    protected String RiskStatus;
+    protected String RiskSubClsUsedToRate;
+    protected String IbnrStatus;
+    protected String BlockedListIndicator;
+	public String getRiskName() {
+		return RiskName;
+	}
+	public void setRiskName(String riskName) {
+		RiskName = riskName;
+	}
+	public String getTypeOfInsured() {
+		return TypeOfInsured;
+	}
+	public void setTypeOfInsured(String typeOfInsured) {
+		TypeOfInsured = typeOfInsured;
+	}
+	public String getParentNumberId() {
+		return ParentNumberId;
+	}
+	public void setParentNumberId(String parentNumberId) {
+		ParentNumberId = parentNumberId;
+	}
+	public ReferredPartyType getReferredParty() {
+		return ReferredParty;
+	}
+	public void setReferredParty(ReferredPartyType referredParty) {
+		ReferredParty = referredParty;
+	}
+	public String getPracticeState() {
+		return PracticeState;
+	}
+	public void setPracticeState(String practiceState) {
+		PracticeState = practiceState;
+	}
+	public String getCounty() {
+		return County;
+	}
+	public void setCounty(String county) {
+		County = county;
+	}
+	public String getTerritory() {
+		return Territory;
+	}
+	public void setTerritory(String territory) {
+		Territory = territory;
+	}
+	public String getSpecialty() {
+		return Specialty;
+	}
+	public void setSpecialty(String specialty) {
+		Specialty = specialty;
+	}
+	public String getClazz() {
+		return Clazz;
+	}
+	public void setClazz(String clazz) {
+		Clazz = clazz;
+	}
+	public String getInsuredType() {
+		return InsuredType;
+	}
+	public void setInsuredType(String insuredType) {
+		InsuredType = insuredType;
+	}
+	public String getRiskStatus() {
+		return RiskStatus;
+	}
+	public void setRiskStatus(String riskStatus) {
+		RiskStatus = riskStatus;
+	}
+	public String getRiskSubClsUsedToRate() {
+		return RiskSubClsUsedToRate;
+	}
+	public void setRiskSubClsUsedToRate(String riskSubClsUsedToRate) {
+		RiskSubClsUsedToRate = riskSubClsUsedToRate;
+	}
+	public String getIbnrStatus() {
+		return IbnrStatus;
+	}
+	public void setIbnrStatus(String ibnrStatus) {
+		IbnrStatus = ibnrStatus;
+	}
+	public String getBlockedListIndicator() {
+		return BlockedListIndicator;
+	}
+	public void setBlockedListIndicator(String blockedListIndicator) {
+		BlockedListIndicator = blockedListIndicator;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[RiskName=" + RiskName + ", TypeOfInsured=" + TypeOfInsured + ", ParentNumberId="
+				+ ParentNumberId + ", ReferredParty=" + ReferredParty + ", PracticeState=" + PracticeState + ", County="
+				+ County + ", Territory=" + Territory + ", Specialty=" + Specialty + ", Clazz=" + Clazz
+				+ ", InsuredType=" + InsuredType + ", RiskStatus=" + RiskStatus + ", RiskSubClsUsedToRate="
+				+ RiskSubClsUsedToRate + ", IbnrStatus=" + IbnrStatus + ", BlockedListIndicator=" + BlockedListIndicator
+				+ "]";
+	}
 
-    /**
-     * Gets the value of the riskName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRiskName() {
-        return riskName;
-    }
-
-    /**
-     * Sets the value of the riskName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRiskName(String value) {
-        this.riskName = value;
-    }
-
-    /**
-     * Gets the value of the typeOfInsured property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTypeOfInsured() {
-        return typeOfInsured;
-    }
-
-    /**
-     * Sets the value of the typeOfInsured property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTypeOfInsured(String value) {
-        this.typeOfInsured = value;
-    }
-
-    /**
-     * Gets the value of the parentNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getParentNumberId() {
-        return parentNumberId;
-    }
-
-    /**
-     * Sets the value of the parentNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setParentNumberId(String value) {
-        this.parentNumberId = value;
-    }
-
-    /**
-     * Gets the value of the referredParty property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public ReferredPartyType getReferredParty() {
-        return referredParty;
-    }
-
-    /**
-     * Sets the value of the referredParty property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public void setReferredParty(ReferredPartyType value) {
-        this.referredParty = value;
-    }
-
-    /**
-     * Gets the value of the practiceState property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPracticeState() {
-        return practiceState;
-    }
-
-    /**
-     * Sets the value of the practiceState property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPracticeState(String value) {
-        this.practiceState = value;
-    }
-
-    /**
-     * Gets the value of the county property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCounty() {
-        return county;
-    }
-
-    /**
-     * Sets the value of the county property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCounty(String value) {
-        this.county = value;
-    }
-
-    /**
-     * Gets the value of the territory property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTerritory() {
-        return territory;
-    }
-
-    /**
-     * Sets the value of the territory property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTerritory(String value) {
-        this.territory = value;
-    }
-
-    /**
-     * Gets the value of the specialty property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSpecialty() {
-        return specialty;
-    }
-
-    /**
-     * Sets the value of the specialty property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSpecialty(String value) {
-        this.specialty = value;
-    }
-
-    /**
-     * Gets the value of the clazz property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClazz() {
-        return clazz;
-    }
-
-    /**
-     * Sets the value of the clazz property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClazz(String value) {
-        this.clazz = value;
-    }
-
-    /**
-     * Gets the value of the insuredType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInsuredType() {
-        return insuredType;
-    }
-
-    /**
-     * Sets the value of the insuredType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInsuredType(String value) {
-        this.insuredType = value;
-    }
-
-    /**
-     * Gets the value of the riskStatus property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRiskStatus() {
-        return riskStatus;
-    }
-
-    /**
-     * Sets the value of the riskStatus property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRiskStatus(String value) {
-        this.riskStatus = value;
-    }
-
-    /**
-     * Gets the value of the riskSubClsUsedToRate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRiskSubClsUsedToRate() {
-        return riskSubClsUsedToRate;
-    }
-
-    /**
-     * Sets the value of the riskSubClsUsedToRate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRiskSubClsUsedToRate(String value) {
-        this.riskSubClsUsedToRate = value;
-    }
-
-    /**
-     * Gets the value of the ibnrStatus property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getIbnrStatus() {
-        return ibnrStatus;
-    }
-
-    /**
-     * Sets the value of the ibnrStatus property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setIbnrStatus(String value) {
-        this.ibnrStatus = value;
-    }
-
-    /**
-     * Gets the value of the blockedListIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBlockedListIndicator() {
-        return blockedListIndicator;
-    }
-
-    /**
-     * Sets the value of the blockedListIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBlockedListIndicator(String value) {
-        this.blockedListIndicator = value;
-    }
 
 }

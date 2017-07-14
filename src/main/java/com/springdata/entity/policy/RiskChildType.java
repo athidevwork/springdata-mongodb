@@ -8,7 +8,7 @@ public class RiskChildType
 {
 
     private final static long serialVersionUID = 1L;
-    protected ReferredInsuredType referredInsured;
+    protected ReferredInsuredType ReferredInsured;
 
     /**
      * Gets the value of the referredInsured property.
@@ -19,7 +19,7 @@ public class RiskChildType
      *     
      */
     public ReferredInsuredType getReferredInsured() {
-        return referredInsured;
+        return ReferredInsured;
     }
 
     /**
@@ -31,7 +31,12 @@ public class RiskChildType
      *     
      */
     public void setReferredInsured(ReferredInsuredType value) {
-        this.referredInsured = value;
+        this.ReferredInsured = value;
     }
+
+	@Override
+	public String toString() {
+		return "[ReferredInsured=" + ReferredInsured + "]";
+	}
 
 }

@@ -10,7 +10,7 @@ public class PolicyAuditHistoryType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<PolicyAuditHistoryDetailType> policyAuditHistoryDetail;
+    protected List<PolicyAuditHistoryDetailType> PolicyAuditHistoryDetail;
 
     /**
      * Gets the value of the policyAuditHistoryDetail property.
@@ -35,17 +35,22 @@ public class PolicyAuditHistoryType
      * 
      */
     public List<PolicyAuditHistoryDetailType> getPolicyAuditHistoryDetail() {
-        if (policyAuditHistoryDetail == null) {
-            policyAuditHistoryDetail = new ArrayList<PolicyAuditHistoryDetailType>();
+        if (PolicyAuditHistoryDetail == null) {
+            PolicyAuditHistoryDetail = new ArrayList<PolicyAuditHistoryDetailType>();
         }
-        return this.policyAuditHistoryDetail;
+        return this.PolicyAuditHistoryDetail;
     }
 
     public void setPolicyAuditHistoryDetail(PolicyAuditHistoryDetailType policyAuditHistoryDetailType) {
-        if (this.policyAuditHistoryDetail == null) {
-            this.policyAuditHistoryDetail = new ArrayList<PolicyAuditHistoryDetailType>();
+        if (this.PolicyAuditHistoryDetail == null) {
+            this.PolicyAuditHistoryDetail = new ArrayList<PolicyAuditHistoryDetailType>();
         }
-        this.policyAuditHistoryDetail.add(policyAuditHistoryDetailType);
+        this.PolicyAuditHistoryDetail.add(policyAuditHistoryDetailType);
     }
+
+	@Override
+	public String toString() {
+		return "[PolicyAuditHistoryDetail=" + PolicyAuditHistoryDetail + "]";
+	}
 
 }

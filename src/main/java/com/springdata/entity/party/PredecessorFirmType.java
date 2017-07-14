@@ -8,130 +8,45 @@ public class PredecessorFirmType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String firmNameHistoryId;
-    protected String entityId;
-    protected String firmName;
-    protected EffectivePeriodType effectivePeriod;
-    protected String key;
-
-    /**
-     * Gets the value of the firmNameHistoryId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFirmNameHistoryId() {
-        return firmNameHistoryId;
-    }
-
-    /**
-     * Sets the value of the firmNameHistoryId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFirmNameHistoryId(String value) {
-        this.firmNameHistoryId = value;
-    }
-
-    /**
-     * Gets the value of the entityId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityId() {
-        return entityId;
-    }
-
-    /**
-     * Sets the value of the entityId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityId(String value) {
-        this.entityId = value;
-    }
-
-    /**
-     * Gets the value of the firmName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFirmName() {
-        return firmName;
-    }
-
-    /**
-     * Sets the value of the firmName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFirmName(String value) {
-        this.firmName = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String FirmNameHistoryId;
+    protected String EntityId;
+    protected String FirmName;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String Key;
+    
+	public String getFirmNameHistoryId() {
+		return FirmNameHistoryId;
+	}
+	public void setFirmNameHistoryId(String firmNameHistoryId) {
+		FirmNameHistoryId = firmNameHistoryId;
+	}
+	public String getEntityId() {
+		return EntityId;
+	}
+	public void setEntityId(String entityId) {
+		EntityId = entityId;
+	}
+	public String getFirmName() {
+		return FirmName;
+	}
+	public void setFirmName(String firmName) {
+		FirmName = firmName;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[FirmNameHistoryId=" + FirmNameHistoryId + ", EntityId=" + EntityId + ", FirmName="
+				+ FirmName + ", EffectivePeriod=" + EffectivePeriod + ", Key=" + Key + "]";
+	}
 }

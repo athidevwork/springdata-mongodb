@@ -8,280 +8,92 @@ public class PaymentType
 {
 
     private final static long serialVersionUID = 1L;
-    protected CodeWithDesc paymentPlanId;
-    protected String instalmentNo;
-    protected String dueDate;
-    protected String amount;
-    protected String pcfAmount;
-    protected String taxAmount;
-    protected String financeCharges;
-    protected String serviceCharges;
-    protected String otherAmount;
-    protected String interfaceTransactionStatus;
-    protected String paymentPlanFrequency;
-
-    /**
-     * Gets the value of the paymentPlanId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public CodeWithDesc getPaymentPlanId() {
-        return paymentPlanId;
-    }
-
-    /**
-     * Sets the value of the paymentPlanId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public void setPaymentPlanId(CodeWithDesc value) {
-        this.paymentPlanId = value;
-    }
-
-    /**
-     * Gets the value of the instalmentNo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInstalmentNo() {
-        return instalmentNo;
-    }
-
-    /**
-     * Sets the value of the instalmentNo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInstalmentNo(String value) {
-        this.instalmentNo = value;
-    }
-
-    /**
-     * Gets the value of the dueDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDueDate() {
-        return dueDate;
-    }
-
-    /**
-     * Sets the value of the dueDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDueDate(String value) {
-        this.dueDate = value;
-    }
-
-    /**
-     * Gets the value of the amount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAmount() {
-        return amount;
-    }
-
-    /**
-     * Sets the value of the amount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAmount(String value) {
-        this.amount = value;
-    }
-
-    /**
-     * Gets the value of the pcfAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPcfAmount() {
-        return pcfAmount;
-    }
-
-    /**
-     * Sets the value of the pcfAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPcfAmount(String value) {
-        this.pcfAmount = value;
-    }
-
-    /**
-     * Gets the value of the taxAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTaxAmount() {
-        return taxAmount;
-    }
-
-    /**
-     * Sets the value of the taxAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTaxAmount(String value) {
-        this.taxAmount = value;
-    }
-
-    /**
-     * Gets the value of the financeCharges property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFinanceCharges() {
-        return financeCharges;
-    }
-
-    /**
-     * Sets the value of the financeCharges property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFinanceCharges(String value) {
-        this.financeCharges = value;
-    }
-
-    /**
-     * Gets the value of the serviceCharges property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getServiceCharges() {
-        return serviceCharges;
-    }
-
-    /**
-     * Sets the value of the serviceCharges property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setServiceCharges(String value) {
-        this.serviceCharges = value;
-    }
-
-    /**
-     * Gets the value of the otherAmount property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOtherAmount() {
-        return otherAmount;
-    }
-
-    /**
-     * Sets the value of the otherAmount property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOtherAmount(String value) {
-        this.otherAmount = value;
-    }
-
-    /**
-     * Gets the value of the interfaceTransactionStatus property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInterfaceTransactionStatus() {
-        return interfaceTransactionStatus;
-    }
-
-    /**
-     * Sets the value of the interfaceTransactionStatus property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInterfaceTransactionStatus(String value) {
-        this.interfaceTransactionStatus = value;
-    }
-
-    /**
-     * Gets the value of the paymentPlanFrequency property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPaymentPlanFrequency() {
-        return paymentPlanFrequency;
-    }
-
-    /**
-     * Sets the value of the paymentPlanFrequency property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPaymentPlanFrequency(String value) {
-        this.paymentPlanFrequency = value;
-    }
-
+    protected CodeWithDesc PaymentPlanId;
+    protected String InstalmentNo;
+    protected String DueDate;
+    protected String Amount;
+    protected String PcfAmount;
+    protected String TaxAmount;
+    protected String FinanceCharges;
+    protected String ServiceCharges;
+    protected String OtherAmount;
+    protected String InterfaceTransactionStatus;
+    protected String PaymentPlanFrequency;
+	public CodeWithDesc getPaymentPlanId() {
+		return PaymentPlanId;
+	}
+	public void setPaymentPlanId(CodeWithDesc paymentPlanId) {
+		PaymentPlanId = paymentPlanId;
+	}
+	public String getInstalmentNo() {
+		return InstalmentNo;
+	}
+	public void setInstalmentNo(String instalmentNo) {
+		InstalmentNo = instalmentNo;
+	}
+	public String getDueDate() {
+		return DueDate;
+	}
+	public void setDueDate(String dueDate) {
+		DueDate = dueDate;
+	}
+	public String getAmount() {
+		return Amount;
+	}
+	public void setAmount(String amount) {
+		Amount = amount;
+	}
+	public String getPcfAmount() {
+		return PcfAmount;
+	}
+	public void setPcfAmount(String pcfAmount) {
+		PcfAmount = pcfAmount;
+	}
+	public String getTaxAmount() {
+		return TaxAmount;
+	}
+	public void setTaxAmount(String taxAmount) {
+		TaxAmount = taxAmount;
+	}
+	public String getFinanceCharges() {
+		return FinanceCharges;
+	}
+	public void setFinanceCharges(String financeCharges) {
+		FinanceCharges = financeCharges;
+	}
+	public String getServiceCharges() {
+		return ServiceCharges;
+	}
+	public void setServiceCharges(String serviceCharges) {
+		ServiceCharges = serviceCharges;
+	}
+	public String getOtherAmount() {
+		return OtherAmount;
+	}
+	public void setOtherAmount(String otherAmount) {
+		OtherAmount = otherAmount;
+	}
+	public String getInterfaceTransactionStatus() {
+		return InterfaceTransactionStatus;
+	}
+	public void setInterfaceTransactionStatus(String interfaceTransactionStatus) {
+		InterfaceTransactionStatus = interfaceTransactionStatus;
+	}
+	public String getPaymentPlanFrequency() {
+		return PaymentPlanFrequency;
+	}
+	public void setPaymentPlanFrequency(String paymentPlanFrequency) {
+		PaymentPlanFrequency = paymentPlanFrequency;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[PaymentPlanId=" + PaymentPlanId + ", InstalmentNo=" + InstalmentNo + ", DueDate=" + DueDate
+				+ ", Amount=" + Amount + ", PcfAmount=" + PcfAmount + ", TaxAmount=" + TaxAmount + ", FinanceCharges="
+				+ FinanceCharges + ", ServiceCharges=" + ServiceCharges + ", OtherAmount=" + OtherAmount
+				+ ", InterfaceTransactionStatus=" + InterfaceTransactionStatus + ", PaymentPlanFrequency="
+				+ PaymentPlanFrequency + "]";
+	}
 }

@@ -8,1405 +8,423 @@ public class ClientInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String dateOfBirth;
-    protected String ssnDisplay;
-    protected String tinDisplay;
-    protected String insuredSinceDate;
-    protected String minorBComputedId;
-    protected String clientName;
-    protected String licenseNo;
-    protected EffectivePeriodType effectivePeriod;
-    protected String zipCode;
-    protected String city;
-    protected String entityClassEffectiveFromDate;
-    protected String zipPlusFour;
-    protected String entitySubClassCode;
-    protected String okToSkipTaxIDDups;
-    protected String entitySubTypeCode;
-    protected String usaAddress;
-    protected String entityClassCode;
-    protected String countyCode;
-    protected String stateCode;
-    protected String primaryAddress;
-    protected String phoneNumberNotRelatedToAddressBComputed;
-    protected String okToSkipEntityDups;
-    protected String includeTaxIDWithDupInfo;
-    protected String referenceNumber;
-    protected String sicCode;
-    protected AdditionalInformationType additionalInformation;
-    protected String defaultTaxID;
-    protected String vendorCode;
-    protected String dbaName;
-    protected String taxInfoEffectiveDate;
-    protected String licenseState;
-    protected String maintenanceStart;
-    protected String veryImportantPerson;
-    protected String discarded;
-    protected String entityNameComputed;
-    protected String federalTaxIDVerified;
-    protected String entityTypeDescComputed;
-    protected String lossFreeDate;
-    protected String legalName;
-    protected String moreObGroupCode;
-    protected String hicn;
-    protected String component;
-    protected String vendorIrs1099Type;
-    protected String ssnVerified;
-    protected String moreObOffDate;
-    protected String moreObStartDate;
-    protected String legacyDataID;
-    protected String marketingOptout;
-    protected String specialHandlingComputed;
-    protected String webAddressOne;
-    protected String webAddressTwo;
-    protected String webAddressThree;
-    protected String entityType;
-    protected String claimsFreeDate;
-    protected String veryLongName;
-    protected String key;
-
-    /**
-     * Gets the value of the dateOfBirth property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDateOfBirth() {
-        return dateOfBirth;
-    }
-
-    /**
-     * Sets the value of the dateOfBirth property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDateOfBirth(String value) {
-        this.dateOfBirth = value;
-    }
-
-    /**
-     * Gets the value of the ssnDisplay property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSsnDisplay() {
-        return ssnDisplay;
-    }
-
-    /**
-     * Sets the value of the ssnDisplay property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSsnDisplay(String value) {
-        this.ssnDisplay = value;
-    }
-
-    /**
-     * Gets the value of the tinDisplay property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTinDisplay() {
-        return tinDisplay;
-    }
-
-    /**
-     * Sets the value of the tinDisplay property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTinDisplay(String value) {
-        this.tinDisplay = value;
-    }
-
-    /**
-     * Gets the value of the insuredSinceDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInsuredSinceDate() {
-        return insuredSinceDate;
-    }
-
-    /**
-     * Sets the value of the insuredSinceDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInsuredSinceDate(String value) {
-        this.insuredSinceDate = value;
-    }
-
-    /**
-     * Gets the value of the minorBComputedId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMinorBComputedId() {
-        return minorBComputedId;
-    }
-
-    /**
-     * Sets the value of the minorBComputedId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMinorBComputedId(String value) {
-        this.minorBComputedId = value;
-    }
-
-    /**
-     * Gets the value of the clientName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClientName() {
-        return clientName;
-    }
-
-    /**
-     * Sets the value of the clientName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClientName(String value) {
-        this.clientName = value;
-    }
-
-    /**
-     * Gets the value of the licenseNo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLicenseNo() {
-        return licenseNo;
-    }
-
-    /**
-     * Sets the value of the licenseNo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLicenseNo(String value) {
-        this.licenseNo = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the zipCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getZipCode() {
-        return zipCode;
-    }
-
-    /**
-     * Sets the value of the zipCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setZipCode(String value) {
-        this.zipCode = value;
-    }
-
-    /**
-     * Gets the value of the city property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCity() {
-        return city;
-    }
-
-    /**
-     * Sets the value of the city property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCity(String value) {
-        this.city = value;
-    }
-
-    /**
-     * Gets the value of the entityClassEffectiveFromDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityClassEffectiveFromDate() {
-        return entityClassEffectiveFromDate;
-    }
-
-    /**
-     * Sets the value of the entityClassEffectiveFromDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityClassEffectiveFromDate(String value) {
-        this.entityClassEffectiveFromDate = value;
-    }
-
-    /**
-     * Gets the value of the zipPlusFour property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getZipPlusFour() {
-        return zipPlusFour;
-    }
-
-    /**
-     * Sets the value of the zipPlusFour property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setZipPlusFour(String value) {
-        this.zipPlusFour = value;
-    }
-
-    /**
-     * Gets the value of the entitySubClassCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntitySubClassCode() {
-        return entitySubClassCode;
-    }
-
-    /**
-     * Sets the value of the entitySubClassCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntitySubClassCode(String value) {
-        this.entitySubClassCode = value;
-    }
-
-    /**
-     * Gets the value of the okToSkipTaxIDDups property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOkToSkipTaxIDDups() {
-        return okToSkipTaxIDDups;
-    }
-
-    /**
-     * Sets the value of the okToSkipTaxIDDups property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOkToSkipTaxIDDups(String value) {
-        this.okToSkipTaxIDDups = value;
-    }
-
-    /**
-     * Gets the value of the entitySubTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntitySubTypeCode() {
-        return entitySubTypeCode;
-    }
-
-    /**
-     * Sets the value of the entitySubTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntitySubTypeCode(String value) {
-        this.entitySubTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the usaAddress property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUsaAddress() {
-        return usaAddress;
-    }
-
-    /**
-     * Sets the value of the usaAddress property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUsaAddress(String value) {
-        this.usaAddress = value;
-    }
-
-    /**
-     * Gets the value of the entityClassCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityClassCode() {
-        return entityClassCode;
-    }
-
-    /**
-     * Sets the value of the entityClassCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityClassCode(String value) {
-        this.entityClassCode = value;
-    }
-
-    /**
-     * Gets the value of the countyCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCountyCode() {
-        return countyCode;
-    }
-
-    /**
-     * Sets the value of the countyCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCountyCode(String value) {
-        this.countyCode = value;
-    }
-
-    /**
-     * Gets the value of the stateCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStateCode() {
-        return stateCode;
-    }
-
-    /**
-     * Sets the value of the stateCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStateCode(String value) {
-        this.stateCode = value;
-    }
-
-    /**
-     * Gets the value of the primaryAddress property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPrimaryAddress() {
-        return primaryAddress;
-    }
-
-    /**
-     * Sets the value of the primaryAddress property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPrimaryAddress(String value) {
-        this.primaryAddress = value;
-    }
-
-    /**
-     * Gets the value of the phoneNumberNotRelatedToAddressBComputed property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPhoneNumberNotRelatedToAddressBComputed() {
-        return phoneNumberNotRelatedToAddressBComputed;
-    }
-
-    /**
-     * Sets the value of the phoneNumberNotRelatedToAddressBComputed property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPhoneNumberNotRelatedToAddressBComputed(String value) {
-        this.phoneNumberNotRelatedToAddressBComputed = value;
-    }
-
-    /**
-     * Gets the value of the okToSkipEntityDups property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOkToSkipEntityDups() {
-        return okToSkipEntityDups;
-    }
-
-    /**
-     * Sets the value of the okToSkipEntityDups property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOkToSkipEntityDups(String value) {
-        this.okToSkipEntityDups = value;
-    }
-
-    /**
-     * Gets the value of the includeTaxIDWithDupInfo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getIncludeTaxIDWithDupInfo() {
-        return includeTaxIDWithDupInfo;
-    }
-
-    /**
-     * Sets the value of the includeTaxIDWithDupInfo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setIncludeTaxIDWithDupInfo(String value) {
-        this.includeTaxIDWithDupInfo = value;
-    }
-
-    /**
-     * Gets the value of the referenceNumber property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getReferenceNumber() {
-        return referenceNumber;
-    }
-
-    /**
-     * Sets the value of the referenceNumber property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setReferenceNumber(String value) {
-        this.referenceNumber = value;
-    }
-
-    /**
-     * Gets the value of the sicCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSicCode() {
-        return sicCode;
-    }
-
-    /**
-     * Sets the value of the sicCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSicCode(String value) {
-        this.sicCode = value;
-    }
-
-    /**
-     * Gets the value of the additionalInformation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AdditionalInformationType }
-     *     
-     */
-    public AdditionalInformationType getAdditionalInformation() {
-        return additionalInformation;
-    }
-
-    /**
-     * Sets the value of the additionalInformation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AdditionalInformationType }
-     *     
-     */
-    public void setAdditionalInformation(AdditionalInformationType value) {
-        this.additionalInformation = value;
-    }
-
-    /**
-     * Gets the value of the defaultTaxID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDefaultTaxID() {
-        return defaultTaxID;
-    }
-
-    /**
-     * Sets the value of the defaultTaxID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDefaultTaxID(String value) {
-        this.defaultTaxID = value;
-    }
-
-    /**
-     * Gets the value of the vendorCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVendorCode() {
-        return vendorCode;
-    }
-
-    /**
-     * Sets the value of the vendorCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVendorCode(String value) {
-        this.vendorCode = value;
-    }
-
-    /**
-     * Gets the value of the dbaName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDbaName() {
-        return dbaName;
-    }
-
-    /**
-     * Sets the value of the dbaName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDbaName(String value) {
-        this.dbaName = value;
-    }
-
-    /**
-     * Gets the value of the taxInfoEffectiveDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTaxInfoEffectiveDate() {
-        return taxInfoEffectiveDate;
-    }
-
-    /**
-     * Sets the value of the taxInfoEffectiveDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTaxInfoEffectiveDate(String value) {
-        this.taxInfoEffectiveDate = value;
-    }
-
-    /**
-     * Gets the value of the licenseState property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLicenseState() {
-        return licenseState;
-    }
-
-    /**
-     * Sets the value of the licenseState property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLicenseState(String value) {
-        this.licenseState = value;
-    }
-
-    /**
-     * Gets the value of the maintenanceStart property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMaintenanceStart() {
-        return maintenanceStart;
-    }
-
-    /**
-     * Sets the value of the maintenanceStart property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMaintenanceStart(String value) {
-        this.maintenanceStart = value;
-    }
-
-    /**
-     * Gets the value of the veryImportantPerson property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVeryImportantPerson() {
-        return veryImportantPerson;
-    }
-
-    /**
-     * Sets the value of the veryImportantPerson property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVeryImportantPerson(String value) {
-        this.veryImportantPerson = value;
-    }
-
-    /**
-     * Gets the value of the discarded property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDiscarded() {
-        return discarded;
-    }
-
-    /**
-     * Sets the value of the discarded property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDiscarded(String value) {
-        this.discarded = value;
-    }
-
-    /**
-     * Gets the value of the entityNameComputed property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityNameComputed() {
-        return entityNameComputed;
-    }
-
-    /**
-     * Sets the value of the entityNameComputed property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityNameComputed(String value) {
-        this.entityNameComputed = value;
-    }
-
-    /**
-     * Gets the value of the federalTaxIDVerified property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getFederalTaxIDVerified() {
-        return federalTaxIDVerified;
-    }
-
-    /**
-     * Sets the value of the federalTaxIDVerified property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setFederalTaxIDVerified(String value) {
-        this.federalTaxIDVerified = value;
-    }
-
-    /**
-     * Gets the value of the entityTypeDescComputed property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityTypeDescComputed() {
-        return entityTypeDescComputed;
-    }
-
-    /**
-     * Sets the value of the entityTypeDescComputed property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityTypeDescComputed(String value) {
-        this.entityTypeDescComputed = value;
-    }
-
-    /**
-     * Gets the value of the lossFreeDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLossFreeDate() {
-        return lossFreeDate;
-    }
-
-    /**
-     * Sets the value of the lossFreeDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLossFreeDate(String value) {
-        this.lossFreeDate = value;
-    }
-
-    /**
-     * Gets the value of the legalName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLegalName() {
-        return legalName;
-    }
-
-    /**
-     * Sets the value of the legalName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLegalName(String value) {
-        this.legalName = value;
-    }
-
-    /**
-     * Gets the value of the moreObGroupCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMoreObGroupCode() {
-        return moreObGroupCode;
-    }
-
-    /**
-     * Sets the value of the moreObGroupCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMoreObGroupCode(String value) {
-        this.moreObGroupCode = value;
-    }
-
-    /**
-     * Gets the value of the hicn property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getHicn() {
-        return hicn;
-    }
-
-    /**
-     * Sets the value of the hicn property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setHicn(String value) {
-        this.hicn = value;
-    }
-
-    /**
-     * Gets the value of the component property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getComponent() {
-        return component;
-    }
-
-    /**
-     * Sets the value of the component property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setComponent(String value) {
-        this.component = value;
-    }
-
-    /**
-     * Gets the value of the vendorIrs1099Type property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVendorIrs1099Type() {
-        return vendorIrs1099Type;
-    }
-
-    /**
-     * Sets the value of the vendorIrs1099Type property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVendorIrs1099Type(String value) {
-        this.vendorIrs1099Type = value;
-    }
-
-    /**
-     * Gets the value of the ssnVerified property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSsnVerified() {
-        return ssnVerified;
-    }
-
-    /**
-     * Sets the value of the ssnVerified property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSsnVerified(String value) {
-        this.ssnVerified = value;
-    }
-
-    /**
-     * Gets the value of the moreObOffDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMoreObOffDate() {
-        return moreObOffDate;
-    }
-
-    /**
-     * Sets the value of the moreObOffDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMoreObOffDate(String value) {
-        this.moreObOffDate = value;
-    }
-
-    /**
-     * Gets the value of the moreObStartDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMoreObStartDate() {
-        return moreObStartDate;
-    }
-
-    /**
-     * Sets the value of the moreObStartDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMoreObStartDate(String value) {
-        this.moreObStartDate = value;
-    }
-
-    /**
-     * Gets the value of the legacyDataID property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLegacyDataID() {
-        return legacyDataID;
-    }
-
-    /**
-     * Sets the value of the legacyDataID property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLegacyDataID(String value) {
-        this.legacyDataID = value;
-    }
-
-    /**
-     * Gets the value of the marketingOptout property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getMarketingOptout() {
-        return marketingOptout;
-    }
-
-    /**
-     * Sets the value of the marketingOptout property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setMarketingOptout(String value) {
-        this.marketingOptout = value;
-    }
-
-    /**
-     * Gets the value of the specialHandlingComputed property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSpecialHandlingComputed() {
-        return specialHandlingComputed;
-    }
-
-    /**
-     * Sets the value of the specialHandlingComputed property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSpecialHandlingComputed(String value) {
-        this.specialHandlingComputed = value;
-    }
-
-    /**
-     * Gets the value of the webAddressOne property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getWebAddressOne() {
-        return webAddressOne;
-    }
-
-    /**
-     * Sets the value of the webAddressOne property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setWebAddressOne(String value) {
-        this.webAddressOne = value;
-    }
-
-    /**
-     * Gets the value of the webAddressTwo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getWebAddressTwo() {
-        return webAddressTwo;
-    }
-
-    /**
-     * Sets the value of the webAddressTwo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setWebAddressTwo(String value) {
-        this.webAddressTwo = value;
-    }
-
-    /**
-     * Gets the value of the webAddressThree property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getWebAddressThree() {
-        return webAddressThree;
-    }
-
-    /**
-     * Sets the value of the webAddressThree property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setWebAddressThree(String value) {
-        this.webAddressThree = value;
-    }
-
-    /**
-     * Gets the value of the entityType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityType() {
-        return entityType;
-    }
-
-    /**
-     * Sets the value of the entityType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityType(String value) {
-        this.entityType = value;
-    }
-
-    /**
-     * Gets the value of the claimsFreeDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClaimsFreeDate() {
-        return claimsFreeDate;
-    }
-
-    /**
-     * Sets the value of the claimsFreeDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClaimsFreeDate(String value) {
-        this.claimsFreeDate = value;
-    }
-
-    /**
-     * Gets the value of the veryLongName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVeryLongName() {
-        return veryLongName;
-    }
-
-    /**
-     * Sets the value of the veryLongName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVeryLongName(String value) {
-        this.veryLongName = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String DateOfBirth;
+    protected String SsnDisplay;
+    protected String TinDisplay;
+    protected String InsuredSinceDate;
+    protected String MinorBComputedId;
+    protected String ClientName;
+    protected String LicenseNo;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String ZipCode;
+    protected String City;
+    protected String EntityClassEffectiveFromDate;
+    protected String ZipPlusFour;
+    protected String EntitySubClassCode;
+    protected String OkToSkipTaxIDDups;
+    protected String EntitySubTypeCode;
+    protected String UsaAddress;
+    protected String EntityClassCode;
+    protected String CountyCode;
+    protected String StateCode;
+    protected String PrimaryAddress;
+    protected String PhoneNumberNotRelatedToAddressBComputed;
+    protected String OkToSkipEntityDups;
+    protected String IncludeTaxIDWithDupInfo;
+    protected String ReferenceNumber;
+    protected String SicCode;
+    protected AdditionalInformationType AdditionalInformation;
+    protected String DefaultTaxID;
+    protected String VendorCode;
+    protected String DbaName;
+    protected String TaxInfoEffectiveDate;
+    protected String LicenseState;
+    protected String MaintenanceStart;
+    protected String VeryImportantPerson;
+    protected String Discarded;
+    protected String EntityNameComputed;
+    protected String FederalTaxIDVerified;
+    protected String EntityTypeDescComputed;
+    protected String LossFreeDate;
+    protected String LegalName;
+    protected String MoreObGroupCode;
+    protected String Hicn;
+    protected String Component;
+    protected String VendorIrs1099Type;
+    protected String SsnVerified;
+    protected String MoreObOffDate;
+    protected String MoreObStartDate;
+    protected String LegacyDataID;
+    protected String MarketingOptout;
+    protected String SpecialHandlingComputed;
+    protected String WebAddressOne;
+    protected String WebAddressTwo;
+    protected String WebAddressThree;
+    protected String EntityType;
+    protected String ClaimsFreeDate;
+    protected String VeryLongName;
+    protected String Key;
+	public String getDateOfBirth() {
+		return DateOfBirth;
+	}
+	public void setDateOfBirth(String dateOfBirth) {
+		DateOfBirth = dateOfBirth;
+	}
+	public String getSsnDisplay() {
+		return SsnDisplay;
+	}
+	public void setSsnDisplay(String ssnDisplay) {
+		SsnDisplay = ssnDisplay;
+	}
+	public String getTinDisplay() {
+		return TinDisplay;
+	}
+	public void setTinDisplay(String tinDisplay) {
+		TinDisplay = tinDisplay;
+	}
+	public String getInsuredSinceDate() {
+		return InsuredSinceDate;
+	}
+	public void setInsuredSinceDate(String insuredSinceDate) {
+		InsuredSinceDate = insuredSinceDate;
+	}
+	public String getMinorBComputedId() {
+		return MinorBComputedId;
+	}
+	public void setMinorBComputedId(String minorBComputedId) {
+		MinorBComputedId = minorBComputedId;
+	}
+	public String getClientName() {
+		return ClientName;
+	}
+	public void setClientName(String clientName) {
+		ClientName = clientName;
+	}
+	public String getLicenseNo() {
+		return LicenseNo;
+	}
+	public void setLicenseNo(String licenseNo) {
+		LicenseNo = licenseNo;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getZipCode() {
+		return ZipCode;
+	}
+	public void setZipCode(String zipCode) {
+		ZipCode = zipCode;
+	}
+	public String getCity() {
+		return City;
+	}
+	public void setCity(String city) {
+		City = city;
+	}
+	public String getEntityClassEffectiveFromDate() {
+		return EntityClassEffectiveFromDate;
+	}
+	public void setEntityClassEffectiveFromDate(String entityClassEffectiveFromDate) {
+		EntityClassEffectiveFromDate = entityClassEffectiveFromDate;
+	}
+	public String getZipPlusFour() {
+		return ZipPlusFour;
+	}
+	public void setZipPlusFour(String zipPlusFour) {
+		ZipPlusFour = zipPlusFour;
+	}
+	public String getEntitySubClassCode() {
+		return EntitySubClassCode;
+	}
+	public void setEntitySubClassCode(String entitySubClassCode) {
+		EntitySubClassCode = entitySubClassCode;
+	}
+	public String getOkToSkipTaxIDDups() {
+		return OkToSkipTaxIDDups;
+	}
+	public void setOkToSkipTaxIDDups(String okToSkipTaxIDDups) {
+		OkToSkipTaxIDDups = okToSkipTaxIDDups;
+	}
+	public String getEntitySubTypeCode() {
+		return EntitySubTypeCode;
+	}
+	public void setEntitySubTypeCode(String entitySubTypeCode) {
+		EntitySubTypeCode = entitySubTypeCode;
+	}
+	public String getUsaAddress() {
+		return UsaAddress;
+	}
+	public void setUsaAddress(String usaAddress) {
+		UsaAddress = usaAddress;
+	}
+	public String getEntityClassCode() {
+		return EntityClassCode;
+	}
+	public void setEntityClassCode(String entityClassCode) {
+		EntityClassCode = entityClassCode;
+	}
+	public String getCountyCode() {
+		return CountyCode;
+	}
+	public void setCountyCode(String countyCode) {
+		CountyCode = countyCode;
+	}
+	public String getStateCode() {
+		return StateCode;
+	}
+	public void setStateCode(String stateCode) {
+		StateCode = stateCode;
+	}
+	public String getPrimaryAddress() {
+		return PrimaryAddress;
+	}
+	public void setPrimaryAddress(String primaryAddress) {
+		PrimaryAddress = primaryAddress;
+	}
+	public String getPhoneNumberNotRelatedToAddressBComputed() {
+		return PhoneNumberNotRelatedToAddressBComputed;
+	}
+	public void setPhoneNumberNotRelatedToAddressBComputed(String phoneNumberNotRelatedToAddressBComputed) {
+		PhoneNumberNotRelatedToAddressBComputed = phoneNumberNotRelatedToAddressBComputed;
+	}
+	public String getOkToSkipEntityDups() {
+		return OkToSkipEntityDups;
+	}
+	public void setOkToSkipEntityDups(String okToSkipEntityDups) {
+		OkToSkipEntityDups = okToSkipEntityDups;
+	}
+	public String getIncludeTaxIDWithDupInfo() {
+		return IncludeTaxIDWithDupInfo;
+	}
+	public void setIncludeTaxIDWithDupInfo(String includeTaxIDWithDupInfo) {
+		IncludeTaxIDWithDupInfo = includeTaxIDWithDupInfo;
+	}
+	public String getReferenceNumber() {
+		return ReferenceNumber;
+	}
+	public void setReferenceNumber(String referenceNumber) {
+		ReferenceNumber = referenceNumber;
+	}
+	public String getSicCode() {
+		return SicCode;
+	}
+	public void setSicCode(String sicCode) {
+		SicCode = sicCode;
+	}
+	public AdditionalInformationType getAdditionalInformation() {
+		return AdditionalInformation;
+	}
+	public void setAdditionalInformation(AdditionalInformationType additionalInformation) {
+		AdditionalInformation = additionalInformation;
+	}
+	public String getDefaultTaxID() {
+		return DefaultTaxID;
+	}
+	public void setDefaultTaxID(String defaultTaxID) {
+		DefaultTaxID = defaultTaxID;
+	}
+	public String getVendorCode() {
+		return VendorCode;
+	}
+	public void setVendorCode(String vendorCode) {
+		VendorCode = vendorCode;
+	}
+	public String getDbaName() {
+		return DbaName;
+	}
+	public void setDbaName(String dbaName) {
+		DbaName = dbaName;
+	}
+	public String getTaxInfoEffectiveDate() {
+		return TaxInfoEffectiveDate;
+	}
+	public void setTaxInfoEffectiveDate(String taxInfoEffectiveDate) {
+		TaxInfoEffectiveDate = taxInfoEffectiveDate;
+	}
+	public String getLicenseState() {
+		return LicenseState;
+	}
+	public void setLicenseState(String licenseState) {
+		LicenseState = licenseState;
+	}
+	public String getMaintenanceStart() {
+		return MaintenanceStart;
+	}
+	public void setMaintenanceStart(String maintenanceStart) {
+		MaintenanceStart = maintenanceStart;
+	}
+	public String getVeryImportantPerson() {
+		return VeryImportantPerson;
+	}
+	public void setVeryImportantPerson(String veryImportantPerson) {
+		VeryImportantPerson = veryImportantPerson;
+	}
+	public String getDiscarded() {
+		return Discarded;
+	}
+	public void setDiscarded(String discarded) {
+		Discarded = discarded;
+	}
+	public String getEntityNameComputed() {
+		return EntityNameComputed;
+	}
+	public void setEntityNameComputed(String entityNameComputed) {
+		EntityNameComputed = entityNameComputed;
+	}
+	public String getFederalTaxIDVerified() {
+		return FederalTaxIDVerified;
+	}
+	public void setFederalTaxIDVerified(String federalTaxIDVerified) {
+		FederalTaxIDVerified = federalTaxIDVerified;
+	}
+	public String getEntityTypeDescComputed() {
+		return EntityTypeDescComputed;
+	}
+	public void setEntityTypeDescComputed(String entityTypeDescComputed) {
+		EntityTypeDescComputed = entityTypeDescComputed;
+	}
+	public String getLossFreeDate() {
+		return LossFreeDate;
+	}
+	public void setLossFreeDate(String lossFreeDate) {
+		LossFreeDate = lossFreeDate;
+	}
+	public String getLegalName() {
+		return LegalName;
+	}
+	public void setLegalName(String legalName) {
+		LegalName = legalName;
+	}
+	public String getMoreObGroupCode() {
+		return MoreObGroupCode;
+	}
+	public void setMoreObGroupCode(String moreObGroupCode) {
+		MoreObGroupCode = moreObGroupCode;
+	}
+	public String getHicn() {
+		return Hicn;
+	}
+	public void setHicn(String hicn) {
+		Hicn = hicn;
+	}
+	public String getComponent() {
+		return Component;
+	}
+	public void setComponent(String component) {
+		Component = component;
+	}
+	public String getVendorIrs1099Type() {
+		return VendorIrs1099Type;
+	}
+	public void setVendorIrs1099Type(String vendorIrs1099Type) {
+		VendorIrs1099Type = vendorIrs1099Type;
+	}
+	public String getSsnVerified() {
+		return SsnVerified;
+	}
+	public void setSsnVerified(String ssnVerified) {
+		SsnVerified = ssnVerified;
+	}
+	public String getMoreObOffDate() {
+		return MoreObOffDate;
+	}
+	public void setMoreObOffDate(String moreObOffDate) {
+		MoreObOffDate = moreObOffDate;
+	}
+	public String getMoreObStartDate() {
+		return MoreObStartDate;
+	}
+	public void setMoreObStartDate(String moreObStartDate) {
+		MoreObStartDate = moreObStartDate;
+	}
+	public String getLegacyDataID() {
+		return LegacyDataID;
+	}
+	public void setLegacyDataID(String legacyDataID) {
+		LegacyDataID = legacyDataID;
+	}
+	public String getMarketingOptout() {
+		return MarketingOptout;
+	}
+	public void setMarketingOptout(String marketingOptout) {
+		MarketingOptout = marketingOptout;
+	}
+	public String getSpecialHandlingComputed() {
+		return SpecialHandlingComputed;
+	}
+	public void setSpecialHandlingComputed(String specialHandlingComputed) {
+		SpecialHandlingComputed = specialHandlingComputed;
+	}
+	public String getWebAddressOne() {
+		return WebAddressOne;
+	}
+	public void setWebAddressOne(String webAddressOne) {
+		WebAddressOne = webAddressOne;
+	}
+	public String getWebAddressTwo() {
+		return WebAddressTwo;
+	}
+	public void setWebAddressTwo(String webAddressTwo) {
+		WebAddressTwo = webAddressTwo;
+	}
+	public String getWebAddressThree() {
+		return WebAddressThree;
+	}
+	public void setWebAddressThree(String webAddressThree) {
+		WebAddressThree = webAddressThree;
+	}
+	public String getEntityType() {
+		return EntityType;
+	}
+	public void setEntityType(String entityType) {
+		EntityType = entityType;
+	}
+	public String getClaimsFreeDate() {
+		return ClaimsFreeDate;
+	}
+	public void setClaimsFreeDate(String claimsFreeDate) {
+		ClaimsFreeDate = claimsFreeDate;
+	}
+	public String getVeryLongName() {
+		return VeryLongName;
+	}
+	public void setVeryLongName(String veryLongName) {
+		VeryLongName = veryLongName;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[DateOfBirth=" + DateOfBirth + ", SsnDisplay=" + SsnDisplay + ", TinDisplay="
+				+ TinDisplay + ", InsuredSinceDate=" + InsuredSinceDate + ", MinorBComputedId=" + MinorBComputedId
+				+ ", ClientName=" + ClientName + ", LicenseNo=" + LicenseNo + ", EffectivePeriod=" + EffectivePeriod
+				+ ", ZipCode=" + ZipCode + ", City=" + City + ", EntityClassEffectiveFromDate="
+				+ EntityClassEffectiveFromDate + ", ZipPlusFour=" + ZipPlusFour + ", EntitySubClassCode="
+				+ EntitySubClassCode + ", OkToSkipTaxIDDups=" + OkToSkipTaxIDDups + ", EntitySubTypeCode="
+				+ EntitySubTypeCode + ", UsaAddress=" + UsaAddress + ", EntityClassCode=" + EntityClassCode
+				+ ", CountyCode=" + CountyCode + ", StateCode=" + StateCode + ", PrimaryAddress=" + PrimaryAddress
+				+ ", PhoneNumberNotRelatedToAddressBComputed=" + PhoneNumberNotRelatedToAddressBComputed
+				+ ", OkToSkipEntityDups=" + OkToSkipEntityDups + ", IncludeTaxIDWithDupInfo=" + IncludeTaxIDWithDupInfo
+				+ ", ReferenceNumber=" + ReferenceNumber + ", SicCode=" + SicCode + ", AdditionalInformation="
+				+ AdditionalInformation + ", DefaultTaxID=" + DefaultTaxID + ", VendorCode=" + VendorCode + ", DbaName="
+				+ DbaName + ", TaxInfoEffectiveDate=" + TaxInfoEffectiveDate + ", LicenseState=" + LicenseState
+				+ ", MaintenanceStart=" + MaintenanceStart + ", VeryImportantPerson=" + VeryImportantPerson
+				+ ", Discarded=" + Discarded + ", EntityNameComputed=" + EntityNameComputed + ", FederalTaxIDVerified="
+				+ FederalTaxIDVerified + ", EntityTypeDescComputed=" + EntityTypeDescComputed + ", LossFreeDate="
+				+ LossFreeDate + ", LegalName=" + LegalName + ", MoreObGroupCode=" + MoreObGroupCode + ", Hicn=" + Hicn
+				+ ", Component=" + Component + ", VendorIrs1099Type=" + VendorIrs1099Type + ", SsnVerified="
+				+ SsnVerified + ", MoreObOffDate=" + MoreObOffDate + ", MoreObStartDate=" + MoreObStartDate
+				+ ", LegacyDataID=" + LegacyDataID + ", MarketingOptout=" + MarketingOptout
+				+ ", SpecialHandlingComputed=" + SpecialHandlingComputed + ", WebAddressOne=" + WebAddressOne
+				+ ", WebAddressTwo=" + WebAddressTwo + ", WebAddressThree=" + WebAddressThree + ", EntityType="
+				+ EntityType + ", ClaimsFreeDate=" + ClaimsFreeDate + ", VeryLongName=" + VeryLongName + ", Key=" + Key
+				+ "]";
+	}
 }

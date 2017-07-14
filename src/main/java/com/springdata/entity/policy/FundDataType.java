@@ -8,8 +8,8 @@ public class FundDataType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String value;
-    protected String key;
+    protected String Value;
+    protected String Key;
 
     /**
      * Gets the value of the value property.
@@ -20,7 +20,7 @@ public class FundDataType
      *     
      */
     public String getValue() {
-        return value;
+        return Value;
     }
 
     /**
@@ -32,7 +32,7 @@ public class FundDataType
      *     
      */
     public void setValue(String value) {
-        this.value = value;
+        this.Value = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class FundDataType
      *     
      */
     public String getKey() {
-        return key;
+        return Key;
     }
 
     /**
@@ -56,7 +56,12 @@ public class FundDataType
      *     
      */
     public void setKey(String value) {
-        this.key = value;
+        this.Key = value;
     }
+
+	@Override
+	public String toString() {
+		return "[Value=" + Value + ", Key=" + Key + "]";
+	}
 
 }

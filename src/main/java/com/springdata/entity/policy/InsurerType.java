@@ -8,230 +8,78 @@ public class InsurerType
 {
 
     private final static long serialVersionUID = 1L;
-    protected ReferredPartyType referredParty;
-    protected String underWriterName;
-    protected EffectivePeriodType effectivePeriod;
-    protected String insurerNumberId;
-    protected String renewalIndicator;
-    protected String regionalTeamCode;
-    protected String closingTransLogId;
-    protected String personReference;
-    protected String organizationReference;
-
-    /**
-     * Gets the value of the referredParty property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public ReferredPartyType getReferredParty() {
-        return referredParty;
-    }
-
-    /**
-     * Sets the value of the referredParty property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ReferredPartyType }
-     *     
-     */
-    public void setReferredParty(ReferredPartyType value) {
-        this.referredParty = value;
-    }
-
-    /**
-     * Gets the value of the underWriterName property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getUnderWriterName() {
-        return underWriterName;
-    }
-
-    /**
-     * Sets the value of the underWriterName property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setUnderWriterName(String value) {
-        this.underWriterName = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the insurerNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInsurerNumberId() {
-        return insurerNumberId;
-    }
-
-    /**
-     * Sets the value of the insurerNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInsurerNumberId(String value) {
-        this.insurerNumberId = value;
-    }
-
-    /**
-     * Gets the value of the renewalIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRenewalIndicator() {
-        return renewalIndicator;
-    }
-
-    /**
-     * Sets the value of the renewalIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRenewalIndicator(String value) {
-        this.renewalIndicator = value;
-    }
-
-    /**
-     * Gets the value of the regionalTeamCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRegionalTeamCode() {
-        return regionalTeamCode;
-    }
-
-    /**
-     * Sets the value of the regionalTeamCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRegionalTeamCode(String value) {
-        this.regionalTeamCode = value;
-    }
-
-    /**
-     * Gets the value of the closingTransLogId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClosingTransLogId() {
-        return closingTransLogId;
-    }
-
-    /**
-     * Sets the value of the closingTransLogId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClosingTransLogId(String value) {
-        this.closingTransLogId = value;
-    }
-
-    /**
-     * Gets the value of the personReference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPersonReference() {
-        return personReference;
-    }
-
-    /**
-     * Sets the value of the personReference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPersonReference(String value) {
-        this.personReference = value;
-    }
-
-    /**
-     * Gets the value of the organizationReference property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOrganizationReference() {
-        return organizationReference;
-    }
-
-    /**
-     * Sets the value of the organizationReference property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOrganizationReference(String value) {
-        this.organizationReference = value;
-    }
-
+    protected ReferredPartyType ReferredParty;
+    protected String UnderWriterName;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String InsurerNumberId;
+    protected String RenewalIndicator;
+    protected String RegionalTeamCode;
+    protected String ClosingTransLogId;
+    protected String PersonReference;
+    protected String OrganizationReference;
+	public ReferredPartyType getReferredParty() {
+		return ReferredParty;
+	}
+	public void setReferredParty(ReferredPartyType referredParty) {
+		ReferredParty = referredParty;
+	}
+	public String getUnderWriterName() {
+		return UnderWriterName;
+	}
+	public void setUnderWriterName(String underWriterName) {
+		UnderWriterName = underWriterName;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getInsurerNumberId() {
+		return InsurerNumberId;
+	}
+	public void setInsurerNumberId(String insurerNumberId) {
+		InsurerNumberId = insurerNumberId;
+	}
+	public String getRenewalIndicator() {
+		return RenewalIndicator;
+	}
+	public void setRenewalIndicator(String renewalIndicator) {
+		RenewalIndicator = renewalIndicator;
+	}
+	public String getRegionalTeamCode() {
+		return RegionalTeamCode;
+	}
+	public void setRegionalTeamCode(String regionalTeamCode) {
+		RegionalTeamCode = regionalTeamCode;
+	}
+	public String getClosingTransLogId() {
+		return ClosingTransLogId;
+	}
+	public void setClosingTransLogId(String closingTransLogId) {
+		ClosingTransLogId = closingTransLogId;
+	}
+	public String getPersonReference() {
+		return PersonReference;
+	}
+	public void setPersonReference(String personReference) {
+		PersonReference = personReference;
+	}
+	public String getOrganizationReference() {
+		return OrganizationReference;
+	}
+	public void setOrganizationReference(String organizationReference) {
+		OrganizationReference = organizationReference;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[ReferredParty=" + ReferredParty + ", UnderWriterName=" + UnderWriterName
+				+ ", EffectivePeriod=" + EffectivePeriod + ", InsurerNumberId=" + InsurerNumberId
+				+ ", RenewalIndicator=" + RenewalIndicator + ", RegionalTeamCode=" + RegionalTeamCode
+				+ ", ClosingTransLogId=" + ClosingTransLogId + ", PersonReference=" + PersonReference
+				+ ", OrganizationReference=" + OrganizationReference + "]";
+	}
 }

@@ -8,55 +8,22 @@ public class ContractPeriodType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String startDate;
-    protected String endDate;
-
-    /**
-     * Gets the value of the startDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getStartDate() {
-        return startDate;
-    }
-
-    /**
-     * Sets the value of the startDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setStartDate(String value) {
-        this.startDate = value;
-    }
-
-    /**
-     * Gets the value of the endDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEndDate() {
-        return endDate;
-    }
-
-    /**
-     * Sets the value of the endDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEndDate(String value) {
-        this.endDate = value;
-    }
-
+    protected String StartDate;
+    protected String EndDate;
+	public String getStartDate() {
+		return StartDate;
+	}
+	public void setStartDate(String startDate) {
+		StartDate = startDate;
+	}
+	public String getEndDate() {
+		return EndDate;
+	}
+	public void setEndDate(String endDate) {
+		EndDate = endDate;
+	}
+	@Override
+	public String toString() {
+		return "[StartDate=" + StartDate + ", EndDate=" + EndDate + "]";
+	}
 }

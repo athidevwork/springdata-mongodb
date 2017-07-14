@@ -8,180 +8,62 @@ public class SpecialHandlingType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String specialHandlingNumberId;
-    protected String category;
-    protected String subCategory;
-    protected EffectivePeriodType effectivePeriod;
-    protected String renewalIndicator;
-    protected String changeDate;
-    protected String altRiskSubCategory;
-
-    /**
-     * Gets the value of the specialHandlingNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSpecialHandlingNumberId() {
-        return specialHandlingNumberId;
-    }
-
-    /**
-     * Sets the value of the specialHandlingNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSpecialHandlingNumberId(String value) {
-        this.specialHandlingNumberId = value;
-    }
-
-    /**
-     * Gets the value of the category property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCategory() {
-        return category;
-    }
-
-    /**
-     * Sets the value of the category property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCategory(String value) {
-        this.category = value;
-    }
-
-    /**
-     * Gets the value of the subCategory property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSubCategory() {
-        return subCategory;
-    }
-
-    /**
-     * Sets the value of the subCategory property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSubCategory(String value) {
-        this.subCategory = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the renewalIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRenewalIndicator() {
-        return renewalIndicator;
-    }
-
-    /**
-     * Sets the value of the renewalIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRenewalIndicator(String value) {
-        this.renewalIndicator = value;
-    }
-
-    /**
-     * Gets the value of the changeDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getChangeDate() {
-        return changeDate;
-    }
-
-    /**
-     * Sets the value of the changeDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setChangeDate(String value) {
-        this.changeDate = value;
-    }
-
-    /**
-     * Gets the value of the altRiskSubCategory property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAltRiskSubCategory() {
-        return altRiskSubCategory;
-    }
-
-    /**
-     * Sets the value of the altRiskSubCategory property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAltRiskSubCategory(String value) {
-        this.altRiskSubCategory = value;
-    }
-
+    protected String SpecialHandlingNumberId;
+    protected String Category;
+    protected String SubCategory;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String RenewalIndicator;
+    protected String ChangeDate;
+    protected String AltRiskSubCategory;
+	public String getSpecialHandlingNumberId() {
+		return SpecialHandlingNumberId;
+	}
+	public void setSpecialHandlingNumberId(String specialHandlingNumberId) {
+		SpecialHandlingNumberId = specialHandlingNumberId;
+	}
+	public String getCategory() {
+		return Category;
+	}
+	public void setCategory(String category) {
+		Category = category;
+	}
+	public String getSubCategory() {
+		return SubCategory;
+	}
+	public void setSubCategory(String subCategory) {
+		SubCategory = subCategory;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getRenewalIndicator() {
+		return RenewalIndicator;
+	}
+	public void setRenewalIndicator(String renewalIndicator) {
+		RenewalIndicator = renewalIndicator;
+	}
+	public String getChangeDate() {
+		return ChangeDate;
+	}
+	public void setChangeDate(String changeDate) {
+		ChangeDate = changeDate;
+	}
+	public String getAltRiskSubCategory() {
+		return AltRiskSubCategory;
+	}
+	public void setAltRiskSubCategory(String altRiskSubCategory) {
+		AltRiskSubCategory = altRiskSubCategory;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[SpecialHandlingNumberId=" + SpecialHandlingNumberId + ", Category=" + Category
+				+ ", SubCategory=" + SubCategory + ", EffectivePeriod=" + EffectivePeriod + ", RenewalIndicator="
+				+ RenewalIndicator + ", ChangeDate=" + ChangeDate + ", AltRiskSubCategory=" + AltRiskSubCategory + "]";
+	}
 }

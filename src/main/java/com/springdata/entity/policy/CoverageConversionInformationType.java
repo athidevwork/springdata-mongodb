@@ -8,105 +8,38 @@ public class CoverageConversionInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String claimsMadeDate;
-    protected String claimsMadeOverrideDate;
-    protected String occurenceDate;
-    protected String occurenceOverrideDate;
-
-    /**
-     * Gets the value of the claimsMadeDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClaimsMadeDate() {
-        return claimsMadeDate;
-    }
-
-    /**
-     * Sets the value of the claimsMadeDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClaimsMadeDate(String value) {
-        this.claimsMadeDate = value;
-    }
-
-    /**
-     * Gets the value of the claimsMadeOverrideDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClaimsMadeOverrideDate() {
-        return claimsMadeOverrideDate;
-    }
-
-    /**
-     * Sets the value of the claimsMadeOverrideDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClaimsMadeOverrideDate(String value) {
-        this.claimsMadeOverrideDate = value;
-    }
-
-    /**
-     * Gets the value of the occurenceDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOccurenceDate() {
-        return occurenceDate;
-    }
-
-    /**
-     * Sets the value of the occurenceDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOccurenceDate(String value) {
-        this.occurenceDate = value;
-    }
-
-    /**
-     * Gets the value of the occurenceOverrideDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getOccurenceOverrideDate() {
-        return occurenceOverrideDate;
-    }
-
-    /**
-     * Sets the value of the occurenceOverrideDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setOccurenceOverrideDate(String value) {
-        this.occurenceOverrideDate = value;
-    }
-
+    protected String ClaimsMadeDate;
+    protected String ClaimsMadeOverrideDate;
+    protected String OccurenceDate;
+    protected String OccurenceOverrideDate;
+	public String getClaimsMadeDate() {
+		return ClaimsMadeDate;
+	}
+	public void setClaimsMadeDate(String claimsMadeDate) {
+		ClaimsMadeDate = claimsMadeDate;
+	}
+	public String getClaimsMadeOverrideDate() {
+		return ClaimsMadeOverrideDate;
+	}
+	public void setClaimsMadeOverrideDate(String claimsMadeOverrideDate) {
+		ClaimsMadeOverrideDate = claimsMadeOverrideDate;
+	}
+	public String getOccurenceDate() {
+		return OccurenceDate;
+	}
+	public void setOccurenceDate(String occurenceDate) {
+		OccurenceDate = occurenceDate;
+	}
+	public String getOccurenceOverrideDate() {
+		return OccurenceOverrideDate;
+	}
+	public void setOccurenceOverrideDate(String occurenceOverrideDate) {
+		OccurenceOverrideDate = occurenceOverrideDate;
+	}
+	@Override
+	public String toString() {
+		return "[ClaimsMadeDate=" + ClaimsMadeDate + ", ClaimsMadeOverrideDate="
+				+ ClaimsMadeOverrideDate + ", OccurenceDate=" + OccurenceDate + ", OccurenceOverrideDate="
+				+ OccurenceOverrideDate + "]";
+	}
 }

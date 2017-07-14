@@ -8,22 +8,22 @@ public class BasicPhoneNumberType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String phoneNumberId;
-    protected CodeWithDesc phoneTypeCode;
-    protected String phoneNumber;
-    protected CodeWithDesc primaryIndicator;
-    protected String sourceRecordId;
-    protected String entityId;
-    protected String areaCode;
-    protected String phoneNumberFormatted;
-    protected String fullPhoneNumberFormatted;
-    protected String phoneExtension;
-    protected CodeWithDesc usaNumber;
-    protected CodeWithDesc listedNumber;
-    protected CodeWithDesc permissionToRelease;
-    protected CodeWithDesc sourceTableName;
-    protected String addressReference;
-    protected String key;
+    protected String PhoneNumberId;
+    protected CodeWithDesc PhoneTypeCode;
+    protected String PhoneNumber;
+    protected CodeWithDesc PrimaryIndicator;
+    protected String SourceRecordId;
+    protected String EntityId;
+    protected String AreaCode;
+    protected String PhoneNumberFormatted;
+    protected String FullPhoneNumberFormatted;
+    protected String PhoneExtension;
+    protected CodeWithDesc UsaNumber;
+    protected CodeWithDesc ListedNumber;
+    protected CodeWithDesc PermissionToRelease;
+    protected CodeWithDesc SourceTableName;
+    protected String AddressReference;
+    protected String Key;
 
     /**
      * Gets the value of the phoneNumberId property.
@@ -34,7 +34,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getPhoneNumberId() {
-        return phoneNumberId;
+        return PhoneNumberId;
     }
 
     /**
@@ -46,7 +46,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setPhoneNumberId(String value) {
-        this.phoneNumberId = value;
+        this.PhoneNumberId = value;
     }
 
     /**
@@ -58,7 +58,7 @@ public class BasicPhoneNumberType
      *     
      */
     public CodeWithDesc getPhoneTypeCode() {
-        return phoneTypeCode;
+        return PhoneTypeCode;
     }
 
     /**
@@ -70,7 +70,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setPhoneTypeCode(CodeWithDesc value) {
-        this.phoneTypeCode = value;
+        this.PhoneTypeCode = value;
     }
 
     /**
@@ -82,7 +82,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getPhoneNumber() {
-        return phoneNumber;
+        return PhoneNumber;
     }
 
     /**
@@ -94,7 +94,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setPhoneNumber(String value) {
-        this.phoneNumber = value;
+        this.PhoneNumber = value;
     }
 
     /**
@@ -106,7 +106,7 @@ public class BasicPhoneNumberType
      *     
      */
     public CodeWithDesc getPrimaryIndicator() {
-        return primaryIndicator;
+        return PrimaryIndicator;
     }
 
     /**
@@ -118,7 +118,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setPrimaryIndicator(CodeWithDesc value) {
-        this.primaryIndicator = value;
+        this.PrimaryIndicator = value;
     }
 
     /**
@@ -130,7 +130,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getSourceRecordId() {
-        return sourceRecordId;
+        return SourceRecordId;
     }
 
     /**
@@ -142,7 +142,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setSourceRecordId(String value) {
-        this.sourceRecordId = value;
+        this.SourceRecordId = value;
     }
 
     /**
@@ -154,7 +154,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getEntityId() {
-        return entityId;
+        return EntityId;
     }
 
     /**
@@ -166,7 +166,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setEntityId(String value) {
-        this.entityId = value;
+        this.EntityId = value;
     }
 
     /**
@@ -178,7 +178,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getAreaCode() {
-        return areaCode;
+        return AreaCode;
     }
 
     /**
@@ -190,7 +190,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setAreaCode(String value) {
-        this.areaCode = value;
+        this.AreaCode = value;
     }
 
     /**
@@ -202,7 +202,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getPhoneNumberFormatted() {
-        return phoneNumberFormatted;
+        return PhoneNumberFormatted;
     }
 
     /**
@@ -214,7 +214,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setPhoneNumberFormatted(String value) {
-        this.phoneNumberFormatted = value;
+        this.PhoneNumberFormatted = value;
     }
 
     /**
@@ -226,7 +226,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getFullPhoneNumberFormatted() {
-        return fullPhoneNumberFormatted;
+        return FullPhoneNumberFormatted;
     }
 
     /**
@@ -238,7 +238,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setFullPhoneNumberFormatted(String value) {
-        this.fullPhoneNumberFormatted = value;
+        this.FullPhoneNumberFormatted = value;
     }
 
     /**
@@ -250,7 +250,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getPhoneExtension() {
-        return phoneExtension;
+        return PhoneExtension;
     }
 
     /**
@@ -262,7 +262,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setPhoneExtension(String value) {
-        this.phoneExtension = value;
+        this.PhoneExtension = value;
     }
 
     /**
@@ -274,7 +274,7 @@ public class BasicPhoneNumberType
      *     
      */
     public CodeWithDesc getUsaNumber() {
-        return usaNumber;
+        return UsaNumber;
     }
 
     /**
@@ -286,7 +286,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setUsaNumber(CodeWithDesc value) {
-        this.usaNumber = value;
+        this.UsaNumber = value;
     }
 
     /**
@@ -298,7 +298,7 @@ public class BasicPhoneNumberType
      *     
      */
     public CodeWithDesc getListedNumber() {
-        return listedNumber;
+        return ListedNumber;
     }
 
     /**
@@ -310,7 +310,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setListedNumber(CodeWithDesc value) {
-        this.listedNumber = value;
+        this.ListedNumber = value;
     }
 
     /**
@@ -322,7 +322,7 @@ public class BasicPhoneNumberType
      *     
      */
     public CodeWithDesc getPermissionToRelease() {
-        return permissionToRelease;
+        return PermissionToRelease;
     }
 
     /**
@@ -334,7 +334,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setPermissionToRelease(CodeWithDesc value) {
-        this.permissionToRelease = value;
+        this.PermissionToRelease = value;
     }
 
     /**
@@ -346,7 +346,7 @@ public class BasicPhoneNumberType
      *     
      */
     public CodeWithDesc getSourceTableName() {
-        return sourceTableName;
+        return SourceTableName;
     }
 
     /**
@@ -358,7 +358,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setSourceTableName(CodeWithDesc value) {
-        this.sourceTableName = value;
+        this.SourceTableName = value;
     }
 
     /**
@@ -370,7 +370,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getAddressReference() {
-        return addressReference;
+        return AddressReference;
     }
 
     /**
@@ -382,7 +382,7 @@ public class BasicPhoneNumberType
      *     
      */
     public void setAddressReference(String value) {
-        this.addressReference = value;
+        this.AddressReference = value;
     }
 
     /**
@@ -394,7 +394,7 @@ public class BasicPhoneNumberType
      *     
      */
     public String getKey() {
-        return key;
+        return Key;
     }
 
     /**
@@ -406,7 +406,18 @@ public class BasicPhoneNumberType
      *     
      */
     public void setKey(String value) {
-        this.key = value;
+        this.Key = value;
     }
+
+	@Override
+	public String toString() {
+		return "[PhoneNumberId=" + PhoneNumberId + ", PhoneTypeCode=" + PhoneTypeCode
+				+ ", PhoneNumber=" + PhoneNumber + ", PrimaryIndicator=" + PrimaryIndicator + ", SourceRecordId="
+				+ SourceRecordId + ", EntityId=" + EntityId + ", AreaCode=" + AreaCode + ", PhoneNumberFormatted="
+				+ PhoneNumberFormatted + ", FullPhoneNumberFormatted=" + FullPhoneNumberFormatted + ", PhoneExtension="
+				+ PhoneExtension + ", UsaNumber=" + UsaNumber + ", ListedNumber=" + ListedNumber
+				+ ", PermissionToRelease=" + PermissionToRelease + ", SourceTableName=" + SourceTableName
+				+ ", AddressReference=" + AddressReference + ", Key=" + Key + "]";
+	}
 
 }

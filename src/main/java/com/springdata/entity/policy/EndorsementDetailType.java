@@ -8,155 +8,52 @@ public class EndorsementDetailType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String variableTextDetailNumberId;
-    protected String versionModeCode;
-    protected EffectivePeriodType effectivePeriod;
-    protected String categoryVal;
-    protected String renewalIndicator;
-    protected AdditionalInformationType additionalInformation;
-
-    /**
-     * Gets the value of the variableTextDetailNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVariableTextDetailNumberId() {
-        return variableTextDetailNumberId;
-    }
-
-    /**
-     * Sets the value of the variableTextDetailNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVariableTextDetailNumberId(String value) {
-        this.variableTextDetailNumberId = value;
-    }
-
-    /**
-     * Gets the value of the versionModeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVersionModeCode() {
-        return versionModeCode;
-    }
-
-    /**
-     * Sets the value of the versionModeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVersionModeCode(String value) {
-        this.versionModeCode = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the categoryVal property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCategoryVal() {
-        return categoryVal;
-    }
-
-    /**
-     * Sets the value of the categoryVal property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCategoryVal(String value) {
-        this.categoryVal = value;
-    }
-
-    /**
-     * Gets the value of the renewalIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRenewalIndicator() {
-        return renewalIndicator;
-    }
-
-    /**
-     * Sets the value of the renewalIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRenewalIndicator(String value) {
-        this.renewalIndicator = value;
-    }
-
-    /**
-     * Gets the value of the additionalInformation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link AdditionalInformationType }
-     *     
-     */
-    public AdditionalInformationType getAdditionalInformation() {
-        return additionalInformation;
-    }
-
-    /**
-     * Sets the value of the additionalInformation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link AdditionalInformationType }
-     *     
-     */
-    public void setAdditionalInformation(AdditionalInformationType value) {
-        this.additionalInformation = value;
-    }
-
+    protected String VariableTextDetailNumberId;
+    protected String VersionModeCode;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String CategoryVal;
+    protected String RenewalIndicator;
+    protected AdditionalInformationType AdditionalInformation;
+	public String getVariableTextDetailNumberId() {
+		return VariableTextDetailNumberId;
+	}
+	public void setVariableTextDetailNumberId(String variableTextDetailNumberId) {
+		VariableTextDetailNumberId = variableTextDetailNumberId;
+	}
+	public String getVersionModeCode() {
+		return VersionModeCode;
+	}
+	public void setVersionModeCode(String versionModeCode) {
+		VersionModeCode = versionModeCode;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getCategoryVal() {
+		return CategoryVal;
+	}
+	public void setCategoryVal(String categoryVal) {
+		CategoryVal = categoryVal;
+	}
+	public String getRenewalIndicator() {
+		return RenewalIndicator;
+	}
+	public void setRenewalIndicator(String renewalIndicator) {
+		RenewalIndicator = renewalIndicator;
+	}
+	public AdditionalInformationType getAdditionalInformation() {
+		return AdditionalInformation;
+	}
+	public void setAdditionalInformation(AdditionalInformationType additionalInformation) {
+		AdditionalInformation = additionalInformation;
+	}
+	@Override
+	public String toString() {
+		return "[VariableTextDetailNumberId=" + VariableTextDetailNumberId + ", VersionModeCode="
+				+ VersionModeCode + ", EffectivePeriod=" + EffectivePeriod + ", CategoryVal=" + CategoryVal
+				+ ", RenewalIndicator=" + RenewalIndicator + ", AdditionalInformation=" + AdditionalInformation + "]";
+	}
 }

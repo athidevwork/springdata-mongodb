@@ -8,8 +8,8 @@ public class ReferredMedicalMalpracticeCoverageType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String value;
-    protected String medicalMalpracticeCoverageReference;
+    protected String Value;
+    protected String MedicalMalpracticeCoverageReference;
 
     /**
      * Gets the value of the value property.
@@ -20,7 +20,7 @@ public class ReferredMedicalMalpracticeCoverageType
      *     
      */
     public String getValue() {
-        return value;
+        return Value;
     }
 
     /**
@@ -32,7 +32,7 @@ public class ReferredMedicalMalpracticeCoverageType
      *     
      */
     public void setValue(String value) {
-        this.value = value;
+        this.Value = value;
     }
 
     /**
@@ -44,7 +44,7 @@ public class ReferredMedicalMalpracticeCoverageType
      *     
      */
     public String getMedicalMalpracticeCoverageReference() {
-        return medicalMalpracticeCoverageReference;
+        return MedicalMalpracticeCoverageReference;
     }
 
     /**
@@ -56,7 +56,13 @@ public class ReferredMedicalMalpracticeCoverageType
      *     
      */
     public void setMedicalMalpracticeCoverageReference(String value) {
-        this.medicalMalpracticeCoverageReference = value;
+        this.MedicalMalpracticeCoverageReference = value;
     }
+
+	@Override
+	public String toString() {
+		return "[Value=" + Value + ", MedicalMalpracticeCoverageReference="
+				+ MedicalMalpracticeCoverageReference + "]";
+	}
 
 }

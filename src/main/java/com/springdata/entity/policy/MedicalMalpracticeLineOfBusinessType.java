@@ -10,7 +10,7 @@ public class MedicalMalpracticeLineOfBusinessType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<MedicalMalpracticeCoverageType> medicalMalpracticeCoverage;
+    protected List<MedicalMalpracticeCoverageType> MedicalMalpracticeCoverage;
 
     /**
      * Gets the value of the medicalMalpracticeCoverage property.
@@ -35,10 +35,15 @@ public class MedicalMalpracticeLineOfBusinessType
      * 
      */
     public List<MedicalMalpracticeCoverageType> getMedicalMalpracticeCoverage() {
-        if (medicalMalpracticeCoverage == null) {
-            medicalMalpracticeCoverage = new ArrayList<MedicalMalpracticeCoverageType>();
+        if (MedicalMalpracticeCoverage == null) {
+            MedicalMalpracticeCoverage = new ArrayList<MedicalMalpracticeCoverageType>();
         }
-        return this.medicalMalpracticeCoverage;
+        return this.MedicalMalpracticeCoverage;
     }
+
+	@Override
+	public String toString() {
+		return "[MedicalMalpracticeCoverage=" + MedicalMalpracticeCoverage + "]";
+	}
 
 }

@@ -8,155 +8,52 @@ public class AddressInfoType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String addressLine1;
-    protected String addressLine2;
-    protected String city;
-    protected String state;
-    protected String zip;
-    protected String zipPlusFour;
-
-    /**
-     * Gets the value of the addressLine1 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressLine1() {
-        return addressLine1;
-    }
-
-    /**
-     * Sets the value of the addressLine1 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressLine1(String value) {
-        this.addressLine1 = value;
-    }
-
-    /**
-     * Gets the value of the addressLine2 property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAddressLine2() {
-        return addressLine2;
-    }
-
-    /**
-     * Sets the value of the addressLine2 property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAddressLine2(String value) {
-        this.addressLine2 = value;
-    }
-
-    /**
-     * Gets the value of the city property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCity() {
-        return city;
-    }
-
-    /**
-     * Sets the value of the city property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCity(String value) {
-        this.city = value;
-    }
-
-    /**
-     * Gets the value of the state property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getState() {
-        return state;
-    }
-
-    /**
-     * Sets the value of the state property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setState(String value) {
-        this.state = value;
-    }
-
-    /**
-     * Gets the value of the zip property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getZip() {
-        return zip;
-    }
-
-    /**
-     * Sets the value of the zip property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setZip(String value) {
-        this.zip = value;
-    }
-
-    /**
-     * Gets the value of the zipPlusFour property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getZipPlusFour() {
-        return zipPlusFour;
-    }
-
-    /**
-     * Sets the value of the zipPlusFour property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setZipPlusFour(String value) {
-        this.zipPlusFour = value;
-    }
-
+    protected String AddressLine1;
+    protected String AddressLine2;
+    protected String City;
+    protected String State;
+    protected String Zip;
+    protected String ZipPlusFour;
+    
+	public String getAddressLine1() {
+		return AddressLine1;
+	}
+	public void setAddressLine1(String addressLine1) {
+		AddressLine1 = addressLine1;
+	}
+	public String getAddressLine2() {
+		return AddressLine2;
+	}
+	public void setAddressLine2(String addressLine2) {
+		AddressLine2 = addressLine2;
+	}
+	public String getCity() {
+		return City;
+	}
+	public void setCity(String city) {
+		City = city;
+	}
+	public String getState() {
+		return State;
+	}
+	public void setState(String state) {
+		State = state;
+	}
+	public String getZip() {
+		return Zip;
+	}
+	public void setZip(String zip) {
+		Zip = zip;
+	}
+	public String getZipPlusFour() {
+		return ZipPlusFour;
+	}
+	public void setZipPlusFour(String zipPlusFour) {
+		ZipPlusFour = zipPlusFour;
+	}
+	@Override
+	public String toString() {
+		return "[AddressLine1=" + AddressLine1 + ", AddressLine2=" + AddressLine2 + ", City=" + City
+				+ ", State=" + State + ", Zip=" + Zip + ", ZipPlusFour=" + ZipPlusFour + "]";
+	}
 }

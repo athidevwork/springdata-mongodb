@@ -8,7 +8,7 @@ public class ReferredPartyType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String partyNumberId;
+    protected String PartyNumberId;
 
     /**
      * Gets the value of the partyNumberId property.
@@ -19,7 +19,7 @@ public class ReferredPartyType
      *     
      */
     public String getPartyNumberId() {
-        return partyNumberId;
+        return PartyNumberId;
     }
 
     /**
@@ -31,7 +31,12 @@ public class ReferredPartyType
      *     
      */
     public void setPartyNumberId(String value) {
-        this.partyNumberId = value;
+        this.PartyNumberId = value;
     }
+
+	@Override
+	public String toString() {
+		return "[PartyNumberId=" + PartyNumberId + "]";
+	}
 
 }

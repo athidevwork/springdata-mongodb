@@ -8,38 +8,38 @@ public class AddressType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String addressNumberId;
-    protected String lineOne;
-    protected String lineTwo;
-    protected String lineThree;
-    protected String cityName;
-    protected String countyCode;
-    protected CodeWithDesc stateOrProvinceCode;
-    protected String postalCode;
-    protected CodeWithDesc countryCode;
-    protected String countryName;
-    protected String attentionName;
-    protected CodeWithDesc postOfficeAddressIndicator;
-    protected String sourceTableName;
-    protected String sourceRecordId;
-    protected String primaryaddress;
-    protected String usaAddress;
-    protected String addressSingleLine;
-    protected String phoneNumber;
-    protected String addressUsaZip;
-    protected String expiredFlag;
-    protected String zipPlusFour;
-    protected String province;
-    protected String legacyDataId;
-    protected String expiredAddressId;
-    protected String copiedAddressId;
-    protected String reinsControlAddr;
-    protected String expiredComputed;
-    protected String addressCountyDesc;
-    protected String undeliverable;
-    protected String addrinmailOption;
-    protected AdditionalInformationType additionalInformation;
-    protected String key;
+    protected String AddressNumberId;
+    protected String LineOne;
+    protected String LineTwo;
+    protected String LineThree;
+    protected String CityName;
+    protected String CountyCode;
+    protected CodeWithDesc StateOrProvinceCode;
+    protected String PostalCode;
+    protected CodeWithDesc CountryCode;
+    protected String CountryName;
+    protected String AttentionName;
+    protected CodeWithDesc PostOfficeAddressIndicator;
+    protected String SourceTableName;
+    protected String SourceRecordId;
+    protected String Primaryaddress;
+    protected String UsaAddress;
+    protected String AddressSingleLine;
+    protected String PhoneNumber;
+    protected String AddressUsaZip;
+    protected String ExpiredFlag;
+    protected String ZipPlusFour;
+    protected String Province;
+    protected String LegacyDataId;
+    protected String ExpiredAddressId;
+    protected String CopiedAddressId;
+    protected String ReinsControlAddr;
+    protected String ExpiredComputed;
+    protected String AddressCountyDesc;
+    protected String Undeliverable;
+    protected String AddrinmailOption;
+    protected AdditionalInformationType AdditionalInformation;
+    protected String Key;
 
     /**
      * Gets the value of the addressNumberId property.
@@ -50,7 +50,7 @@ public class AddressType
      *     
      */
     public String getAddressNumberId() {
-        return addressNumberId;
+        return AddressNumberId;
     }
 
     /**
@@ -62,7 +62,7 @@ public class AddressType
      *     
      */
     public void setAddressNumberId(String value) {
-        this.addressNumberId = value;
+        this.AddressNumberId = value;
     }
 
     /**
@@ -74,7 +74,7 @@ public class AddressType
      *     
      */
     public String getLineOne() {
-        return lineOne;
+        return LineOne;
     }
 
     /**
@@ -86,7 +86,7 @@ public class AddressType
      *     
      */
     public void setLineOne(String value) {
-        this.lineOne = value;
+        this.LineOne = value;
     }
 
     /**
@@ -98,7 +98,7 @@ public class AddressType
      *     
      */
     public String getLineTwo() {
-        return lineTwo;
+        return LineTwo;
     }
 
     /**
@@ -110,7 +110,7 @@ public class AddressType
      *     
      */
     public void setLineTwo(String value) {
-        this.lineTwo = value;
+        this.LineTwo = value;
     }
 
     /**
@@ -122,7 +122,7 @@ public class AddressType
      *     
      */
     public String getLineThree() {
-        return lineThree;
+        return LineThree;
     }
 
     /**
@@ -134,7 +134,7 @@ public class AddressType
      *     
      */
     public void setLineThree(String value) {
-        this.lineThree = value;
+        this.LineThree = value;
     }
 
     /**
@@ -146,7 +146,7 @@ public class AddressType
      *     
      */
     public String getCityName() {
-        return cityName;
+        return CityName;
     }
 
     /**
@@ -158,7 +158,7 @@ public class AddressType
      *     
      */
     public void setCityName(String value) {
-        this.cityName = value;
+        this.CityName = value;
     }
 
     /**
@@ -170,7 +170,7 @@ public class AddressType
      *     
      */
     public String getCountyCode() {
-        return countyCode;
+        return CountyCode;
     }
 
     /**
@@ -182,7 +182,7 @@ public class AddressType
      *     
      */
     public void setCountyCode(String value) {
-        this.countyCode = value;
+        this.CountyCode = value;
     }
 
     /**
@@ -194,7 +194,7 @@ public class AddressType
      *     
      */
     public CodeWithDesc getStateOrProvinceCode() {
-        return stateOrProvinceCode;
+        return StateOrProvinceCode;
     }
 
     /**
@@ -206,7 +206,7 @@ public class AddressType
      *     
      */
     public void setStateOrProvinceCode(CodeWithDesc value) {
-        this.stateOrProvinceCode = value;
+        this.StateOrProvinceCode = value;
     }
 
     /**
@@ -218,7 +218,7 @@ public class AddressType
      *     
      */
     public String getPostalCode() {
-        return postalCode;
+        return PostalCode;
     }
 
     /**
@@ -230,7 +230,7 @@ public class AddressType
      *     
      */
     public void setPostalCode(String value) {
-        this.postalCode = value;
+        this.PostalCode = value;
     }
 
     /**
@@ -242,7 +242,7 @@ public class AddressType
      *     
      */
     public CodeWithDesc getCountryCode() {
-        return countryCode;
+        return CountryCode;
     }
 
     /**
@@ -254,7 +254,7 @@ public class AddressType
      *     
      */
     public void setCountryCode(CodeWithDesc value) {
-        this.countryCode = value;
+        this.CountryCode = value;
     }
 
     /**
@@ -266,7 +266,7 @@ public class AddressType
      *     
      */
     public String getCountryName() {
-        return countryName;
+        return CountryName;
     }
 
     /**
@@ -278,7 +278,7 @@ public class AddressType
      *     
      */
     public void setCountryName(String value) {
-        this.countryName = value;
+        this.CountryName = value;
     }
 
     /**
@@ -290,7 +290,7 @@ public class AddressType
      *     
      */
     public String getAttentionName() {
-        return attentionName;
+        return AttentionName;
     }
 
     /**
@@ -302,7 +302,7 @@ public class AddressType
      *     
      */
     public void setAttentionName(String value) {
-        this.attentionName = value;
+        this.AttentionName = value;
     }
 
     /**
@@ -314,7 +314,7 @@ public class AddressType
      *     
      */
     public CodeWithDesc getPostOfficeAddressIndicator() {
-        return postOfficeAddressIndicator;
+        return PostOfficeAddressIndicator;
     }
 
     /**
@@ -326,7 +326,7 @@ public class AddressType
      *     
      */
     public void setPostOfficeAddressIndicator(CodeWithDesc value) {
-        this.postOfficeAddressIndicator = value;
+        this.PostOfficeAddressIndicator = value;
     }
 
     /**
@@ -338,7 +338,7 @@ public class AddressType
      *     
      */
     public String getSourceTableName() {
-        return sourceTableName;
+        return SourceTableName;
     }
 
     /**
@@ -350,7 +350,7 @@ public class AddressType
      *     
      */
     public void setSourceTableName(String value) {
-        this.sourceTableName = value;
+        this.SourceTableName = value;
     }
 
     /**
@@ -362,7 +362,7 @@ public class AddressType
      *     
      */
     public String getSourceRecordId() {
-        return sourceRecordId;
+        return SourceRecordId;
     }
 
     /**
@@ -374,7 +374,7 @@ public class AddressType
      *     
      */
     public void setSourceRecordId(String value) {
-        this.sourceRecordId = value;
+        this.SourceRecordId = value;
     }
 
     /**
@@ -386,7 +386,7 @@ public class AddressType
      *     
      */
     public String getPrimaryaddress() {
-        return primaryaddress;
+        return Primaryaddress;
     }
 
     /**
@@ -398,7 +398,7 @@ public class AddressType
      *     
      */
     public void setPrimaryaddress(String value) {
-        this.primaryaddress = value;
+        this.Primaryaddress = value;
     }
 
     /**
@@ -410,7 +410,7 @@ public class AddressType
      *     
      */
     public String getUsaAddress() {
-        return usaAddress;
+        return UsaAddress;
     }
 
     /**
@@ -422,7 +422,7 @@ public class AddressType
      *     
      */
     public void setUsaAddress(String value) {
-        this.usaAddress = value;
+        this.UsaAddress = value;
     }
 
     /**
@@ -434,7 +434,7 @@ public class AddressType
      *     
      */
     public String getAddressSingleLine() {
-        return addressSingleLine;
+        return AddressSingleLine;
     }
 
     /**
@@ -446,7 +446,7 @@ public class AddressType
      *     
      */
     public void setAddressSingleLine(String value) {
-        this.addressSingleLine = value;
+        this.AddressSingleLine = value;
     }
 
     /**
@@ -458,7 +458,7 @@ public class AddressType
      *     
      */
     public String getPhoneNumber() {
-        return phoneNumber;
+        return PhoneNumber;
     }
 
     /**
@@ -470,7 +470,7 @@ public class AddressType
      *     
      */
     public void setPhoneNumber(String value) {
-        this.phoneNumber = value;
+        this.PhoneNumber = value;
     }
 
     /**
@@ -482,7 +482,7 @@ public class AddressType
      *     
      */
     public String getAddressUsaZip() {
-        return addressUsaZip;
+        return AddressUsaZip;
     }
 
     /**
@@ -494,7 +494,7 @@ public class AddressType
      *     
      */
     public void setAddressUsaZip(String value) {
-        this.addressUsaZip = value;
+        this.AddressUsaZip = value;
     }
 
     /**
@@ -506,7 +506,7 @@ public class AddressType
      *     
      */
     public String getExpiredFlag() {
-        return expiredFlag;
+        return ExpiredFlag;
     }
 
     /**
@@ -518,7 +518,7 @@ public class AddressType
      *     
      */
     public void setExpiredFlag(String value) {
-        this.expiredFlag = value;
+        this.ExpiredFlag = value;
     }
 
     /**
@@ -530,7 +530,7 @@ public class AddressType
      *     
      */
     public String getZipPlusFour() {
-        return zipPlusFour;
+        return ZipPlusFour;
     }
 
     /**
@@ -542,7 +542,7 @@ public class AddressType
      *     
      */
     public void setZipPlusFour(String value) {
-        this.zipPlusFour = value;
+        this.ZipPlusFour = value;
     }
 
     /**
@@ -554,7 +554,7 @@ public class AddressType
      *     
      */
     public String getProvince() {
-        return province;
+        return Province;
     }
 
     /**
@@ -566,7 +566,7 @@ public class AddressType
      *     
      */
     public void setProvince(String value) {
-        this.province = value;
+        this.Province = value;
     }
 
     /**
@@ -578,7 +578,7 @@ public class AddressType
      *     
      */
     public String getLegacyDataId() {
-        return legacyDataId;
+        return LegacyDataId;
     }
 
     /**
@@ -590,7 +590,7 @@ public class AddressType
      *     
      */
     public void setLegacyDataId(String value) {
-        this.legacyDataId = value;
+        this.LegacyDataId = value;
     }
 
     /**
@@ -602,7 +602,7 @@ public class AddressType
      *     
      */
     public String getExpiredAddressId() {
-        return expiredAddressId;
+        return ExpiredAddressId;
     }
 
     /**
@@ -614,7 +614,7 @@ public class AddressType
      *     
      */
     public void setExpiredAddressId(String value) {
-        this.expiredAddressId = value;
+        this.ExpiredAddressId = value;
     }
 
     /**
@@ -626,7 +626,7 @@ public class AddressType
      *     
      */
     public String getCopiedAddressId() {
-        return copiedAddressId;
+        return CopiedAddressId;
     }
 
     /**
@@ -638,7 +638,7 @@ public class AddressType
      *     
      */
     public void setCopiedAddressId(String value) {
-        this.copiedAddressId = value;
+        this.CopiedAddressId = value;
     }
 
     /**
@@ -650,7 +650,7 @@ public class AddressType
      *     
      */
     public String getReinsControlAddr() {
-        return reinsControlAddr;
+        return ReinsControlAddr;
     }
 
     /**
@@ -662,7 +662,7 @@ public class AddressType
      *     
      */
     public void setReinsControlAddr(String value) {
-        this.reinsControlAddr = value;
+        this.ReinsControlAddr = value;
     }
 
     /**
@@ -674,7 +674,7 @@ public class AddressType
      *     
      */
     public String getExpiredComputed() {
-        return expiredComputed;
+        return ExpiredComputed;
     }
 
     /**
@@ -686,7 +686,7 @@ public class AddressType
      *     
      */
     public void setExpiredComputed(String value) {
-        this.expiredComputed = value;
+        this.ExpiredComputed = value;
     }
 
     /**
@@ -698,7 +698,7 @@ public class AddressType
      *     
      */
     public String getAddressCountyDesc() {
-        return addressCountyDesc;
+        return AddressCountyDesc;
     }
 
     /**
@@ -710,7 +710,7 @@ public class AddressType
      *     
      */
     public void setAddressCountyDesc(String value) {
-        this.addressCountyDesc = value;
+        this.AddressCountyDesc = value;
     }
 
     /**
@@ -722,7 +722,7 @@ public class AddressType
      *     
      */
     public String getUndeliverable() {
-        return undeliverable;
+        return Undeliverable;
     }
 
     /**
@@ -734,7 +734,7 @@ public class AddressType
      *     
      */
     public void setUndeliverable(String value) {
-        this.undeliverable = value;
+        this.Undeliverable = value;
     }
 
     /**
@@ -746,7 +746,7 @@ public class AddressType
      *     
      */
     public String getAddrinmailOption() {
-        return addrinmailOption;
+        return AddrinmailOption;
     }
 
     /**
@@ -758,7 +758,7 @@ public class AddressType
      *     
      */
     public void setAddrinmailOption(String value) {
-        this.addrinmailOption = value;
+        this.AddrinmailOption = value;
     }
 
     /**
@@ -770,7 +770,7 @@ public class AddressType
      *     
      */
     public AdditionalInformationType getAdditionalInformation() {
-        return additionalInformation;
+        return AdditionalInformation;
     }
 
     /**
@@ -782,7 +782,7 @@ public class AddressType
      *     
      */
     public void setAdditionalInformation(AdditionalInformationType value) {
-        this.additionalInformation = value;
+        this.AdditionalInformation = value;
     }
 
     /**
@@ -794,7 +794,7 @@ public class AddressType
      *     
      */
     public String getKey() {
-        return key;
+        return Key;
     }
 
     /**
@@ -806,7 +806,23 @@ public class AddressType
      *     
      */
     public void setKey(String value) {
-        this.key = value;
+        this.Key = value;
     }
 
+	@Override
+	public String toString() {
+		return "\n\t\t[AddressNumberId=" + AddressNumberId + ", LineOne=" + LineOne + ", LineTwo=" + LineTwo
+				+ ", LineThree=" + LineThree + ", CityName=" + CityName + ", CountyCode=" + CountyCode
+				+ ", StateOrProvinceCode=" + StateOrProvinceCode + ", PostalCode=" + PostalCode + ", CountryCode="
+				+ CountryCode + ", CountryName=" + CountryName + ", AttentionName=" + AttentionName
+				+ ", PostOfficeAddressIndicator=" + PostOfficeAddressIndicator + ", SourceTableName=" + SourceTableName
+				+ ", SourceRecordId=" + SourceRecordId + ", Primaryaddress=" + Primaryaddress + ", UsaAddress="
+				+ UsaAddress + ", AddressSingleLine=" + AddressSingleLine + ", PhoneNumber=" + PhoneNumber
+				+ ", AddressUsaZip=" + AddressUsaZip + ", ExpiredFlag=" + ExpiredFlag + ", ZipPlusFour=" + ZipPlusFour
+				+ ", Province=" + Province + ", LegacyDataId=" + LegacyDataId + ", ExpiredAddressId=" + ExpiredAddressId
+				+ ", CopiedAddressId=" + CopiedAddressId + ", ReinsControlAddr=" + ReinsControlAddr
+				+ ", ExpiredComputed=" + ExpiredComputed + ", AddressCountyDesc=" + AddressCountyDesc
+				+ ", Undeliverable=" + Undeliverable + ", AddrinmailOption=" + AddrinmailOption
+				+ ", AdditionalInformation=" + AdditionalInformation + ", Key=" + Key + "]";
+	}
 }

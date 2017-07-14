@@ -8,9 +8,9 @@ public class AdditionalDataType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String value;
-    protected String key;
-    protected String desc;
+    protected String Value;
+    protected String Key;
+    protected String Desc;
 
     /**
      * Gets the value of the value property.
@@ -21,7 +21,7 @@ public class AdditionalDataType
      *     
      */
     public String getValue() {
-        return value;
+        return Value;
     }
 
     /**
@@ -33,7 +33,7 @@ public class AdditionalDataType
      *     
      */
     public void setValue(String value) {
-        this.value = value;
+        this.Value = value;
     }
 
     /**
@@ -45,7 +45,7 @@ public class AdditionalDataType
      *     
      */
     public String getKey() {
-        return key;
+        return Key;
     }
 
     /**
@@ -57,7 +57,7 @@ public class AdditionalDataType
      *     
      */
     public void setKey(String value) {
-        this.key = value;
+        this.Key = value;
     }
 
     /**
@@ -69,7 +69,7 @@ public class AdditionalDataType
      *     
      */
     public String getDesc() {
-        return desc;
+        return Desc;
     }
 
     /**
@@ -81,7 +81,11 @@ public class AdditionalDataType
      *     
      */
     public void setDesc(String value) {
-        this.desc = value;
+        this.Desc = value;
     }
 
+	@Override
+	public String toString() {
+		return "[Value=" + Value + ", Key=" + Key + ", Desc=" + Desc + "]";
+	}
 }

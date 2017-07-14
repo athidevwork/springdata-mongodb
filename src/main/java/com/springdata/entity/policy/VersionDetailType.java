@@ -8,80 +8,33 @@ public class VersionDetailType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String versionModeCode;
-    protected String afterImageIndicator;
-    protected String closingTransLogNumberId;
-
-    /**
-     * Gets the value of the versionModeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVersionModeCode() {
-        return versionModeCode;
-    }
-
-    /**
-     * Sets the value of the versionModeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVersionModeCode(String value) {
-        this.versionModeCode = value;
-    }
-
-    /**
-     * Gets the value of the afterImageIndicator property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAfterImageIndicator() {
-        return afterImageIndicator;
-    }
-
-    /**
-     * Sets the value of the afterImageIndicator property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAfterImageIndicator(String value) {
-        this.afterImageIndicator = value;
-    }
-
-    /**
-     * Gets the value of the closingTransLogNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getClosingTransLogNumberId() {
-        return closingTransLogNumberId;
-    }
-
-    /**
-     * Sets the value of the closingTransLogNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setClosingTransLogNumberId(String value) {
-        this.closingTransLogNumberId = value;
-    }
-
+    protected String VersionModeCode;
+    protected String AfterImageIndicator;
+    protected String ClosingTransLogNumberId;
+	public String getVersionModeCode() {
+		return VersionModeCode;
+	}
+	public void setVersionModeCode(String versionModeCode) {
+		VersionModeCode = versionModeCode;
+	}
+	public String getAfterImageIndicator() {
+		return AfterImageIndicator;
+	}
+	public void setAfterImageIndicator(String afterImageIndicator) {
+		AfterImageIndicator = afterImageIndicator;
+	}
+	public String getClosingTransLogNumberId() {
+		return ClosingTransLogNumberId;
+	}
+	public void setClosingTransLogNumberId(String closingTransLogNumberId) {
+		ClosingTransLogNumberId = closingTransLogNumberId;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	@Override
+	public String toString() {
+		return "[VersionModeCode=" + VersionModeCode + ", AfterImageIndicator=" + AfterImageIndicator
+				+ ", ClosingTransLogNumberId=" + ClosingTransLogNumberId + "]";
+	}
 }

@@ -8,330 +8,105 @@ public class ProfessionalLicenseType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String licenseNumberId;
-    protected String licenseNumber;
-    protected EffectivePeriodType licensePeriod;
-    protected CodeWithDesc stateOrProvinceCode;
-    protected SuspensionReinstatementInformationType suspensionReinstatementInformation;
-    protected String entityId;
-    protected String licenseTypeCode;
-    protected String validLicense;
-    protected String verificationDate;
-    protected String sourceRecordId;
-    protected String sourceTable;
-    protected String applicationNo;
-    protected String key;
-
-    /**
-     * Gets the value of the licenseNumberId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLicenseNumberId() {
-        return licenseNumberId;
-    }
-
-    /**
-     * Sets the value of the licenseNumberId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLicenseNumberId(String value) {
-        this.licenseNumberId = value;
-    }
-
-    /**
-     * Gets the value of the licenseNumber property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLicenseNumber() {
-        return licenseNumber;
-    }
-
-    /**
-     * Sets the value of the licenseNumber property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLicenseNumber(String value) {
-        this.licenseNumber = value;
-    }
-
-    /**
-     * Gets the value of the licensePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getLicensePeriod() {
-        return licensePeriod;
-    }
-
-    /**
-     * Sets the value of the licensePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setLicensePeriod(EffectivePeriodType value) {
-        this.licensePeriod = value;
-    }
-
-    /**
-     * Gets the value of the stateOrProvinceCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public CodeWithDesc getStateOrProvinceCode() {
-        return stateOrProvinceCode;
-    }
-
-    /**
-     * Sets the value of the stateOrProvinceCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link CodeWithDesc }
-     *     
-     */
-    public void setStateOrProvinceCode(CodeWithDesc value) {
-        this.stateOrProvinceCode = value;
-    }
-
-    /**
-     * Gets the value of the suspensionReinstatementInformation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link SuspensionReinstatementInformationType }
-     *     
-     */
-    public SuspensionReinstatementInformationType getSuspensionReinstatementInformation() {
-        return suspensionReinstatementInformation;
-    }
-
-    /**
-     * Sets the value of the suspensionReinstatementInformation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link SuspensionReinstatementInformationType }
-     *     
-     */
-    public void setSuspensionReinstatementInformation(SuspensionReinstatementInformationType value) {
-        this.suspensionReinstatementInformation = value;
-    }
-
-    /**
-     * Gets the value of the entityId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEntityId() {
-        return entityId;
-    }
-
-    /**
-     * Sets the value of the entityId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEntityId(String value) {
-        this.entityId = value;
-    }
-
-    /**
-     * Gets the value of the licenseTypeCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLicenseTypeCode() {
-        return licenseTypeCode;
-    }
-
-    /**
-     * Sets the value of the licenseTypeCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLicenseTypeCode(String value) {
-        this.licenseTypeCode = value;
-    }
-
-    /**
-     * Gets the value of the validLicense property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getValidLicense() {
-        return validLicense;
-    }
-
-    /**
-     * Sets the value of the validLicense property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setValidLicense(String value) {
-        this.validLicense = value;
-    }
-
-    /**
-     * Gets the value of the verificationDate property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVerificationDate() {
-        return verificationDate;
-    }
-
-    /**
-     * Sets the value of the verificationDate property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVerificationDate(String value) {
-        this.verificationDate = value;
-    }
-
-    /**
-     * Gets the value of the sourceRecordId property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSourceRecordId() {
-        return sourceRecordId;
-    }
-
-    /**
-     * Sets the value of the sourceRecordId property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSourceRecordId(String value) {
-        this.sourceRecordId = value;
-    }
-
-    /**
-     * Gets the value of the sourceTable property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSourceTable() {
-        return sourceTable;
-    }
-
-    /**
-     * Sets the value of the sourceTable property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSourceTable(String value) {
-        this.sourceTable = value;
-    }
-
-    /**
-     * Gets the value of the applicationNo property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getApplicationNo() {
-        return applicationNo;
-    }
-
-    /**
-     * Sets the value of the applicationNo property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setApplicationNo(String value) {
-        this.applicationNo = value;
-    }
-
-    /**
-     * Gets the value of the key property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getKey() {
-        return key;
-    }
-
-    /**
-     * Sets the value of the key property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setKey(String value) {
-        this.key = value;
-    }
-
+    protected String LicenseNumberId;
+    protected String LicenseNumber;
+    protected EffectivePeriodType LicensePeriod;
+    protected CodeWithDesc StateOrProvinceCode;
+    protected SuspensionReinstatementInformationType SuspensionReinstatementInformation;
+    protected String EntityId;
+    protected String LicenseTypeCode;
+    protected String ValidLicense;
+    protected String VerificationDate;
+    protected String SourceRecordId;
+    protected String SourceTable;
+    protected String ApplicationNo;
+    protected String Key;
+	public String getLicenseNumberId() {
+		return LicenseNumberId;
+	}
+	public void setLicenseNumberId(String licenseNumberId) {
+		LicenseNumberId = licenseNumberId;
+	}
+	public String getLicenseNumber() {
+		return LicenseNumber;
+	}
+	public void setLicenseNumber(String licenseNumber) {
+		LicenseNumber = licenseNumber;
+	}
+	public EffectivePeriodType getLicensePeriod() {
+		return LicensePeriod;
+	}
+	public void setLicensePeriod(EffectivePeriodType licensePeriod) {
+		LicensePeriod = licensePeriod;
+	}
+	public CodeWithDesc getStateOrProvinceCode() {
+		return StateOrProvinceCode;
+	}
+	public void setStateOrProvinceCode(CodeWithDesc stateOrProvinceCode) {
+		StateOrProvinceCode = stateOrProvinceCode;
+	}
+	public SuspensionReinstatementInformationType getSuspensionReinstatementInformation() {
+		return SuspensionReinstatementInformation;
+	}
+	public void setSuspensionReinstatementInformation(
+			SuspensionReinstatementInformationType suspensionReinstatementInformation) {
+		SuspensionReinstatementInformation = suspensionReinstatementInformation;
+	}
+	public String getEntityId() {
+		return EntityId;
+	}
+	public void setEntityId(String entityId) {
+		EntityId = entityId;
+	}
+	public String getLicenseTypeCode() {
+		return LicenseTypeCode;
+	}
+	public void setLicenseTypeCode(String licenseTypeCode) {
+		LicenseTypeCode = licenseTypeCode;
+	}
+	public String getValidLicense() {
+		return ValidLicense;
+	}
+	public void setValidLicense(String validLicense) {
+		ValidLicense = validLicense;
+	}
+	public String getVerificationDate() {
+		return VerificationDate;
+	}
+	public void setVerificationDate(String verificationDate) {
+		VerificationDate = verificationDate;
+	}
+	public String getSourceRecordId() {
+		return SourceRecordId;
+	}
+	public void setSourceRecordId(String sourceRecordId) {
+		SourceRecordId = sourceRecordId;
+	}
+	public String getSourceTable() {
+		return SourceTable;
+	}
+	public void setSourceTable(String sourceTable) {
+		SourceTable = sourceTable;
+	}
+	public String getApplicationNo() {
+		return ApplicationNo;
+	}
+	public void setApplicationNo(String applicationNo) {
+		ApplicationNo = applicationNo;
+	}
+	public String getKey() {
+		return Key;
+	}
+	public void setKey(String key) {
+		Key = key;
+	}
+	@Override
+	public String toString() {
+		return "[LicenseNumberId=" + LicenseNumberId + ", LicenseNumber=" + LicenseNumber
+				+ ", LicensePeriod=" + LicensePeriod + ", StateOrProvinceCode=" + StateOrProvinceCode
+				+ ", SuspensionReinstatementInformation=" + SuspensionReinstatementInformation + ", EntityId="
+				+ EntityId + ", LicenseTypeCode=" + LicenseTypeCode + ", ValidLicense=" + ValidLicense
+				+ ", VerificationDate=" + VerificationDate + ", SourceRecordId=" + SourceRecordId + ", SourceTable="
+				+ SourceTable + ", ApplicationNo=" + ApplicationNo + ", Key=" + Key + "]";
+	}
 }

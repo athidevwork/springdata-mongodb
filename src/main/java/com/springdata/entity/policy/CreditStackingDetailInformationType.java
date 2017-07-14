@@ -8,280 +8,89 @@ public class CreditStackingDetailInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String componentCode;
-    protected String componentType;
-    protected String componentDescription;
-    protected String categoryDescription;
-    protected EffectivePeriodType effectivePeriod;
-    protected String bucketCode;
-    protected String winningBucket;
-    protected String initFactor;
-    protected String compFactor;
-    protected String deltaFactor;
-    protected String actionText;
-
-    /**
-     * Gets the value of the componentCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getComponentCode() {
-        return componentCode;
-    }
-
-    /**
-     * Sets the value of the componentCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setComponentCode(String value) {
-        this.componentCode = value;
-    }
-
-    /**
-     * Gets the value of the componentType property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getComponentType() {
-        return componentType;
-    }
-
-    /**
-     * Sets the value of the componentType property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setComponentType(String value) {
-        this.componentType = value;
-    }
-
-    /**
-     * Gets the value of the componentDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getComponentDescription() {
-        return componentDescription;
-    }
-
-    /**
-     * Sets the value of the componentDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setComponentDescription(String value) {
-        this.componentDescription = value;
-    }
-
-    /**
-     * Gets the value of the categoryDescription property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCategoryDescription() {
-        return categoryDescription;
-    }
-
-    /**
-     * Sets the value of the categoryDescription property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCategoryDescription(String value) {
-        this.categoryDescription = value;
-    }
-
-    /**
-     * Gets the value of the effectivePeriod property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public EffectivePeriodType getEffectivePeriod() {
-        return effectivePeriod;
-    }
-
-    /**
-     * Sets the value of the effectivePeriod property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link EffectivePeriodType }
-     *     
-     */
-    public void setEffectivePeriod(EffectivePeriodType value) {
-        this.effectivePeriod = value;
-    }
-
-    /**
-     * Gets the value of the bucketCode property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getBucketCode() {
-        return bucketCode;
-    }
-
-    /**
-     * Sets the value of the bucketCode property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setBucketCode(String value) {
-        this.bucketCode = value;
-    }
-
-    /**
-     * Gets the value of the winningBucket property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getWinningBucket() {
-        return winningBucket;
-    }
-
-    /**
-     * Sets the value of the winningBucket property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setWinningBucket(String value) {
-        this.winningBucket = value;
-    }
-
-    /**
-     * Gets the value of the initFactor property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getInitFactor() {
-        return initFactor;
-    }
-
-    /**
-     * Sets the value of the initFactor property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setInitFactor(String value) {
-        this.initFactor = value;
-    }
-
-    /**
-     * Gets the value of the compFactor property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCompFactor() {
-        return compFactor;
-    }
-
-    /**
-     * Sets the value of the compFactor property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCompFactor(String value) {
-        this.compFactor = value;
-    }
-
-    /**
-     * Gets the value of the deltaFactor property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDeltaFactor() {
-        return deltaFactor;
-    }
-
-    /**
-     * Sets the value of the deltaFactor property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDeltaFactor(String value) {
-        this.deltaFactor = value;
-    }
-
-    /**
-     * Gets the value of the actionText property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getActionText() {
-        return actionText;
-    }
-
-    /**
-     * Sets the value of the actionText property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setActionText(String value) {
-        this.actionText = value;
-    }
-
+    protected String ComponentCode;
+    protected String ComponentType;
+    protected String ComponentDescription;
+    protected String CategoryDescription;
+    protected EffectivePeriodType EffectivePeriod;
+    protected String BucketCode;
+    protected String WinningBucket;
+    protected String InitFactor;
+    protected String CompFactor;
+    protected String DeltaFactor;
+    protected String ActionText;
+	public String getComponentCode() {
+		return ComponentCode;
+	}
+	public void setComponentCode(String componentCode) {
+		ComponentCode = componentCode;
+	}
+	public String getComponentType() {
+		return ComponentType;
+	}
+	public void setComponentType(String componentType) {
+		ComponentType = componentType;
+	}
+	public String getComponentDescription() {
+		return ComponentDescription;
+	}
+	public void setComponentDescription(String componentDescription) {
+		ComponentDescription = componentDescription;
+	}
+	public String getCategoryDescription() {
+		return CategoryDescription;
+	}
+	public void setCategoryDescription(String categoryDescription) {
+		CategoryDescription = categoryDescription;
+	}
+	public EffectivePeriodType getEffectivePeriod() {
+		return EffectivePeriod;
+	}
+	public void setEffectivePeriod(EffectivePeriodType effectivePeriod) {
+		EffectivePeriod = effectivePeriod;
+	}
+	public String getBucketCode() {
+		return BucketCode;
+	}
+	public void setBucketCode(String bucketCode) {
+		BucketCode = bucketCode;
+	}
+	public String getWinningBucket() {
+		return WinningBucket;
+	}
+	public void setWinningBucket(String winningBucket) {
+		WinningBucket = winningBucket;
+	}
+	public String getInitFactor() {
+		return InitFactor;
+	}
+	public void setInitFactor(String initFactor) {
+		InitFactor = initFactor;
+	}
+	public String getCompFactor() {
+		return CompFactor;
+	}
+	public void setCompFactor(String compFactor) {
+		CompFactor = compFactor;
+	}
+	public String getDeltaFactor() {
+		return DeltaFactor;
+	}
+	public void setDeltaFactor(String deltaFactor) {
+		DeltaFactor = deltaFactor;
+	}
+	public String getActionText() {
+		return ActionText;
+	}
+	public void setActionText(String actionText) {
+		ActionText = actionText;
+	}
+	@Override
+	public String toString() {
+		return "[ComponentCode=" + ComponentCode + ", ComponentType="
+				+ ComponentType + ", ComponentDescription=" + ComponentDescription + ", CategoryDescription="
+				+ CategoryDescription + ", EffectivePeriod=" + EffectivePeriod + ", BucketCode=" + BucketCode
+				+ ", WinningBucket=" + WinningBucket + ", InitFactor=" + InitFactor + ", CompFactor=" + CompFactor
+				+ ", DeltaFactor=" + DeltaFactor + ", ActionText=" + ActionText + "]";
+	}
 }

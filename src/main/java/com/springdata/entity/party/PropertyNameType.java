@@ -8,7 +8,7 @@ public class PropertyNameType
 {
 
     private final static long serialVersionUID = 1L;
-    protected String fullName;
+    protected String FullName;
 
     /**
      * Gets the value of the fullName property.
@@ -19,7 +19,7 @@ public class PropertyNameType
      *     
      */
     public String getFullName() {
-        return fullName;
+        return FullName;
     }
 
     /**
@@ -31,7 +31,11 @@ public class PropertyNameType
      *     
      */
     public void setFullName(String value) {
-        this.fullName = value;
+        this.FullName = value;
     }
 
+	@Override
+	public String toString() {
+		return "[FullName=" + FullName + "]";
+	}
 }

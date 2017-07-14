@@ -10,8 +10,8 @@ public class FundInformationType
 {
 
     private final static long serialVersionUID = 1L;
-    protected List<FundDataType> fundData;
-    protected String state;
+    protected List<FundDataType> FundData;
+    protected String State;
 
     /**
      * Gets the value of the fundData property.
@@ -36,10 +36,10 @@ public class FundInformationType
      * 
      */
     public List<FundDataType> getFundData() {
-        if (fundData == null) {
-            fundData = new ArrayList<FundDataType>();
+        if (FundData == null) {
+            FundData = new ArrayList<FundDataType>();
         }
-        return this.fundData;
+        return this.FundData;
     }
 
     /**
@@ -50,7 +50,7 @@ public class FundInformationType
     public String getFundDataValue(String key) {
         if (key.equalsIgnoreCase(""))
             return "";
-        for (FundDataType data : fundData) {
+        for (FundDataType data : FundData) {
             if (data.getKey().equalsIgnoreCase(key))
                 return data.getValue();
         }
@@ -66,7 +66,7 @@ public class FundInformationType
      *     
      */
     public String getState() {
-        return state;
+        return State;
     }
 
     /**
@@ -78,7 +78,12 @@ public class FundInformationType
      *     
      */
     public void setState(String value) {
-        this.state = value;
+        this.State = value;
     }
+
+	@Override
+	public String toString() {
+		return "[FundData=" + FundData + ", State=" + State + "]";
+	}
 
 }
