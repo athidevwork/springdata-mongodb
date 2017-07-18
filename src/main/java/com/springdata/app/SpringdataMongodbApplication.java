@@ -24,6 +24,7 @@ import com.springdata.entity.inquiryservice.MessageStatusType;
 import com.springdata.entity.inquiryservice.PolicyInquiryResultType;
 import com.springdata.entity.policy.MedicalMalpracticePolicyType;
 import com.springdata.entity.policy.PolicyDetailType;
+import com.springdata.repository.PolicyInquiryResultRepository;
 
 //@SpringBootApplication
 public class SpringdataMongodbApplication {
@@ -33,8 +34,7 @@ public class SpringdataMongodbApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(SpringdataMongodbApplication.class, args);
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
-		
-		MongoTemplate template = context.getBean(MongoTemplate.class);
+			
 		PolicyInquiryResultType policyResult = new PolicyInquiryResultType();
 		policyResult.setMessageId("test-policy-message");
 		MessageStatusType messageStatus = new MessageStatusType();
@@ -45,6 +45,16 @@ public class SpringdataMongodbApplication {
 		policy.setPolicyId("Athi1010");
 		policyList.add(policy);
 		policyResult.setMedicalMalpracticePolicy(policyList);
+		
+		PolicyInquiryResultRepository repo = context.getBean(PolicyInquiryResultRepository.class);
+		log.debug("Policy Count before insert : " + repo.count());
+		repo.save(policyResult);
+		log.debug("Policy Count after insert: " + repo.count());
+		//repo.delete(policyResult);
+		repo.delete("{'_id':'test-policy-message'}");
+		log.debug("Policy Count after remove: " + repo.count());
+		
+		/*MongoTemplate template = context.getBean(MongoTemplate.class);
 		log.debug("Policy Count before insert : " + template.getCollection("policy").count());
 		template.save(policyResult, "policy");
 		log.debug("Policy Count after insert: " + template.getCollection("policy").count());
@@ -53,7 +63,7 @@ public class SpringdataMongodbApplication {
 		
 		Query query = query(where("PolicyId").is("H004036"));
 		List<PolicyInquiryResultType> plist = template.find(query, PolicyInquiryResultType.class, "policy");
-		log.debug(plist.toString());
+		log.debug(plist.toString());*/
 		
 		//MongoDbFactory factory = context.getBean(MongoDbFactory.class);
 		//DB db = factory.getDb();

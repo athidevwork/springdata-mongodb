@@ -20,7 +20,6 @@ public class PolicyInquiryResultType
 {
 
     private final static long serialVersionUID = 1L;
-    @Id
     protected String MessageId;
     protected String CorrelationId;
     protected List<AddressType> Address;

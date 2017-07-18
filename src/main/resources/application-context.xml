@@ -2,8 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xmlns:repository="http://www.springframework.org/schema/data/repository"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-		http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.10.2.xsd">
+		http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.10.2.xsd
+		http://www.springframework.org/schema/data/repository http://www.springframework.org/schema/data/repository/spring-repository-1.11.xsd">
 
 	<mongo:template db-factory-ref="mongoDbFactory"/>
 	
@@ -12,4 +14,8 @@
 	<mongo:mongo-client id="mongoClient" credentials="athi:p@ssword@oasispolicy">
 		<mongo:client-options connect-timeout="1000"/>
 	</mongo:mongo-client>
+	
+	<mongo:repositories base-package="com.springdata"></mongo:repositories>
+	
+	<!-- <repository:jackson2-populator locations="populate.policy.json"/> -->
 </beans>
